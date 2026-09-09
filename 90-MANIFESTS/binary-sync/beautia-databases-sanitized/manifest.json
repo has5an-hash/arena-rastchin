@@ -1,0 +1,11 @@
+{
+  "target": "10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip",
+  "expected_size_bytes": 267194,
+  "sha256": "89e5743ad086850505ad4e1db52992f3defc69bcc301fce2ae28e8348e164416",
+  "expected_part_files": [
+    "part-001.b64", "part-002.b64", "part-003.b64", "part-004.b64",
+    "part-005.b64", "part-006.b64", "part-007.b64", "part-008.b64"
+  ],
+  "ready_to_rebuild": false,
+  "status": "uploading-verified-chunks"
+}
