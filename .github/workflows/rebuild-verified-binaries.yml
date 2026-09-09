@@ -1,0 +1,46 @@
+name: Rebuild verified binary assets
+
+on:
+  push:
+    paths:
+      - '90-MANIFESTS/binary-sync/**'
+      - '.github/workflows/rebuild-verified-binaries.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rebuild RTL-Theme standards DOCX
+        shell: bash
+        run: |
+          set -euo pipefail
+          SRC='90-MANIFESTS/binary-sync/rtltheme-standards-docx'
+          OUT='02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx'
+          TMP="${RUNNER_TEMP}/rtltheme-standards.docx"
+          cat "$SRC"/part-*.b64 | tr -d '\r\n' | base64 -d > "$TMP"
+          test "$(stat -c%s "$TMP")" = '40546'
+          echo '10b0fd94b66094902ab07aab033dd8f58b8f56cf9c16eeae47747e8054a36b1c  '"$TMP" | sha256sum -c -
+          mkdir -p "$(dirname "$OUT")"
+          cp "$TMP" "$OUT"
+
+      - name: Commit exact rebuilt assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- '02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx'; then
+            echo 'No binary change needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx'
+          git commit -m 'Rebuild exact verified RTL-Theme standards DOCX'
+          git push
