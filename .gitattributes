@@ -1,4 +1,4 @@
-# Recommended Git LFS patterns for this transfer repository.
+# Git LFS for large binary/media assets.
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.webm filter=lfs diff=lfs merge=lfs -text
@@ -9,3 +9,11 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.webp filter=lfs diff=lfs merge=lfs -text
 *.avif filter=lfs diff=lfs merge=lfs -text
+
+# Small canonical files reconstructed from verified chunks are stored directly in Git
+# so Arena/GitHub can verify the exact bytes without an LFS dependency.
+02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx -filter -diff -merge -text
+10-PRODUCTS/BEAUTIA/archives/beautia-source-code.zip -filter -diff -merge -text
+10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip -filter -diff -merge -text
+10-PRODUCTS/BEAUTIA/beautia-docs-complete.zip -filter -diff -merge -text
+10-PRODUCTS/BEAUTIA/docs/FULL-FILE-MANIFEST.csv.zip -filter -diff -merge -text
