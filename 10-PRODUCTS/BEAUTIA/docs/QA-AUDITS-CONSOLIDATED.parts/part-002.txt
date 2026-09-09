@@ -1,0 +1,696 @@
+   },
+        {
+          "type": "page",
+          "id": 179,
+          "title": "ورود · خانه مو",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-lashes": {
+      "folder": "lashes",
+      "url": "http://localhost/beautia/demoes/lashes/",
+      "active_demo": "lashes",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 234,
+          "title": "ست مژه ولوم",
+          "demo": "lashes",
+          "image": "svc-lash-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 236,
+          "title": "اکستنشن مژه کلاسیک",
+          "demo": "lashes",
+          "image": "svc-lash-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 238,
+          "title": "لیفت و رنگ مژه",
+          "demo": "lashes",
+          "image": "svc-lash-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 239,
+          "title": "لمینت ابرو",
+          "demo": "lashes",
+          "image": "svc-lash-4-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 240,
+          "title": "میکروبلیدینگ",
+          "demo": "lashes",
+          "image": "svc-lash-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 241,
+          "title": "فرم و رنگ ابرو",
+          "demo": "lashes",
+          "image": "svc-lash-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 245,
+          "title": "ست ولوم ویسپی",
+          "demo": "lashes",
+          "image": "svc-clinic-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 246,
+          "title": "ابروی لمینت‌شده",
+          "demo": "lashes",
+          "image": "svc-clinic-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 247,
+          "title": "لیفت و رنگ مژه · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 248,
+          "title": "لمینت ابرو · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 249,
+          "title": "میکروبلیدینگ · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 250,
+          "title": "فرم و رنگ ابرو · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 242,
+          "title": "تارا جلالی",
+          "demo": "lashes",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 243,
+          "title": "ستاره وثوقی",
+          "demo": "lashes",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 244,
+          "title": "مهسا تهرانی",
+          "demo": "lashes",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 253,
+          "title": "طبیعی یا برجسته؟ انتخاب حال‌وهوای مژه",
+          "demo": "lashes",
+          "image": "svc-hair-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 254,
+          "title": "عکس مرجع ابرو؛ چه چیزی را به متخصص نشان دهیم؟",
+          "demo": "lashes",
+          "image": "svc-hair-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 255,
+          "title": "یک قرار مرتب برای ترمیم و نگهداری",
+          "demo": "lashes",
+          "image": "svc-hair-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 256,
+          "title": "آتلیه نگاه — آتلیه مژه و ابرو",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 258,
+          "title": "درباره آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 260,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 262,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 264,
+          "title": "مجله آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 266,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 268,
+          "title": "رزرو نوبت آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 270,
+          "title": "پنل من · آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 272,
+          "title": "ورود · آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-makeup": {
+      "folder": "makeup",
+      "url": "http://localhost/beautia/demoes/makeup/",
+      "active_demo": "makeup",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 280,
+          "title": "میکاپ عروس",
+          "demo": "makeup",
+          "image": "svc-makeup-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 282,
+          "title": "میکاپ مجلسی و شب",
+          "demo": "makeup",
+          "image": "svc-makeup-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 284,
+          "title": "میکاپ ادیتوریال و عکاسی",
+          "demo": "makeup",
+          "image": "svc-makeup-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 285,
+          "title": "کلاس خصوصی آرایش شخصی",
+          "demo": "makeup",
+          "image": "svc-makeup-4-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 286,
+          "title": "دوره حرفه‌ای میکاپ آرتیستی",
+          "demo": "makeup",
+          "image": "svc-makeup-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 287,
+          "title": "فیشیال آماده‌سازی پوست",
+          "demo": "makeup",
+          "image": "svc-makeup-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 292,
+          "title": "گریم نرم عروس",
+          "demo": "makeup",
+          "image": "svc-clinic-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 293,
+          "title": "قرمز ادیتوریال",
+          "demo": "makeup",
+          "image": "svc-clinic-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 294,
+          "title": "میکاپ ادیتوریال و عکاسی · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 295,
+          "title": "کلاس خصوصی آرایش شخصی · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 296,
+          "title": "دوره حرفه‌ای میکاپ آرتیستی · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 297,
+          "title": "فیشیال آماده‌سازی پوست · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 288,
+          "title": "بهار انصاری",
+          "demo": "makeup",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 289,
+          "title": "ملیکا شریفی",
+          "demo": "makeup",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 291,
+          "title": "مهسا تهرانی",
+          "demo": "makeup",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 300,
+          "title": "مودبورد میکاپ را از رنگ لباس شروع کنیم",
+          "demo": "makeup",
+          "image": "svc-hair-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 301,
+          "title": "میکاپ روز و شب؛ نقش نور را فراموش نکنیم",
+          "demo": "makeup",
+          "image": "svc-hair-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 302,
+          "title": "تقویم آماده‌شدن برای مراسم، بدون عجله",
+          "demo": "makeup",
+          "image": "svc-hair-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 303,
+          "title": "استودیو میوز — میکاپ و آکادمی",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 305,
+          "title": "درباره استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 307,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 309,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 311,
+          "title": "مجله استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 313,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 315,
+          "title": "رزرو نوبت استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 317,
+          "title": "پنل من · استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 319,
+          "title": "ورود · استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-nail": {
+      "folder": "nail",
+      "url": "http://localhost/beautia/demoes/nail/",
+      "active_demo": "nails",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 8,
+          "title": "کاشت ژل — فرم بادامی",
+          "demo": "nails",
+          "image": "svc-nail-1-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 10,
+          "title": "فرنچ و میکرو آرت",
+          "demo": "nails",
+          "image": "svc-nail-2-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 12,
+          "title": "کروم و کت‌آی",
+          "demo": "nails",
+          "image": "svc-nail-3-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 14,
+          "title": "آیین پدیکور اسپا",
+          "demo": "nails",
+          "image": "svc-nail-4-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 16,
+          "title": "مانیکور روسی",
+          "demo": "nails",
+          "image": "svc-nail-5-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 17,
+          "title": "ترمیم و برداشت",
+          "demo": "nails",
+          "image": "svc-nail-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 24,
+          "title": "ست بادامی نود شیری",
+          "demo": "nails",
+          "image": "glam-nails.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 26,
+          "title": "فرنچ مرواریدی",
+          "demo": "nails",
+          "image": "manicure-before-v2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 28,
+          "title": "کروم مایع",
+          "demo": "nails",
+          "image": "manicure-after-v2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 30,
+          "title": "پدیکور گل‌محمدی",
+          "demo": "nails",
+          "image": "ba-nails-before-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 32,
+          "title": "گلیزد دونات",
+          "demo": "nails",
+          "image": "collection-social.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 71,
+          "title": "ترمیم و برداشت · دفتر الهام",
+          "demo": "nails",
+          "image": "svc-makeup-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 18,
+          "title": "نیکا رحمانی",
+          "demo": "nails",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 20,
+          "title": "سارا کیان",
+          "demo": "nails",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 22,
+          "title": "مهسا تهرانی",
+          "demo": "nails",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 45,
+          "title": "نود، شیری یا رز؟ راهنمای ساختن پالت شخصی ناخن",
+          "demo": "nails",
+          "image": "svc-hair-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 47,
+          "title": "فرم ناخن را با روزمره خودتان انتخاب کنید",
+          "demo": "nails",
+          "image": "svc-hair-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 74,
+          "title": "مودبورد مانیکور؛ از چند تصویر تا یک طرح منسجم",
+          "demo": "nails",
+          "image": "svc-hair-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 49,
+          "title": "نیل — استودیو ناخن",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 50,
+          "title": "درباره نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 51,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 52,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 53,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 54,
+          "title": "مجله نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 81,
+          "title": "رزرو نوبت نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 83,
+          "title": "پنل من · نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 85,
+          "title": "ورود · نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-spa": {
+      "folder": "spa",
+      "url": "http://localhost/beautia/demoes/spa/",
+      "active_demo": "spa",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 18
