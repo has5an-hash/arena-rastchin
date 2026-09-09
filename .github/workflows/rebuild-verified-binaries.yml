@@ -18,29 +18,63 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Rebuild RTL-Theme standards DOCX
+      - name: Rebuild and verify all complete chunk sets
         shell: bash
         run: |
           set -euo pipefail
-          SRC='90-MANIFESTS/binary-sync/rtltheme-standards-docx'
-          OUT='02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx'
-          TMP="${RUNNER_TEMP}/rtltheme-standards.docx"
-          cat "$SRC"/part-*.b64 | tr -d '\r\n' | base64 -d > "$TMP"
-          test "$(stat -c%s "$TMP")" = '40546'
-          echo '10b0fd94b66094902ab07aab033dd8f58b8f56cf9c16eeae47747e8054a36b1c  '"$TMP" | sha256sum -c -
-          mkdir -p "$(dirname "$OUT")"
-          cp "$TMP" "$OUT"
+          python3 - <<'PY'
+          import base64, hashlib, json, pathlib, sys
+
+          root = pathlib.Path('90-MANIFESTS/binary-sync')
+          rebuilt = []
+          for manifest_path in sorted(root.glob('*/manifest.json')):
+              meta = json.loads(manifest_path.read_text(encoding='utf-8'))
+              if not meta.get('ready_to_rebuild', True):
+                  print(f'SKIP not ready: {manifest_path.parent}')
+                  continue
+              parts = sorted(manifest_path.parent.glob('part-*.b64'))
+              if not parts:
+                  print(f'SKIP no parts: {manifest_path.parent}')
+                  continue
+              expected_parts = meta.get('expected_part_files')
+              if expected_parts and [p.name for p in parts] != expected_parts:
+                  print(f'SKIP incomplete parts: {manifest_path.parent}')
+                  continue
+              encoded = b''.join(p.read_bytes().replace(b'\r', b'').replace(b'\n', b'') for p in parts)
+              try:
+                  raw = base64.b64decode(encoded, validate=True)
+              except Exception as exc:
+                  raise SystemExit(f'Invalid base64 in {manifest_path.parent}: {exc}')
+              size = len(raw)
+              digest = hashlib.sha256(raw).hexdigest()
+              if size != int(meta['expected_size_bytes']):
+                  raise SystemExit(f'Size mismatch for {manifest_path.parent}: {size}')
+              if digest != meta['sha256']:
+                  raise SystemExit(f'SHA256 mismatch for {manifest_path.parent}: {digest}')
+              target = pathlib.Path(meta['target'])
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_bytes(raw)
+              rebuilt.append(str(target))
+              print(f'VERIFIED {target} {size} {digest}')
+          pathlib.Path('/tmp/rebuilt-assets.txt').write_text('\n'.join(rebuilt), encoding='utf-8')
+          PY
 
       - name: Commit exact rebuilt assets
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- '02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx'; then
+          if git diff --quiet; then
             echo 'No binary change needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- '02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx'
-          git commit -m 'Rebuild exact verified RTL-Theme standards DOCX'
+          while IFS= read -r file; do
+            [ -n "$file" ] && git add -- "$file"
+          done < /tmp/rebuilt-assets.txt
+          if git diff --cached --quiet; then
+            echo 'No rebuilt target changed.'
+            exit 0
+          fi
+          git commit -m 'Rebuild exact verified binary assets'
           git push
