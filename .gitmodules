@@ -1,0 +1,6 @@
+[submodule "10-PRODUCTS/ZARPULS/source-repo"]
+	path = 10-PRODUCTS/ZARPULS/source-repo
+	url = https://github.com/has5an-hash/zarpuls.git
+[submodule "10-PRODUCTS/LORANIQ-ADMIN/source-repo"]
+	path = 10-PRODUCTS/LORANIQ-ADMIN/source-repo
+	url = https://github.com/has5an-hash/loraniq-admin.git
