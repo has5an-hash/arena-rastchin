@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-09-07T17:35:00+03:30",
+  "phase": "phase-1-core-and-demo-independence",
+  "status": "in_progress",
+  "completed_summary": [
+    "Seven independent live WordPress folders and databases",
+    "Independent front pages and clean permalinks",
+    "Chrome live smoke test for all demos",
+    "Per-database content isolation",
+    "Official Duplicator 1.5.17 installed and active on all demos",
+    "35 Elementor Free widgets registration smoke test passes",
+    "All 21 article thumbnails assigned and article_pools corrected across all seven theme copies",
+    "Seven domain-specific homepage profiles implemented",
+    "Twenty-one domain-specific staff portraits assigned",
+    "Database audit reports zero cross-demo duplicate images",
+    "No cross-demo duplicate non-empty content remains",
+    "RTL mega-menu hover gap removed",
+    "Mega-menu hover intent implemented with 320ms leave grace and 200ms fade"
+  ],
+  "current_task": "Finish browser verification of mega-menu hover intent, then continue visual/Elementor/responsive QA and real Duplicator packages.",
+  "next": [
+    "QA alignment, Persian text justification, spacing and visual order",
+    "QA color and contrast in light/dark/hover/focus states",
+    "Prove complete independence across all seven demos",
+    "Audit dynamic settings panel and Elementor Free controls",
+    "Run responsive visual QA",
+    "Build and validate seven real Duplicator packages",
+    "Assemble rtl-final-package"
+  ],
+  "blockers": [],
+  "do_not_do": [
+    "Do not create fake/manual Duplicator installers",
+    "Do not use paid plugins as hard dependencies",
+    "Do not mix demo databases or media",
+    "Do not use fallback methods without explicit user permission"
+  ]
+}
