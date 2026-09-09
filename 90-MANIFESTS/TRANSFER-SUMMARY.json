@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T20:40:00+03:30",
+  "updated_at": "2026-09-09T21:30:00+03:30",
   "repo_name": "has5an-hash/arena-rastchin",
   "visibility": "public-by-owner-decision",
   "arena_ready_entrypoints": [
@@ -9,35 +9,32 @@
   ],
   "project_rules_transferred": true,
   "rtltheme_standard_md_transferred": true,
-  "rtltheme_standard_docx_transferred": true,
   "rtltheme_video_derived_knowledge_transferred": true,
   "zarpuls": {
     "reference_status_transferred": true,
     "readme_transferred": true,
-    "user_guide_knowledge_transferred": true,
     "public_asset_repo_linked_as_submodule": true,
     "public_asset_repo_contains_full_plugin_source": false,
     "submodule_commit": "896a24f2a4da3df5885c1ad09ebd13ef26c4cc1b",
     "protected_zarpuls_php_present_in_file_library_but_raw_exported": false
   },
   "loraniq_admin": {
-    "reference_status_transferred": true,
-    "build_spec_transferred": true,
-    "full_current_source_linked_as_submodule": true,
-    "submodule_commit": "38168d8016adfa0980567ffa223fe6aff28c5b97"
+    "canonical_repository": "https://github.com/has5an-hash/loraniq-admin",
+    "files_copied_into_arena_rastchin": false,
+    "submodule_in_arena_rastchin": false,
+    "arena_must_use_canonical_repository_directly": true
   },
   "beautia": {
     "handoff_checkpoint_qa_docs_transferred": true,
     "technical_guide_transferred": true,
     "source_subset_transferred": true,
     "source_inventory_transferred": true,
-    "complete_local_source_archive_available_at_origin": true,
-    "large_binary_archives_direct_push_supported_by_current_github_connector": false
+    "binary_sync_in_progress": true
   },
   "mr_seo_reference_transferred": true,
   "new_product_template_added": true,
   "private_sensitive_originals_excluded": true,
   "temporary_transfer_artifacts_cleaned": true,
   "public_repo_secret_policy": "Only sanitized, non-secret files are allowed.",
-  "remaining_transport_blocker": "Exact local binary archives need a file-upload capable connector/client; native GitHub connector only accepts text/blob payloads supplied inline."
+  "binary_integrity_policy": "A binary is marked synced only after exact byte content and SHA-256 are verified against the origin."
 }
