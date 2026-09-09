@@ -1,9 +1,39 @@
 {
-  "generated_at": "2026-09-09T16:00:12.946791+00:00",
+  "updated_at": "2026-09-09T20:30:00+03:30",
   "repo_name": "has5an-hash/arena-rastchin",
   "visibility": "public-by-owner-decision",
-  "remote_repo_created": true,
+  "arena_ready_entrypoints": [
+    "AGENTS.md",
+    "00-START-HERE/ARENA-READ-FIRST-FA.md",
+    "00-START-HERE/ARENA-BOOTSTRAP-PROMPT-FA.md"
+  ],
+  "project_rules_transferred": true,
+  "rtltheme_standard_md_transferred": true,
+  "rtltheme_standard_docx_transferred": true,
+  "rtltheme_video_derived_knowledge_transferred": true,
+  "zarpuls": {
+    "reference_status_transferred": true,
+    "readme_transferred": true,
+    "user_guide_knowledge_transferred": true,
+    "full_current_source_linked_as_submodule": true,
+    "submodule_commit": "896a24f2a4da3df5885c1ad09ebd13ef26c4cc1b"
+  },
+  "loraniq_admin": {
+    "reference_status_transferred": true,
+    "build_spec_transferred": true,
+    "full_current_source_linked_as_submodule": true,
+    "submodule_commit": "38168d8016adfa0980567ffa223fe6aff28c5b97"
+  },
+  "beautia": {
+    "handoff_checkpoint_qa_docs_transferred": true,
+    "technical_guide_transferred": true,
+    "source_subset_transferred": true,
+    "complete_local_source_archive_available_at_origin": true,
+    "large_binary_archives_direct_push_supported_by_current_github_connector": false
+  },
+  "mr_seo_reference_transferred": true,
+  "new_product_template_added": true,
   "private_sensitive_originals_excluded": true,
-  "large_files_require_git_lfs": true,
-  "public_repo_secret_policy": "Only sanitized, non-secret files are allowed."
+  "public_repo_secret_policy": "Only sanitized, non-secret files are allowed.",
+  "remaining_transport_blocker": "Exact large local binary files need a file-upload capable connector/client; native GitHub connector only accepts text/blob payloads supplied inline."
 }
