@@ -1,0 +1,11 @@
+# Exact local originals may contain salts/local credentials; never push these.
+98-PRIVATE-LOCAL-ONLY/
+
+# Common secrets and local state
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+node_modules/
+vendor/
