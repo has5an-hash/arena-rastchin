@@ -11,20 +11,22 @@
 - `00-START-HERE/` راهنمای شروع، فهرست محصولات و Source of Truth
 - `01-PROJECT-RULES/` دستورالعمل مادر توسعه، Security، QA و Release
 - `02-RTL-THEME-OFFICIAL/` استاندارد رسمی پروژه، لینک‌های زنده و دانش استخراج‌شده از آموزش‌های رسمی راست‌چین
-- `10-PRODUCTS/ZARPULS/` وضعیت، راهنمای کاربر و سورس کامل جاری به‌شکل Submodule
+- `10-PRODUCTS/ZARPULS/` وضعیت، راهنمای کاربر، Readme و Repository دارایی عمومی زرپالس؛ سورس کامل توسعه در انتقال حاضر اثبات/موجود نیست
 - `10-PRODUCTS/BEAUTIA/` Handoff، Checkpoint، QA، راهنمای فنی و سورس‌های قابل‌انتقال بیوتیا
 - `10-PRODUCTS/LORANIQ-ADMIN/` وضعیت، Build Spec و سورس کامل جاری به‌شکل Submodule
 - `10-PRODUCTS/MR-SEO/` وضعیت اولیه افزونه آقای سئو
 - `20-NEW-PRODUCT-TEMPLATE/` الگوی ساخت محصول جدید با Arena
 - `90-MANIFESTS/` وضعیت انتقال، محدودیت‌ها و سیاست امنیت
 
-## دریافت سورس‌های لینک‌شده
+## دریافت Repositoryهای لینک‌شده
 
 ```bash
 git clone --recurse-submodules https://github.com/has5an-hash/arena-rastchin.git
 # یا داخل Clone موجود:
 git submodule update --init --recursive
 ```
+
+Submodule زرپالس در حال حاضر فقط Repository عمومی دارایی موجود را منعکس می‌کند و نباید به‌عنوان سورس کامل افزونه فرض شود.
 
 ## قانون مرجع
 
