@@ -21,7 +21,7 @@
 
 ## محصولات مرجع
 - زرپالس: `10-PRODUCTS/ZARPULS/`
-- بیوتیا: `10-PRODUCTS/BEAUTIA/`
+- بیوتیا: `10-PRODUCTS/BEAUTIA/` — برای محیط اجرایی ۷ دمو ابتدا `README-TRANSFER-FA.md` و سپس `reconstruction/README-FA.md` را بخوان؛ بازساز ۷ دمو در GitHub Actions Cloud-verified است.
 - آقای سئو: `10-PRODUCTS/MR-SEO/`
 - **لورانیک ادمین: فقط `https://github.com/has5an-hash/loraniq-admin`**
 
