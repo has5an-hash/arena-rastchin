@@ -9,23 +9,41 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect firestorage client bundle
+      - name: Inspect all firestorage page bundles
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import re, urllib.request
+          import re, urllib.request, pathlib
           base='https://firestorage.ai'
-          path='/_next/static/chunks/app/(files)/ja/f/page-4d19ae0a4ce39d79.js'
-          req=urllib.request.Request(base+path, headers={'User-Agent':'Mozilla/5.0'})
-          with urllib.request.urlopen(req, timeout=30) as r:
-              raw=r.read()
-              print('status', r.status, 'url', r.geturl(), 'bytes', len(raw), 'type', r.headers.get('content-type'))
-          s=raw.decode('utf-8','replace')
-          print('HEAD',repr(s[:500]))
-          for pat in ['download','api/','shareId','publicId','signed','presign','fileId','share','token']:
-              print('\n###',pat)
-              for m in list(re.finditer(re.escape(pat),s,re.I))[:40]:
-                  a=max(0,m.start()-250); b=min(len(s),m.end()+450)
-                  print(s[a:b].replace('\n',' '))
+          share='https://firestorage.ai/ja/f/9QLDK4hUhMHx'
+          def get(url):
+              req=urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
+              with urllib.request.urlopen(req, timeout=30) as r:
+                  return r.read()
+          html=get(share).decode('utf-8','replace')
+          scripts=re.findall(r'<script[^>]+src="([^"]+)"', html)
+          print('scripts', len(scripts))
+          blobs=[]
+          for i,src in enumerate(scripts,1):
+              url=src if src.startswith('http') else base+src
+              try:
+                  raw=get(url)
+                  txt=raw.decode('utf-8','replace')
+                  blobs.append((src,txt))
+                  print(i, len(raw), src)
+              except Exception as e:
+                  print('ERR',src,e)
+          pats=['download','api/','shareId','publicId','signed','presign','fileId','share','token','objectId','subdir']
+          for src,s in blobs:
+              hit=any(re.search(re.escape(p),s,re.I) for p in pats)
+              if not hit: continue
+              print('\n===== FILE',src,'=====')
+              for pat in pats:
+                  ms=list(re.finditer(re.escape(pat),s,re.I))
+                  if not ms: continue
+                  print('\n###',pat,'count',len(ms))
+                  for m in ms[:20]:
+                      a=max(0,m.start()-220); b=min(len(s),m.end()+420)
+                      print(s[a:b].replace('\n',' '))
           PY
