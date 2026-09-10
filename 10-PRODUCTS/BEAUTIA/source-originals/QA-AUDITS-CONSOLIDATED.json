@@ -1,0 +1,1597 @@
+{
+  "generated_at": "2026-09-07T17:45:00+03:30",
+  "source": "qa/audit-*.json",
+  "audits": {
+    "audit-barber": {
+      "folder": "barber",
+      "url": "http://localhost/beautia/demoes/barber/",
+      "active_demo": "barber",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 327,
+          "title": "اصلاح مو کلاسیک",
+          "demo": "barber",
+          "image": "svc-barber-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 329,
+          "title": "فید و سایه‌زنی حرفه‌ای",
+          "demo": "barber",
+          "image": "svc-barber-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 331,
+          "title": "اصلاح صورت با حوله داغ",
+          "demo": "barber",
+          "image": "svc-barber-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 333,
+          "title": "فرم‌دهی و تراش ریش",
+          "demo": "barber",
+          "image": "svc-barber-4-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 334,
+          "title": "پکیج مو و ریش",
+          "demo": "barber",
+          "image": "svc-barber-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 335,
+          "title": "رنگ و پوشش موی سفید",
+          "demo": "barber",
+          "image": "svc-barber-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 336,
+          "title": "کوتاهی موی پسرانه",
+          "demo": "barber",
+          "image": "svc-barber-7-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 337,
+          "title": "پاک‌سازی صورت آقایان",
+          "demo": "barber",
+          "image": "hero-barber.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 342,
+          "title": "اسکین فید و پومپادور",
+          "demo": "barber",
+          "image": "svc-hair-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 343,
+          "title": "کراپ بافت‌دار",
+          "demo": "barber",
+          "image": "svc-hair-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 344,
+          "title": "ریش فول با خط تیغ",
+          "demo": "barber",
+          "image": "svc-hair-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 345,
+          "title": "اصلاح کلاسیک با تیغ راست",
+          "demo": "barber",
+          "image": "glam-hair.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 346,
+          "title": "پکیج مو و ریش · دفتر الهام",
+          "demo": "barber",
+          "image": "hero-nails-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 347,
+          "title": "رنگ و پوشش موی سفید · دفتر الهام",
+          "demo": "barber",
+          "image": "hero-makeup.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 338,
+          "title": "استاد رضا کاویانی",
+          "demo": "barber",
+          "image": "team-barber.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 340,
+          "title": "امیر شایسته",
+          "demo": "barber",
+          "image": "team-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 341,
+          "title": "سامان درویش",
+          "demo": "barber",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 351,
+          "title": "برای انتخاب فید، فقط اسم مدل کافی نیست",
+          "demo": "barber",
+          "image": "svc-spa-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 352,
+          "title": "فرم ریش و مو را کنار هم ببینیم",
+          "demo": "barber",
+          "image": "svc-spa-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 353,
+          "title": "استایل صبحگاهی در چند قدم ساده",
+          "demo": "barber",
+          "image": "svc-spa-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 354,
+          "title": "پیرایش اُک — باربرشاپ و پیرایش",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 356,
+          "title": "درباره پیرایش اُک",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 358,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 360,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 362,
+          "title": "مجله پیرایش اُک",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 364,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 366,
+          "title": "رزرو نوبت پیرایش اُک",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 368,
+          "title": "پنل من · پیرایش اُک",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 370,
+          "title": "ورود · پیرایش اُک",
+          "demo": "barber",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-clinic": {
+      "folder": "clinic",
+      "url": "http://localhost/beautia/demoes/clinic/",
+      "active_demo": "clinic",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 93,
+          "title": "هیدرافیشیال پاک‌سازی عمیق",
+          "demo": "clinic",
+          "image": "svc-clinic-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 95,
+          "title": "بوتاکس — یک‌سوم بالای صورت",
+          "demo": "clinic",
+          "image": "svc-clinic-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 97,
+          "title": "فیلر لب",
+          "demo": "clinic",
+          "image": "svc-clinic-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 98,
+          "title": "لیزر موهای زائد — تمام بدن",
+          "demo": "clinic",
+          "image": "svc-clinic-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 99,
+          "title": "میکرونیدلینگ + پی‌آرپی",
+          "demo": "clinic",
+          "image": "svc-clinic-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 100,
+          "title": "ویزیت و مشاوره پزشک",
+          "demo": "clinic",
+          "image": "svc-clinic-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 104,
+          "title": "برنامه درمان اسکار آکنه — سه جلسه",
+          "demo": "clinic",
+          "image": "folio-clinic-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 105,
+          "title": "کانتور طبیعی لب",
+          "demo": "clinic",
+          "image": "folio-clinic-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 106,
+          "title": "پروتکل درخشندگی",
+          "demo": "clinic",
+          "image": "folio-clinic-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 107,
+          "title": "لیزر موهای زائد — تمام بدن · دفتر الهام",
+          "demo": "clinic",
+          "image": "folio-clinic-4-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 108,
+          "title": "میکرونیدلینگ + پی‌آرپی · دفتر الهام",
+          "demo": "clinic",
+          "image": "folio-clinic-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 109,
+          "title": "ویزیت و مشاوره پزشک · دفتر الهام",
+          "demo": "clinic",
+          "image": "folio-clinic-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 101,
+          "title": "دکتر لیلا فرهادی",
+          "demo": "clinic",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 102,
+          "title": "دکتر آرمان نبوی",
+          "demo": "clinic",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 103,
+          "title": "نیلوفر قدیری",
+          "demo": "clinic",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 113,
+          "title": "برای جلسه اول مشاوره پوست چه چیزهایی یادداشت کنیم؟",
+          "demo": "clinic",
+          "image": "svc-barber-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 114,
+          "title": "چطور یک دفتر ساده برای روتین پوست داشته باشیم؟",
+          "demo": "clinic",
+          "image": "svc-barber-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 115,
+          "title": "چک‌لیست انتخاب یک وقت مشاوره مناسب",
+          "demo": "clinic",
+          "image": "svc-barber-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 116,
+          "title": "کلینیک بیوتیا — کلینیک پوست و زیبایی",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 118,
+          "title": "درباره کلینیک بیوتیا",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 120,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 122,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 124,
+          "title": "مجله کلینیک بیوتیا",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 126,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 128,
+          "title": "رزرو نوبت کلینیک بیوتیا",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 130,
+          "title": "پنل من · کلینیک بیوتیا",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 132,
+          "title": "ورود · کلینیک بیوتیا",
+          "demo": "clinic",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-hair": {
+      "folder": "hair",
+      "url": "http://localhost/beautia/demoes/hair/",
+      "active_demo": "hair",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 140,
+          "title": "بالیاژ و گلاس",
+          "demo": "hair",
+          "image": "svc-hair-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 142,
+          "title": "کوتاهی تخصصی و استایل",
+          "demo": "hair",
+          "image": "svc-hair-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 144,
+          "title": "کراتینه صاف‌کننده",
+          "demo": "hair",
+          "image": "svc-hair-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 145,
+          "title": "شینیون عروس و جلسه پیش‌آزمون",
+          "demo": "hair",
+          "image": "svc-hair-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 146,
+          "title": "دتاکس پوست سر",
+          "demo": "hair",
+          "image": "svc-hair-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 147,
+          "title": "سشوار و فر موج‌دار",
+          "demo": "hair",
+          "image": "svc-hair-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 151,
+          "title": "بالیاژ آفتاب‌خورده",
+          "demo": "hair",
+          "image": "glam-hair.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 152,
+          "title": "باب خط‌دار",
+          "demo": "hair",
+          "image": "svc-makeup-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 153,
+          "title": "شینیون نرم عروس",
+          "demo": "hair",
+          "image": "svc-makeup-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 154,
+          "title": "شینیون عروس و جلسه پیش‌آزمون · دفتر الهام",
+          "demo": "hair",
+          "image": "svc-barber-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 155,
+          "title": "دتاکس پوست سر · دفتر الهام",
+          "demo": "hair",
+          "image": "svc-barber-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 156,
+          "title": "سشوار و فر موج‌دار · دفتر الهام",
+          "demo": "hair",
+          "image": "svc-barber-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 148,
+          "title": "دریا صدیقی",
+          "demo": "hair",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 149,
+          "title": "کیان مرادی",
+          "demo": "hair",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 150,
+          "title": "رؤیا امینی",
+          "demo": "hair",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 160,
+          "title": "عکس مرجع کوتاهی مو را چطور انتخاب کنیم؟",
+          "demo": "hair",
+          "image": "svc-spa-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 161,
+          "title": "پیش از تغییر رنگ، یک گفت‌وگوی کامل داشته باشیم",
+          "demo": "hair",
+          "image": "svc-spa-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 162,
+          "title": "یک استایل خوب برای روزهای شلوغ",
+          "demo": "hair",
+          "image": "svc-spa-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 163,
+          "title": "خانه مو — خانه مو و رنگ",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 165,
+          "title": "درباره خانه مو",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 167,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 169,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 171,
+          "title": "مجله خانه مو",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 173,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 175,
+          "title": "رزرو نوبت خانه مو",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 177,
+          "title": "پنل من · خانه مو",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 179,
+          "title": "ورود · خانه مو",
+          "demo": "hair",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-lashes": {
+      "folder": "lashes",
+      "url": "http://localhost/beautia/demoes/lashes/",
+      "active_demo": "lashes",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 234,
+          "title": "ست مژه ولوم",
+          "demo": "lashes",
+          "image": "svc-lash-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 236,
+          "title": "اکستنشن مژه کلاسیک",
+          "demo": "lashes",
+          "image": "svc-lash-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 238,
+          "title": "لیفت و رنگ مژه",
+          "demo": "lashes",
+          "image": "svc-lash-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 239,
+          "title": "لمینت ابرو",
+          "demo": "lashes",
+          "image": "svc-lash-4-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 240,
+          "title": "میکروبلیدینگ",
+          "demo": "lashes",
+          "image": "svc-lash-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 241,
+          "title": "فرم و رنگ ابرو",
+          "demo": "lashes",
+          "image": "svc-lash-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 245,
+          "title": "ست ولوم ویسپی",
+          "demo": "lashes",
+          "image": "svc-clinic-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 246,
+          "title": "ابروی لمینت‌شده",
+          "demo": "lashes",
+          "image": "svc-clinic-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 247,
+          "title": "لیفت و رنگ مژه · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 248,
+          "title": "لمینت ابرو · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 249,
+          "title": "میکروبلیدینگ · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 250,
+          "title": "فرم و رنگ ابرو · دفتر الهام",
+          "demo": "lashes",
+          "image": "svc-clinic-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 242,
+          "title": "تارا جلالی",
+          "demo": "lashes",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 243,
+          "title": "ستاره وثوقی",
+          "demo": "lashes",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 244,
+          "title": "مهسا تهرانی",
+          "demo": "lashes",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 253,
+          "title": "طبیعی یا برجسته؟ انتخاب حال‌وهوای مژه",
+          "demo": "lashes",
+          "image": "svc-hair-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 254,
+          "title": "عکس مرجع ابرو؛ چه چیزی را به متخصص نشان دهیم؟",
+          "demo": "lashes",
+          "image": "svc-hair-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 255,
+          "title": "یک قرار مرتب برای ترمیم و نگهداری",
+          "demo": "lashes",
+          "image": "svc-hair-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 256,
+          "title": "آتلیه نگاه — آتلیه مژه و ابرو",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 258,
+          "title": "درباره آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 260,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 262,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 264,
+          "title": "مجله آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 266,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 268,
+          "title": "رزرو نوبت آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 270,
+          "title": "پنل من · آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 272,
+          "title": "ورود · آتلیه نگاه",
+          "demo": "lashes",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-makeup": {
+      "folder": "makeup",
+      "url": "http://localhost/beautia/demoes/makeup/",
+      "active_demo": "makeup",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 280,
+          "title": "میکاپ عروس",
+          "demo": "makeup",
+          "image": "svc-makeup-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 282,
+          "title": "میکاپ مجلسی و شب",
+          "demo": "makeup",
+          "image": "svc-makeup-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 284,
+          "title": "میکاپ ادیتوریال و عکاسی",
+          "demo": "makeup",
+          "image": "svc-makeup-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 285,
+          "title": "کلاس خصوصی آرایش شخصی",
+          "demo": "makeup",
+          "image": "svc-makeup-4-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 286,
+          "title": "دوره حرفه‌ای میکاپ آرتیستی",
+          "demo": "makeup",
+          "image": "svc-makeup-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 287,
+          "title": "فیشیال آماده‌سازی پوست",
+          "demo": "makeup",
+          "image": "svc-makeup-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 292,
+          "title": "گریم نرم عروس",
+          "demo": "makeup",
+          "image": "svc-clinic-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 293,
+          "title": "قرمز ادیتوریال",
+          "demo": "makeup",
+          "image": "svc-clinic-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 294,
+          "title": "میکاپ ادیتوریال و عکاسی · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 295,
+          "title": "کلاس خصوصی آرایش شخصی · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 296,
+          "title": "دوره حرفه‌ای میکاپ آرتیستی · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 297,
+          "title": "فیشیال آماده‌سازی پوست · دفتر الهام",
+          "demo": "makeup",
+          "image": "svc-clinic-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 288,
+          "title": "بهار انصاری",
+          "demo": "makeup",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 289,
+          "title": "ملیکا شریفی",
+          "demo": "makeup",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 291,
+          "title": "مهسا تهرانی",
+          "demo": "makeup",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 300,
+          "title": "مودبورد میکاپ را از رنگ لباس شروع کنیم",
+          "demo": "makeup",
+          "image": "svc-hair-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 301,
+          "title": "میکاپ روز و شب؛ نقش نور را فراموش نکنیم",
+          "demo": "makeup",
+          "image": "svc-hair-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 302,
+          "title": "تقویم آماده‌شدن برای مراسم، بدون عجله",
+          "demo": "makeup",
+          "image": "svc-hair-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 303,
+          "title": "استودیو میوز — میکاپ و آکادمی",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 305,
+          "title": "درباره استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 307,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 309,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 311,
+          "title": "مجله استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 313,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 315,
+          "title": "رزرو نوبت استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 317,
+          "title": "پنل من · استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 319,
+          "title": "ورود · استودیو میوز",
+          "demo": "makeup",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-nail": {
+      "folder": "nail",
+      "url": "http://localhost/beautia/demoes/nail/",
+      "active_demo": "nails",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 8,
+          "title": "کاشت ژل — فرم بادامی",
+          "demo": "nails",
+          "image": "svc-nail-1-5.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 10,
+          "title": "فرنچ و میکرو آرت",
+          "demo": "nails",
+          "image": "svc-nail-2-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 12,
+          "title": "کروم و کت‌آی",
+          "demo": "nails",
+          "image": "svc-nail-3-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 14,
+          "title": "آیین پدیکور اسپا",
+          "demo": "nails",
+          "image": "svc-nail-4-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 16,
+          "title": "مانیکور روسی",
+          "demo": "nails",
+          "image": "svc-nail-5-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 17,
+          "title": "ترمیم و برداشت",
+          "demo": "nails",
+          "image": "svc-nail-6.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 24,
+          "title": "ست بادامی نود شیری",
+          "demo": "nails",
+          "image": "glam-nails.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 26,
+          "title": "فرنچ مرواریدی",
+          "demo": "nails",
+          "image": "manicure-before-v2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 28,
+          "title": "کروم مایع",
+          "demo": "nails",
+          "image": "manicure-after-v2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 30,
+          "title": "پدیکور گل‌محمدی",
+          "demo": "nails",
+          "image": "ba-nails-before-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 32,
+          "title": "گلیزد دونات",
+          "demo": "nails",
+          "image": "collection-social.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 71,
+          "title": "ترمیم و برداشت · دفتر الهام",
+          "demo": "nails",
+          "image": "svc-makeup-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 18,
+          "title": "نیکا رحمانی",
+          "demo": "nails",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 20,
+          "title": "سارا کیان",
+          "demo": "nails",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 22,
+          "title": "مهسا تهرانی",
+          "demo": "nails",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 45,
+          "title": "نود، شیری یا رز؟ راهنمای ساختن پالت شخصی ناخن",
+          "demo": "nails",
+          "image": "svc-hair-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 47,
+          "title": "فرم ناخن را با روزمره خودتان انتخاب کنید",
+          "demo": "nails",
+          "image": "svc-hair-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 74,
+          "title": "مودبورد مانیکور؛ از چند تصویر تا یک طرح منسجم",
+          "demo": "nails",
+          "image": "svc-hair-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 49,
+          "title": "نیل — استودیو ناخن",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 50,
+          "title": "درباره نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 51,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 52,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 53,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 54,
+          "title": "مجله نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 81,
+          "title": "رزرو نوبت نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 83,
+          "title": "پنل من · نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 85,
+          "title": "ورود · نیل",
+          "demo": "nails",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    },
+    "audit-spa": {
+      "folder": "spa",
+      "url": "http://localhost/beautia/demoes/spa/",
+      "active_demo": "spa",
+      "showcase": "0",
+      "colors": [],
+      "rows": [
+        {
+          "type": "beautia_service",
+          "id": 187,
+          "title": "ماساژ آروماتراپی امضایی",
+          "demo": "spa",
+          "image": "svc-spa-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 189,
+          "title": "ماساژ سنگ داغ",
+          "demo": "spa",
+          "image": "svc-spa-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 191,
+          "title": "رپ سم‌زدایی بدن",
+          "demo": "spa",
+          "image": "svc-spa-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 192,
+          "title": "فیشیال آرام‌بخش",
+          "demo": "spa",
+          "image": "svc-spa-4.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 193,
+          "title": "پکیج دونفره",
+          "demo": "spa",
+          "image": "svc-spa-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_service",
+          "id": 194,
+          "title": "ماساژ بارداری",
+          "demo": "spa",
+          "image": "svc-spa-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 198,
+          "title": "اتاق سکوت",
+          "demo": "spa",
+          "image": "folio-spa-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 199,
+          "title": "بار دمنوش گیاهی",
+          "demo": "spa",
+          "image": "folio-spa-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 200,
+          "title": "رپ سم‌زدایی بدن · دفتر الهام",
+          "demo": "spa",
+          "image": "folio-spa-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 201,
+          "title": "فیشیال آرام‌بخش · دفتر الهام",
+          "demo": "spa",
+          "image": "folio-spa-4-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 202,
+          "title": "پکیج دونفره · دفتر الهام",
+          "demo": "spa",
+          "image": "folio-spa-5-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_portfolio",
+          "id": 203,
+          "title": "ماساژ بارداری · دفتر الهام",
+          "demo": "spa",
+          "image": "folio-spa-6-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 195,
+          "title": "گلنار سپهری",
+          "demo": "spa",
+          "image": "team-1-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 196,
+          "title": "هدی کریمی",
+          "demo": "spa",
+          "image": "team-2-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "beautia_staff",
+          "id": 197,
+          "title": "مهسا تهرانی",
+          "demo": "spa",
+          "image": "team-3-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 207,
+          "title": "چطور برای اولین تجربه اسپا آماده شویم؟",
+          "demo": "spa",
+          "image": "svc-barber-1.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 208,
+          "title": "طراحی یک قرار آرام در تقویم هفتگی",
+          "demo": "spa",
+          "image": "svc-barber-2.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "post",
+          "id": 209,
+          "title": "نور، صدا و بافت؛ جزئیات یک فضای آرام",
+          "demo": "spa",
+          "image": "svc-barber-3.jpg",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 210,
+          "title": "اسپای سوما — اسپا و آرامش",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 212,
+          "title": "درباره اسپای سوما",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 214,
+          "title": "خدمات و تعرفه‌ها",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 216,
+          "title": "دفتر الهام و نمونه‌کارها",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 218,
+          "title": "مجله اسپای سوما",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 220,
+          "title": "تماس و برنامه مراجعه",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 222,
+          "title": "رزرو نوبت اسپای سوما",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 224,
+          "title": "پنل من · اسپای سوما",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        },
+        {
+          "type": "page",
+          "id": 226,
+          "title": "ورود · اسپای سوما",
+          "demo": "spa",
+          "image": "",
+          "literal_slashes": 0
+        }
+      ]
+    }
+  }
+}
