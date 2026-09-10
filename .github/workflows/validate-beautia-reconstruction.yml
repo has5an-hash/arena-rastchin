@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - '.github/workflows/validate-beautia-reconstruction.yml'
+      - '10-PRODUCTS/BEAUTIA/reconstruction/materialize-demo.py'
+      - '10-PRODUCTS/BEAUTIA/archives/beautia-nail-sanitized.zip'
+      - '10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip'
   workflow_dispatch:
 
 jobs:
