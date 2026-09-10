@@ -8,13 +8,13 @@ DEMOS = ['nail','clinic','hair','spa','lashes','makeup','barber']
 def normalize_source_basename(name, available):
     stem, ext = os.path.splitext(name)
     candidates=[name]
-    m=re.match(r'^(.*)-\\d+x\\d+$', stem)
+    m=re.match(r'^(.*)-\d+x\d+$', stem)
     if m:
         stem=m.group(1)
         candidates.append(stem+ext)
     cur=stem
     for _ in range(4):
-        m=re.match(r'^(.*)-\\d+$', cur)
+        m=re.match(r'^(.*)-\d+$', cur)
         if not m:
             break
         cur=m.group(1)
@@ -26,8 +26,8 @@ def normalize_source_basename(name, available):
 
 def extract_sql_refs(sql):
     refs=set()
-    for m in re.finditer(r'([A-Za-z0-9._/%:-]+\\.(?:jpg|jpeg|png|webp|gif))', sql, re.I):
-        token=m.group(1).replace('\\\\/','/').split('?',1)[0]
+    for m in re.finditer(r'([A-Za-z0-9._/%:-]+\.(?:jpg|jpeg|png|webp|gif))', sql, re.I):
+        token=m.group(1).replace('\\/','/').split('?',1)[0]
         refs.add(os.path.basename(token))
     attached=sorted(set(re.findall(r"'_wp_attached_file','([^']+)'", sql)))
     return sorted(refs), attached
@@ -50,9 +50,9 @@ def materialize(base_zip, db_zip, demo, out_dir):
 
     cfg=work/'wp-config.php'
     s=cfg.read_text('utf-8')
-    s=re.sub(r"define\\('DB_NAME',\\s*'[^']*'\\);", f"define('DB_NAME', 'beautia_{demo}');", s)
-    s=re.sub(r"define\\('WP_HOME',\\s*'[^']*'\\);", f"define('WP_HOME', 'http://localhost/beautia/demoes/{demo}');", s)
-    s=re.sub(r"define\\('WP_SITEURL',\\s*'[^']*'\\);", f"define('WP_SITEURL', 'http://localhost/beautia/demoes/{demo}');", s)
+    s=re.sub(r"define\('DB_NAME',\s*'[^']*'\);", f"define('DB_NAME', 'beautia_{demo}');", s)
+    s=re.sub(r"define\('WP_HOME',\s*'[^']*'\);", f"define('WP_HOME', 'http://localhost/beautia/demoes/{demo}');", s)
+    s=re.sub(r"define\('WP_SITEURL',\s*'[^']*'\);", f"define('WP_SITEURL', 'http://localhost/beautia/demoes/{demo}');", s)
     cfg.write_text(s,'utf-8')
 
     ht=work/'.htaccess'
@@ -87,7 +87,7 @@ def materialize(base_zip, db_zip, demo, out_dir):
             continue
         src=available[src_name]
         dst=media_dir/bn
-        m=re.search(r'-(\\d+)x(\\d+)(?=\\.[^.]+$)',bn)
+        m=re.search(r'-(\d+)x(\d+)(?=\.[^.]+$)',bn)
         if m and src.suffix.lower() in ['.jpg','.jpeg','.png','.webp']:
             w,h=map(int,m.groups())
             try:
@@ -117,9 +117,9 @@ def materialize(base_zip, db_zip, demo, out_dir):
     dbdir.mkdir(exist_ok=True)
     (dbdir/f'beautia_{demo}.sql').write_text(sql,'utf-8')
     (dbdir/'README.txt').write_text(
-        'This is a reconstructed-current development package, not an exact historical archive.\\n'
-        f'Import beautia_{demo}.sql into database beautia_{demo}.\\n'
-        'Runtime secrets in wp-config.php are placeholders and must be replaced for real deployments.\\n',
+        'This is a reconstructed-current development package, not an exact historical archive.\n'
+        f'Import beautia_{demo}.sql into database beautia_{demo}.\n'
+        'Runtime secrets in wp-config.php are placeholders and must be replaced for real deployments.\n',
         'utf-8'
     )
 
