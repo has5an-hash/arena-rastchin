@@ -13,19 +13,19 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          BASE='https://firestorage.ai'
-          JS='/_next/static/chunks/app/(files)/ja/f/page-4d19ae0a4ce39d79.js'
-          curl -L --fail --silent --show-error -A 'Mozilla/5.0' "$BASE$JS" -o /tmp/page.js
-          echo "JS bytes: $(wc -c < /tmp/page.js)"
-          echo '--- API/download candidates ---'
-          grep -Eo 'https?://[^"'''[:space:]<>]+|/[A-Za-z0-9_?=&./{}:-]{4,}' /tmp/page.js | grep -Ei 'api|download|share|file|presign|signed|storage' | sort -u | head -200 || true
-          echo '--- context ---'
           python3 - <<'PY'
-          import re
-          s=open('/tmp/page.js','r',encoding='utf-8',errors='ignore').read()
-          for pat in ['download','api/','shareId','publicId','signed','presign','fileId','share']:
+          import re, urllib.request
+          base='https://firestorage.ai'
+          path='/_next/static/chunks/app/(files)/ja/f/page-4d19ae0a4ce39d79.js'
+          req=urllib.request.Request(base+path, headers={'User-Agent':'Mozilla/5.0'})
+          with urllib.request.urlopen(req, timeout=30) as r:
+              raw=r.read()
+              print('status', r.status, 'url', r.geturl(), 'bytes', len(raw), 'type', r.headers.get('content-type'))
+          s=raw.decode('utf-8','replace')
+          print('HEAD',repr(s[:500]))
+          for pat in ['download','api/','shareId','publicId','signed','presign','fileId','share','token']:
               print('\n###',pat)
-              for m in list(re.finditer(pat,s,re.I))[:30]:
-                  a=max(0,m.start()-300); b=min(len(s),m.end()+500)
+              for m in list(re.finditer(re.escape(pat),s,re.I))[:40]:
+                  a=max(0,m.start()-250); b=min(len(s),m.end()+450)
                   print(s[a:b].replace('\n',' '))
           PY
