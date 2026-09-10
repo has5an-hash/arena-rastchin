@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T23:02:00+03:30",
+  "updated_at": "2026-09-10T23:42:00+03:30",
   "repo_name": "has5an-hash/arena-rastchin",
   "visibility": "public-by-owner-decision",
   "arena_ready_entrypoints": [
@@ -12,9 +12,24 @@
   "rtltheme_standard_docx_exact_synced": true,
   "rtltheme_video_derived_knowledge_transferred": true,
   "rtltheme_large_binary_originals": {
-    "seller_training_mp4": {"size": 93572239, "sha256": "bdd9d3ee14f5887978f7e61abded143abe445772866bf147b752feca17d6a90f", "github_exact_sync": true, "storage": "git-lfs"},
-    "license_guide_webm": {"size": 60768704, "sha256": "29a59962a0d9fcc8fc2dc2c7393c1306e7a9f1a1fcfb4485e655285816612a96", "github_exact_sync": true, "storage": "git-lfs"},
-    "video_reference_zip": {"size": 59280537, "sha256": "2218149ef06e032a11777614cad8e2146c373532b8c36f1797c80557c1e0788d", "github_exact_sync": true, "storage": "git-lfs"}
+    "seller_training_mp4": {
+      "size": 93572239,
+      "sha256": "bdd9d3ee14f5887978f7e61abded143abe445772866bf147b752feca17d6a90f",
+      "github_exact_sync": true,
+      "storage": "git-lfs"
+    },
+    "license_guide_webm": {
+      "size": 60768704,
+      "sha256": "29a59962a0d9fcc8fc2dc2c7393c1306e7a9f1a1fcfb4485e655285816612a96",
+      "github_exact_sync": true,
+      "storage": "git-lfs"
+    },
+    "video_reference_zip": {
+      "size": 59280537,
+      "sha256": "2218149ef06e032a11777614cad8e2146c373532b8c36f1797c80557c1e0788d",
+      "github_exact_sync": true,
+      "storage": "git-lfs"
+    }
   },
   "zarpuls": {
     "transfer_policy": "skipped-by-owner-for-current-arena-transfer",
@@ -79,12 +94,24 @@
     ],
     "available_transfer_complete": true,
     "historical_archive_set_complete": false,
-    "arena_can_continue_from_current_source_and_databases": true
+    "arena_can_continue_from_current_source_and_databases": true,
+    "current_demo_reconstruction": {
+      "path": "10-PRODUCTS/BEAUTIA/reconstruction/",
+      "cloud_validation_run_id": 34527828618,
+      "git_lfs_fsck": true,
+      "all_seven_demos_materialized": true,
+      "all_seven_demos_validated": true,
+      "missing_attached_media": 0,
+      "unmapped_media": 0,
+      "historical_exact": false
+    },
+    "current_arena_handoff_complete": true
   },
   "mr_seo_reference_transferred": true,
   "new_product_template_added": true,
   "private_sensitive_originals_excluded": true,
   "public_repo_secret_policy": "Only sanitized, non-secret files are allowed.",
   "binary_integrity_policy": "A binary is marked synced only after exact byte content and SHA-256 are verified against the prepared transfer artifact.",
-  "current_hard_blocker": "Exact historical/root + six non-Nail live-install ZIP archives are referenced by the old upload manifest but their raw bytes are not exposed by the currently available File Library/Drive/tool bridge. They must not be fabricated. Current editable source, seven sanitized databases, sanitized current Nail install, docs and authoritative full-file manifest are synced."
+  "current_hard_blocker": null,
+  "historical_only_limitation": "Exact historical root + six non-Nail live-install ZIP bytes are unavailable. This blocks only byte-identical historical restore claims, not current Arena development."
 }
