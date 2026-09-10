@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-10T23:42:00+03:30",
+  "basis": {
+    "runtime_base": "10-PRODUCTS/BEAUTIA/archives/beautia-nail-sanitized.zip",
+    "databases": "10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip",
+    "source_tree": "10-PRODUCTS/BEAUTIA/source/",
+    "historical_exact": false
+  },
+  "demos": [
+    {"demo":"barber","db_name":"beautia_barber","attached_originals":39,"generated_media_files":326,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
+    {"demo":"clinic","db_name":"beautia_clinic","attached_originals":36,"generated_media_files":305,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
+    {"demo":"hair","db_name":"beautia_hair","attached_originals":30,"generated_media_files":256,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
+    {"demo":"lashes","db_name":"beautia_lashes","attached_originals":36,"generated_media_files":304,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
+    {"demo":"makeup","db_name":"beautia_makeup","attached_originals":38,"generated_media_files":320,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
+    {"demo":"nail","db_name":"beautia_nail","attached_originals":30,"generated_media_files":263,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
+    {"demo":"spa","db_name":"beautia_spa","attached_originals":40,"generated_media_files":337,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false}
+  ],
+  "all_valid": true,
+  "all_attached_media_resolved": true,
+  "all_sql_image_tokens_mapped": true,
+  "note": "Deterministic current-state reconstructions only; not byte-identical historical live-install archives."
+}
