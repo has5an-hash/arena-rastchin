@@ -9,41 +9,51 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect all firestorage page bundles
+      - name: Extract exact firestorage download API
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
-          import re, urllib.request, pathlib
+          import re, urllib.request
           base='https://firestorage.ai'
           share='https://firestorage.ai/ja/f/9QLDK4hUhMHx'
           def get(url):
               req=urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
-              with urllib.request.urlopen(req, timeout=30) as r:
-                  return r.read()
+              with urllib.request.urlopen(req, timeout=30) as r: return r.read()
           html=get(share).decode('utf-8','replace')
-          scripts=re.findall(r'<script[^>]+src="([^"]+)"', html)
-          print('scripts', len(scripts))
-          blobs=[]
-          for i,src in enumerate(scripts,1):
-              url=src if src.startswith('http') else base+src
-              try:
-                  raw=get(url)
-                  txt=raw.decode('utf-8','replace')
-                  blobs.append((src,txt))
-                  print(i, len(raw), src)
-              except Exception as e:
-                  print('ERR',src,e)
-          pats=['download','api/','shareId','publicId','signed','presign','fileId','share','token','objectId','subdir']
-          for src,s in blobs:
-              hit=any(re.search(re.escape(p),s,re.I) for p in pats)
-              if not hit: continue
-              print('\n===== FILE',src,'=====')
-              for pat in pats:
-                  ms=list(re.finditer(re.escape(pat),s,re.I))
-                  if not ms: continue
-                  print('\n###',pat,'count',len(ms))
-                  for m in ms[:20]:
-                      a=max(0,m.start()-220); b=min(len(s),m.end()+420)
-                      print(s[a:b].replace('\n',' '))
+          scripts=re.findall(r'<script[^>]+src="([^"]+)"',html)
+          target=None
+          for src in scripts:
+              raw=get(src if src.startswith('http') else base+src)
+              s=raw.decode('utf-8','replace')
+              if 'FileDownloadPreparing' in s or 'File API returned' in s:
+                  target=s
+                  print('TARGET',src,'bytes',len(raw))
+                  break
+          if not target: raise SystemExit('target module not found')
+          needles=[
+            'File API returned',
+            'async function ez',
+            'function ez',
+            'downloadUrl',
+            'download_url',
+            '/download',
+            'window.location',
+            'location.href',
+            'files?maxResults',
+            'const f=',
+            'let f=',
+            'var f='
+          ]
+          for n in needles:
+              print('\n===== NEEDLE',n,'=====')
+              for m in list(re.finditer(re.escape(n),target,re.I))[:20]:
+                  a=max(0,m.start()-900); b=min(len(target),m.end()+1800)
+                  print(target[a:b].replace('\n',' '))
+          # Also print all quoted strings containing api/download/shares/files
+          vals=sorted(set(re.findall(r'["\x27]([^"\x27]{1,200})["\x27]',target)))
+          print('\n===== STRINGS =====')
+          for v in vals:
+              if re.search(r'api|download|shares|files',v,re.I):
+                  print(v)
           PY
