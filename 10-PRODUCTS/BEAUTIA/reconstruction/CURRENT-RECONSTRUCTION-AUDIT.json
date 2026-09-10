@@ -7,13 +7,90 @@
     "historical_exact": false
   },
   "demos": [
-    {"demo":"barber","db_name":"beautia_barber","attached_originals":39,"generated_media_files":326,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
-    {"demo":"clinic","db_name":"beautia_clinic","attached_originals":36,"generated_media_files":305,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
-    {"demo":"hair","db_name":"beautia_hair","attached_originals":30,"generated_media_files":256,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
-    {"demo":"lashes","db_name":"beautia_lashes","attached_originals":36,"generated_media_files":304,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
-    {"demo":"makeup","db_name":"beautia_makeup","attached_originals":38,"generated_media_files":320,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
-    {"demo":"nail","db_name":"beautia_nail","attached_originals":30,"generated_media_files":263,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false},
-    {"demo":"spa","db_name":"beautia_spa","attached_originals":40,"generated_media_files":337,"missing_attached_originals":[],"unmapped_sql_image_basenames":[],"status":"valid-current-reconstruction","historical_exact":false}
+    {
+      "demo": "barber",
+      "db_name": "beautia_barber",
+      "home": "http://localhost/beautia/demoes/barber",
+      "sql_sha256": "897e85e15bf82d30b785f3320e3aaf02a553ee92ddf7bb414aa7f6e74d443d65",
+      "attached_originals": 39,
+      "generated_media_files": 326,
+      "unmapped_sql_image_basenames": [],
+      "missing_attached_originals": [],
+      "status": "valid-current-reconstruction",
+      "historical_exact": false
+    },
+    {
+      "demo": "clinic",
+      "db_name": "beautia_clinic",
+      "home": "http://localhost/beautia/demoes/clinic",
+      "sql_sha256": "161adc7afabf587323eb0c81f8f85ee22011f1bda843362ab37c75f39c96795a",
+      "attached_originals": 36,
+      "generated_media_files": 305,
+      "unmapped_sql_image_basenames": [],
+      "missing_attached_originals": [],
+      "status": "valid-current-reconstruction",
+      "historical_exact": false
+    },
+    {
+      "demo": "hair",
+      "db_name": "beautia_hair",
+      "home": "http://localhost/beautia/demoes/hair",
+      "sql_sha256": "0333d949e9f43b949f5d78bcdfec45b1ab7b6467217a386bf9d4c6ebd2beba9d",
+      "attached_originals": 30,
+      "generated_media_files": 256,
+      "unmapped_sql_image_basenames": [],
+      "missing_attached_originals": [],
+      "status": "valid-current-reconstruction",
+      "historical_exact": false
+    },
+    {
+      "demo": "lashes",
+      "db_name": "beautia_lashes",
+      "home": "http://localhost/beautia/demoes/lashes",
+      "sql_sha256": "e51776df2f589a4b793ac4127c653d2f3a70ad307cfda932e43afef5a4bccbfa",
+      "attached_originals": 36,
+      "generated_media_files": 304,
+      "unmapped_sql_image_basenames": [],
+      "missing_attached_originals": [],
+      "status": "valid-current-reconstruction",
+      "historical_exact": false
+    },
+    {
+      "demo": "makeup",
+      "db_name": "beautia_makeup",
+      "home": "http://localhost/beautia/demoes/makeup",
+      "sql_sha256": "b16269c917431acf2a26cb312d518d52eb097070ac43716314f66650d99c23a6",
+      "attached_originals": 38,
+      "generated_media_files": 320,
+      "unmapped_sql_image_basenames": [],
+      "missing_attached_originals": [],
+      "status": "valid-current-reconstruction",
+      "historical_exact": false
+    },
+    {
+      "demo": "nail",
+      "db_name": "beautia_nail",
+      "home": "http://localhost/beautia/demoes/nail",
+      "sql_sha256": "7a650e2844bee18b64b88bed5b99cfeb19b436622d32d628d10e003c496f2ff9",
+      "attached_originals": 30,
+      "generated_media_files": 263,
+      "unmapped_sql_image_basenames": [],
+      "missing_attached_originals": [],
+      "status": "valid-current-reconstruction",
+      "historical_exact": false
+    },
+    {
+      "demo": "spa",
+      "db_name": "beautia_spa",
+      "home": "http://localhost/beautia/demoes/spa",
+      "sql_sha256": "86d1ad8c556c06e1d55d81198ead11fe802d40f915222800ea0aa3a655bcaedd",
+      "attached_originals": 40,
+      "generated_media_files": 337,
+      "unmapped_sql_image_basenames": [],
+      "missing_attached_originals": [],
+      "status": "valid-current-reconstruction",
+      "historical_exact": false
+    }
   ],
   "all_valid": true,
   "all_attached_media_resolved": true,
