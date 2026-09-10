@@ -1,0 +1,22 @@
+name: Probe firestorage download
+
+on:
+  push:
+    paths:
+      - '.github/workflows/probe-firestorage.yml'
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect public share page
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://firestorage.ai/ja/f/9QLDK4hUhMHx'
+          curl -L --fail --silent --show-error -A 'Mozilla/5.0' "$URL" -o /tmp/page.html
+          echo "HTTP page bytes: $(wc -c < /tmp/page.html)"
+          echo '--- candidate links ---'
+          grep -Eo 'https?://[^"[:space:]<>]+|href="[^"]+"|src="[^"]+"' /tmp/page.html | grep -Ei 'download|file|storage|api|9QLDK4hUhMHx|LJ4AoEAfrot9bdsd' | head -100 || true
+          echo '--- scripts mentioning download/file ---'
+          grep -Ein 'download|fileId|file_id|publicId|shareId|9QLDK4hUhMHx|LJ4AoEAfrot9bdsd' /tmp/page.html | head -120 || true
