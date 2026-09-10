@@ -1,0 +1,161 @@
+name: Complete Beautia safe transfer
+
+on:
+  push:
+    paths:
+      - '.github/workflows/beautia-transfer.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  transfer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Download verify reconstruct and commit Beautia
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          python3 - <<'PY'
+          import hashlib, json, pathlib, shutil, subprocess, urllib.request, zipfile, os
+
+          API='https://api.firestorage.ai/dev/file'
+          WORK=pathlib.Path('/tmp/beautia-transfer')
+          WORK.mkdir(parents=True, exist_ok=True)
+
+          artifacts = [
+            {'share':'Rd74ZU3GM-nz','name':'beautia-databases-sanitized.zip','size':212850,'sha256':'a61a6c07552b28a3d8fec7a6e47ff278da6a28460db5c560222feaa9d08108bc'},
+            {'share':'UFa24OzR-qUY','name':'FULL-FILE-MANIFEST.csv','size':3725515,'sha256':'880646d1901b276860d1fcb61c43827868a6d557a89e680b2981a31b05700675'},
+            {'share':'69fxPfUMNt4a','name':'beautia-docs-complete.zip','size':484251,'sha256':'6e715a5c9189e306e65bf2995261cdb27c7ab010f44d77ea90e5dca7448f0a64'},
+            {'share':'hAqOeX3ZXQam','name':'beautia-source-current.zip','size':50064947,'sha256':'1f5b957a5f3540d266edf4b313c2be88806ae3509bf09cabb71685537b247fce'},
+            {'share':'ypU2LpH_MQ1k','name':'beautia-nail-sanitized.part-001.bin','size':57671680,'sha256':'d4031a78f07cc43fc83bb805f49223eb5fa18c1405af817a0ad7c8e7ee4b87e8'},
+            {'share':'ZFmxGMMVvor0','name':'beautia-nail-sanitized.part-002.bin','size':51292814,'sha256':'a647bb20990aba6d7ec86892f1645a80a56544b3af03549fe22c1c0cade505f7'},
+          ]
+
+          def jreq(url, method='GET'):
+              req=urllib.request.Request(url, data=(b'' if method=='POST' else None), method=method,
+                                         headers={'User-Agent':'github-actions/beautia-transfer'})
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  return json.loads(r.read().decode())
+
+          def download(item):
+              listing=jreq(f"{API}/shares/{item['share']}/files?maxResults=1000")
+              files=listing.get('files') or []
+              meta=next((x for x in files if x.get('fileName')==item['name']), None)
+              if not meta:
+                  raise SystemExit(f"MISSING {item['name']} in share {item['share']}")
+              ticket=jreq(f"{API}/shares/{item['share']}/files/{meta['fileId']}/download", 'POST')
+              url=ticket.get('downloadUrl')
+              if not url: raise SystemExit(f"NO DOWNLOAD URL {item['name']}")
+              target=WORK/item['name']
+              h=hashlib.sha256(); size=0
+              req=urllib.request.Request(url,headers={'User-Agent':'github-actions/beautia-transfer'})
+              with urllib.request.urlopen(req, timeout=300) as r, target.open('wb') as out:
+                  while True:
+                      b=r.read(1024*1024)
+                      if not b: break
+                      out.write(b); h.update(b); size+=len(b)
+              digest=h.hexdigest()
+              print(f"VERIFY {item['name']} size={size} sha256={digest}")
+              if size != item['size'] or digest != item['sha256']:
+                  raise SystemExit(f"VERIFY FAILED {item['name']}")
+              return target
+
+          paths={x['name']:download(x) for x in artifacts}
+
+          # Reconstruct sanitized full Nail archive from two verified parts.
+          nail=WORK/'beautia-nail-sanitized.zip'
+          with nail.open('wb') as out:
+              for name in ['beautia-nail-sanitized.part-001.bin','beautia-nail-sanitized.part-002.bin']:
+                  with paths[name].open('rb') as f:
+                      shutil.copyfileobj(f,out)
+          nail_size=nail.stat().st_size
+          nail_sha=hashlib.sha256(nail.read_bytes()).hexdigest()
+          print(f"VERIFY reconstructed Nail size={nail_size} sha256={nail_sha}")
+          if nail_size != 108964494 or nail_sha != '8d1d680f8636d2fc784d41b4f0b72c1ca088a2079b811e6c21e73b660b95e609':
+              raise SystemExit('Nail reconstruction verification failed')
+          with zipfile.ZipFile(nail) as z:
+              bad=z.testzip()
+              if bad: raise SystemExit(f'Nail ZIP CRC failed: {bad}')
+              if 'nail/wp-config.php' not in z.namelist():
+                  raise SystemExit('Sanitized Nail missing wp-config.php')
+              cfg=z.read('nail/wp-config.php').decode('utf-8','replace')
+              if 'put-your-unique-phrase-here' not in cfg:
+                  raise SystemExit('Nail wp-config sanitization marker missing')
+          print('Nail ZIP integrity + sanitization marker VERIFIED')
+
+          repo=pathlib.Path('.')
+          beautia=repo/'10-PRODUCTS/BEAUTIA'
+          archives=beautia/'archives'
+          docs=beautia/'docs'
+          source=beautia/'source'
+          archives.mkdir(parents=True,exist_ok=True)
+          docs.mkdir(parents=True,exist_ok=True)
+
+          # Preserve complete verified safe archives.
+          shutil.copy2(paths['beautia-databases-sanitized.zip'], archives/'beautia-databases-sanitized.zip')
+          shutil.copy2(paths['beautia-source-current.zip'], archives/'beautia-source-current.zip')
+          shutil.copy2(nail, archives/'beautia-nail-sanitized.zip')
+          shutil.copy2(paths['beautia-docs-complete.zip'], beautia/'beautia-docs-complete.zip')
+          shutil.copy2(paths['FULL-FILE-MANIFEST.csv'], docs/'FULL-FILE-MANIFEST.csv')
+
+          # Replace incomplete source subset with current complete editable source.
+          if source.exists(): shutil.rmtree(source)
+          source.mkdir(parents=True)
+          with zipfile.ZipFile(paths['beautia-source-current.zip']) as z:
+              z.extractall(source)
+
+          # Count and integrity-check extracted source.
+          source_files=[p for p in source.rglob('*') if p.is_file()]
+          print('EXTRACTED SOURCE FILE COUNT',len(source_files))
+          if len(source_files) < 292:
+              raise SystemExit(f'Expected >=292 source files, got {len(source_files)}')
+
+          # Write an exact public transfer manifest.
+          transfer_manifest={
+            'generated_by':'GitHub Actions from verified sanitized transfer artifacts',
+            'security_note':'Raw wp-config secrets, login hashes, OTP transients and SMS runtime logs are intentionally excluded/sanitized for the public repository.',
+            'artifacts':{
+              'beautia-nail-sanitized.zip':{'size':108964494,'sha256':'8d1d680f8636d2fc784d41b4f0b72c1ca088a2079b811e6c21e73b660b95e609','status':'verified'},
+              'beautia-source-current.zip':{'size':50064947,'sha256':'1f5b957a5f3540d266edf4b313c2be88806ae3509bf09cabb71685537b247fce','status':'verified'},
+              'beautia-databases-sanitized.zip':{'size':212850,'sha256':'a61a6c07552b28a3d8fec7a6e47ff278da6a28460db5c560222feaa9d08108bc','status':'verified'},
+              'beautia-docs-complete.zip':{'size':484251,'sha256':'6e715a5c9189e306e65bf2995261cdb27c7ab010f44d77ea90e5dca7448f0a64','status':'verified'},
+              'FULL-FILE-MANIFEST.csv':{'size':3725515,'sha256':'880646d1901b276860d1fcb61c43827868a6d557a89e680b2981a31b05700675','status':'verified'}
+            },
+            'editable_source_file_count':len(source_files),
+            'known_missing_exact_live_archives':[
+              'beautia-root-complete.zip',
+              'beautia-demo-clinic-complete.zip',
+              'beautia-demo-hair-complete.zip',
+              'beautia-demo-spa-complete.zip',
+              'beautia-demo-lashes-complete.zip',
+              'beautia-demo-makeup-complete.zip',
+              'beautia-demo-barber-complete.zip'
+            ],
+            'missing_note':'These exact historical/live archives are referenced by the project upload manifest but are not byte-accessible in the current File Library/Drive/tool bridge. Do not fabricate them. Current editable shared source + sanitized seven-database archive + sanitized Nail live install are transferred.'
+          }
+          (beautia/'BEAUTIA-TRANSFER-MANIFEST.json').write_text(json.dumps(transfer_manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+
+          # Prevent accidental publication of raw credentials if anything unexpected appeared.
+          forbidden=[]
+          for p in source_files:
+              if p.name.lower()=='wp-config.php':
+                  forbidden.append(str(p))
+          if forbidden:
+              raise SystemExit('Unexpected wp-config.php in editable source: '+','.join(forbidden))
+
+          subprocess.run(['git','add','--','10-PRODUCTS/BEAUTIA'],check=True)
+          subprocess.run(['git','status','--short','10-PRODUCTS/BEAUTIA'],check=True)
+          subprocess.run(['git','commit','-m','Complete verified safe Beautia source and archive transfer'],check=True)
+          subprocess.run(['git','push'],check=True)
+          print('BEAUTIA SAFE TRANSFER PUSHED')
+          PY
