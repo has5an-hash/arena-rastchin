@@ -91,5 +91,37 @@
   ],
   "current_arena_handoff_complete": true,
   "historical_archive_set_complete": false,
-  "missing_note": "Exact historical/root + six non-Nail live archives remain unavailable as original bytes. Do not fabricate or label reconstructed-current runtimes as historical exact."
+  "missing_note": "Exact historical/root + six non-Nail live archives remain unavailable as original bytes. Do not fabricate or label reconstructed-current runtimes as historical exact.",
+  "exact_source_originals": {
+    "path": "10-PRODUCTS/BEAUTIA/source-originals/",
+    "files": {
+      "PROJECT-HANDOFF-FA.md": {
+        "size": 38758,
+        "sha256": "af6ab70188323dc8492df28b448ac2e69f3b9261b96d9c9caef5f904e5379734",
+        "exact": true
+      },
+      "QA-AUDITS-CONSOLIDATED.json": {
+        "size": 46529,
+        "sha256": "7de1814c24556b28ded67ce246310f3a7502c13f888ab606a4ba13bf3b9438db",
+        "exact": true
+      },
+      "راهنمای-فنی-کامل.md": {
+        "size": 20147,
+        "sha256": "137a7ac0260ae6fd326c8cc3ed3c7e683cbf48ecd3be4fbfebc3afaf1d10e2bf",
+        "exact": true
+      }
+    }
+  },
+  "raw_original_archives_excluded_from_public_repo": {
+    "nail.zip": {
+      "size": 108941549,
+      "sha256": "7735164ef362edb2730b62a3e19c8eef0876eb5b466b9774e6a6e9ec07f9e413",
+      "reason": "contains live WordPress AUTH/SECURE_AUTH/LOGGED_IN/NONCE salts/keys"
+    },
+    "beautia-databases.zip": {
+      "size": 269973,
+      "sha256": "8b3378f832cb6c710355ed17c59b85a5e783af20846bb16977e87d3482a4992c",
+      "reason": "contains password hashes, transient/OTP data and beautia_sms_log runtime data"
+    }
+  }
 }
