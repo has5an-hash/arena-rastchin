@@ -9,14 +9,23 @@ jobs:
   probe:
     runs-on: ubuntu-latest
     steps:
-      - name: Inspect public share page
+      - name: Inspect firestorage client bundle
         shell: bash
         run: |
           set -euo pipefail
-          URL='https://firestorage.ai/ja/f/9QLDK4hUhMHx'
-          curl -L --fail --silent --show-error -A 'Mozilla/5.0' "$URL" -o /tmp/page.html
-          echo "HTTP page bytes: $(wc -c < /tmp/page.html)"
-          echo '--- candidate links ---'
-          grep -Eo 'https?://[^"[:space:]<>]+|href="[^"]+"|src="[^"]+"' /tmp/page.html | grep -Ei 'download|file|storage|api|9QLDK4hUhMHx|LJ4AoEAfrot9bdsd' | head -100 || true
-          echo '--- scripts mentioning download/file ---'
-          grep -Ein 'download|fileId|file_id|publicId|shareId|9QLDK4hUhMHx|LJ4AoEAfrot9bdsd' /tmp/page.html | head -120 || true
+          BASE='https://firestorage.ai'
+          JS='/_next/static/chunks/app/(files)/ja/f/page-4d19ae0a4ce39d79.js'
+          curl -L --fail --silent --show-error -A 'Mozilla/5.0' "$BASE$JS" -o /tmp/page.js
+          echo "JS bytes: $(wc -c < /tmp/page.js)"
+          echo '--- API/download candidates ---'
+          grep -Eo 'https?://[^"'''[:space:]<>]+|/[A-Za-z0-9_?=&./{}:-]{4,}' /tmp/page.js | grep -Ei 'api|download|share|file|presign|signed|storage' | sort -u | head -200 || true
+          echo '--- context ---'
+          python3 - <<'PY'
+          import re
+          s=open('/tmp/page.js','r',encoding='utf-8',errors='ignore').read()
+          for pat in ['download','api/','shareId','publicId','signed','presign','fileId','share']:
+              print('\n###',pat)
+              for m in list(re.finditer(pat,s,re.I))[:30]:
+                  a=max(0,m.start()-300); b=min(len(s),m.end()+500)
+                  print(s[a:b].replace('\n',' '))
+          PY
