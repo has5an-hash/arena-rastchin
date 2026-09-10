@@ -1,20 +1,35 @@
-# فایل‌های حجیم آماده ولی در انتظار Sync با Git LFS
+# وضعیت فایل‌های حجیم پس از انتقال
 
-اتصال GitHub این نشست برای فایل باینری محلی پارامتر Upload/LFS ندارد؛ بنابراین فایل‌های زیر روی Runtime آماده/بررسی شده‌اند اما **نباید وانمود شود داخل GitHub آپلود شده‌اند**. Arena یا یک Git client دارای Git LFS باید آن‌ها را Sync کند.
+آخرین به‌روزرسانی: 2026-09-10
 
-## منابع رسمی راست‌چین
-- `02-RTL-THEME-OFFICIAL/ویدیوی آموزش کامل تمام نکات مهم برای فروشندگی افزونه و قالب در راستچین.mp4` — حدود 90MB.
-- `02-RTL-THEME-OFFICIAL/راهنمای لایسنس گذاری راستچین.webm` — حدود 58MB.
-- `02-RTL-THEME-OFFICIAL/مرجع-ویدیوهای-راستچین.zip` — حدود 57MB.
-- `02-RTL-THEME-OFFICIAL/استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx` — نسخه DOCX مرجع.
+## منتقل‌شده و Verify شده
 
-## بیوتیا
-- `10-PRODUCTS/BEAUTIA/archives/beautia-nail-sanitized.zip` — حدود 104MB؛ wp-config saltها با placeholder جایگزین شده‌اند.
-- `10-PRODUCTS/BEAUTIA/archives/beautia-source-code.zip` — 336,718 bytes؛ SHA-256: `fb1eea31e1c78b3294b736bc3c6f20befcb5c3e5fc3f2f3f2c5842b2a4424890`.
-- `10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip` — 267,194 bytes؛ SHA-256: `89e5743ad086850505ad4e1db52992f3defc69bcc301fce2ae28e8348e164416`.
-- `10-PRODUCTS/BEAUTIA/beautia-docs-complete.zip` و manifest فشرده تکمیلی.
+### منابع رسمی راست‌چین
+- `02-RTL-THEME-OFFICIAL/ویدیوی آموزش کامل تمام نکات مهم برای فروشندگی افزونه و قالب در راستچین.mp4` — Git LFS، SHA-256 تأیید شده.
+- `02-RTL-THEME-OFFICIAL/راهنمای لایسنس گذاری راستچین.webm` — Git LFS، SHA-256 تأیید شده.
+- `02-RTL-THEME-OFFICIAL/مرجع-ویدیوهای-راستچین.zip` — Git LFS، SHA-256 تأیید شده.
+- فایل MD و DOCX استانداردهای انتشار نیز موجود هستند.
 
-## بسته متنی یکپارچه
-- `arena-rastchin-text-assets.tar.gz` — حدود 1.4MB؛ شامل 174 فایل متنی: دستورالعمل‌ها/اسناد، کل سورس متنی قابل استخراج بیوتیا و SQLهای sanitize‌شده. SHA-256: `91198962acd6157404647af474bb2df45a7d185303ee11e2eb2a0e350f4f9cde`.
+### بیوتیا
+- `10-PRODUCTS/BEAUTIA/archives/beautia-nail-sanitized.zip` — 108,964,494 bytes، SHA-256: `8d1d680f8636d2fc784d41b4f0b72c1ca088a2079b811e6c21e73b660b95e609`.
+- `10-PRODUCTS/BEAUTIA/archives/beautia-source-current.zip` — 50,064,947 bytes، SHA-256: `1f5b957a5f3540d266edf4b313c2be88806ae3509bf09cabb71685537b247fce`.
+- `10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip` — 212,850 bytes، SHA-256: `a61a6c07552b28a3d8fec7a6e47ff278da6a28460db5c560222feaa9d08108bc`.
+- `10-PRODUCTS/BEAUTIA/beautia-docs-complete.zip` — 484,251 bytes، SHA-256: `6e715a5c9189e306e65bf2995261cdb27c7ab010f44d77ea90e5dca7448f0a64`.
+- `10-PRODUCTS/BEAUTIA/docs/FULL-FILE-MANIFEST.csv` — 3,725,515 bytes، SHA-256: `880646d1901b276860d1fcb61c43827868a6d557a89e680b2981a31b05700675`.
+- سورس قابل‌ویرایش فعلی نیز در `10-PRODUCTS/BEAUTIA/source/` با 293 فایل قرار دارد.
 
-قانون: فایل‌های اصل حساس در `98-PRIVATE-LOCAL-ONLY/` عمداً از Repository عمومی حذف شده‌اند.
+## امنیت نسخه Public
+نسخه خام `nail.zip` و دیتابیس خام عمداً Public نشده‌اند. salt/keyهای wp-config، hash ورود، OTP transientها و SMS runtime log از نسخه انتقالی حذف/خنثی شده‌اند.
+
+## آرشیوهای exact قدیمی که بایت آن‌ها در ابزار فعلی در دسترس نیست
+- `beautia-root-complete.zip`
+- `beautia-demo-clinic-complete.zip`
+- `beautia-demo-hair-complete.zip`
+- `beautia-demo-spa-complete.zip`
+- `beautia-demo-lashes-complete.zip`
+- `beautia-demo-makeup-complete.zip`
+- `beautia-demo-barber-complete.zip`
+
+وجود نام این فایل‌ها در `UPLOAD-MANIFEST-FA.md` نشان می‌دهد قبلاً در Sources پروژه ثبت شده بودند، اما در این نشست بایت فایل‌ها از File Library/Drive قابل دریافت نیست. این فایل‌ها نباید حدس زده یا با بسته ساختگی جایگزین شوند.
+
+برای ادامه توسعه Arena، سورس کامل فعلی + دیتابیس‌های sanitize‌شده هفت دمو + Nail زنده sanitize‌شده + اسناد و Full File Manifest اکنون در Repo موجود است.
