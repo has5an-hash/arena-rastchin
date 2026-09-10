@@ -1,0 +1,27 @@
+/* ---- Demo: Aesthetic & Medical Clinic — clean, clinical, trustworthy ---- */
+.demo-clinic{
+  --c-accent:#2F9C95;
+  --c-accent-2:#7FC8C3;
+  --c-dark:#10262B;
+  --c-body:#5C7078;
+  --c-bg:#FFFFFF;
+  --c-soft:#EEF7F6;
+  --c-line:rgba(16,38,43,.10);
+  --grad:linear-gradient(120deg,#2F9C95,#4FB3AB 60%,#7FC8C3);
+  --grad-soft:linear-gradient(180deg,#F4FBFA,#fff);
+  --font-display:"Jost","Segoe UI",system-ui,sans-serif;
+  --r-md:12px;--r-lg:18px;--r-xl:24px;--r-pill:8px;
+}
+.demo-clinic h1,.demo-clinic h2,.demo-clinic h3{font-weight:600;letter-spacing:-.02em}
+.demo-clinic .btn{border-radius:10px}
+.demo-clinic .icon-btn,.demo-clinic .dp-prev,.demo-clinic .dp-next,.demo-clinic .slider-prev,.demo-clinic .slider-next{border-radius:12px}
+.demo-clinic .service-card,.demo-clinic .feature,.demo-clinic .quote-card{border:1px solid var(--c-line);box-shadow:none}
+.demo-clinic .service-card:hover{box-shadow:0 20px 40px -26px rgba(47,156,149,.6);transform:translateY(-5px)}
+.demo-clinic .eyebrow{letter-spacing:.16em}
+.demo-clinic .hero-veil{background:linear-gradient(100deg,rgba(255,255,255,.97) 12%,rgba(255,255,255,.85) 42%,rgba(238,247,246,.2) 72%,transparent)}
+.demo-clinic .feature-ico{border-radius:12px}
+.demo-clinic .staff-photo{border-radius:16px}
+.demo-clinic .stats{background:#10262B}
+.demo-clinic .marquee{background:#10262B}
+.demo-clinic .badge-sms{color:#2F9C95}
+.demo-clinic .cta-band{background:linear-gradient(120deg,#10262B,#2F9C95)}

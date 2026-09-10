@@ -1,0 +1,42 @@
+{
+  "generated_by": "GitHub Actions from verified sanitized transfer artifacts",
+  "security_note": "Raw wp-config secrets, login hashes, OTP transients and SMS runtime logs are intentionally excluded/sanitized for the public repository.",
+  "artifacts": {
+    "beautia-nail-sanitized.zip": {
+      "size": 108964494,
+      "sha256": "8d1d680f8636d2fc784d41b4f0b72c1ca088a2079b811e6c21e73b660b95e609",
+      "status": "verified"
+    },
+    "beautia-source-current.zip": {
+      "size": 50064947,
+      "sha256": "1f5b957a5f3540d266edf4b313c2be88806ae3509bf09cabb71685537b247fce",
+      "status": "verified"
+    },
+    "beautia-databases-sanitized.zip": {
+      "size": 212850,
+      "sha256": "a61a6c07552b28a3d8fec7a6e47ff278da6a28460db5c560222feaa9d08108bc",
+      "status": "verified"
+    },
+    "beautia-docs-complete.zip": {
+      "size": 484251,
+      "sha256": "6e715a5c9189e306e65bf2995261cdb27c7ab010f44d77ea90e5dca7448f0a64",
+      "status": "verified"
+    },
+    "FULL-FILE-MANIFEST.csv": {
+      "size": 3725515,
+      "sha256": "880646d1901b276860d1fcb61c43827868a6d557a89e680b2981a31b05700675",
+      "status": "verified"
+    }
+  },
+  "editable_source_file_count": 293,
+  "known_missing_exact_live_archives": [
+    "beautia-root-complete.zip",
+    "beautia-demo-clinic-complete.zip",
+    "beautia-demo-hair-complete.zip",
+    "beautia-demo-spa-complete.zip",
+    "beautia-demo-lashes-complete.zip",
+    "beautia-demo-makeup-complete.zip",
+    "beautia-demo-barber-complete.zip"
+  ],
+  "missing_note": "These exact historical/live archives are referenced by the project upload manifest but are not byte-accessible in the current File Library/Drive/tool bridge. Do not fabricate them. Current editable shared source + sanitized seven-database archive + sanitized Nail live install are transferred."
+}

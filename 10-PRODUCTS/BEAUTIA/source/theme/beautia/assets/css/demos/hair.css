@@ -1,0 +1,36 @@
+/* ---- Demo: Hair Salon — dark editorial with champagne gold ---- */
+.demo-hair{
+  --c-accent:#C6A15B;
+  --c-accent-2:#E3C88E;
+  --c-dark:#F6F2EC;      /* headings are light on dark */
+  --c-body:#B4ABA0;
+  --c-bg:#14110F;
+  --c-soft:#1D1917;
+  --c-line:rgba(246,242,236,.12);
+  --grad:linear-gradient(120deg,#C6A15B,#E3C88E);
+  --grad-soft:linear-gradient(180deg,#1D1917,#14110F);
+  --r-lg:4px;--r-md:4px;--r-sm:2px;--r-xl:6px;--r-pill:2px;
+}
+.demo-hair{background:#14110F;color:#B4ABA0}
+.demo-hair .site-header{background:#14110F;border-bottom-color:rgba(246,242,236,.1)}
+.demo-hair .site-header.is-scrolled{background:rgba(20,17,15,.9)}
+.demo-hair .topbar{background:#0D0B0A}
+.demo-hair .service-card,.demo-hair .feature,.demo-hair .quote-card,.demo-hair .price-card,
+.demo-hair .quick-book,.demo-hair .wizard-body,.demo-hair .auth-card,.demo-hair .account-content,
+.demo-hair .account-nav,.demo-hair .post-card,.demo-hair .booking-box{background:#1D1917;border-color:rgba(246,242,236,.1);color:#B4ABA0}
+.demo-hair input,.demo-hair select,.demo-hair textarea{background:#14110F;border-color:rgba(246,242,236,.14);color:#F6F2EC}
+.demo-hair .hero-veil{background:linear-gradient(100deg,rgba(20,17,15,.94) 10%,rgba(20,17,15,.7) 45%,rgba(20,17,15,.15) 75%,transparent)}
+.demo-hair .btn-ghost{color:#F6F2EC;border-color:rgba(246,242,236,.25)}
+.demo-hair .btn-ghost::after{background:#C6A15B}
+.demo-hair h1,.demo-hair h2,.demo-hair h3,.demo-hair h4{font-weight:400;letter-spacing:.01em}
+.demo-hair .sec-title{text-transform:uppercase;letter-spacing:.06em;font-size:clamp(1.7rem,3vw,2.6rem)}
+.demo-hair .eyebrow{letter-spacing:.34em}
+.demo-hair .stats{background:#0D0B0A}
+.demo-hair .site-footer{background:#0D0B0A}
+.demo-hair .services,.demo-hair .testimonials{background:linear-gradient(180deg,#1D1917,#14110F)}
+.demo-hair .marquee{background:#C6A15B}
+.demo-hair .marquee-item{color:#14110F}
+.demo-hair .marquee-item svg{color:#14110F}
+.demo-hair .service-media img,.demo-hair .folio img{filter:grayscale(.35) contrast(1.05)}
+.demo-hair .service-card:hover .service-media img,.demo-hair .folio:hover img{filter:none}
+.demo-hair .page-hero{background:linear-gradient(180deg,#1D1917,#14110F)}

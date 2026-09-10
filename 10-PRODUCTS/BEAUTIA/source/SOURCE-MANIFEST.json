@@ -1,0 +1,1466 @@
+{
+  "source": "nail.zip current available live install",
+  "file_count": 292,
+  "files": [
+    {
+      "path": "plugin/beautia-core/beautia-core.php",
+      "size": 2610,
+      "sha256": "9b48de0a829a1f126c892fded1cbe26c8464f1595de9a43cdd77240f327d9304"
+    },
+    {
+      "path": "plugin/beautia-core/includes/blocks.php",
+      "size": 3702,
+      "sha256": "e3c59e8b5990a4e1260838492a5ebaa79e9a91f4aa7d5a0d83d7ca7b1b1bfa63"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-account.php",
+      "size": 6005,
+      "sha256": "85c00cd8bd5f8b905c90a4eca783fc4ae597986aa2c712e08e9daa4522d0013f"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-admin.php",
+      "size": 32719,
+      "sha256": "88160da9afdbbb86e2606bdadf4aadbab79f2608e14f1ecb0016eb782f27809b"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-booking.php",
+      "size": 35661,
+      "sha256": "80d845d3a07db59c89a01c13478a7adb8ef962f5cd855d7c35e68605b2ef98a2"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-core-demo-packages.php",
+      "size": 6461,
+      "sha256": "620e35590aa2368e7e104907a64b429e40ae3e7bdc5413eedb9174013b52f10f"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-cpt.php",
+      "size": 5271,
+      "sha256": "e4cf5d58af6a390e2c4199b083f81e1812daad43a948b82d7f07cf591484f54b"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-demo-importer.php",
+      "size": 11918,
+      "sha256": "8541307286deddf8828f30e28e34b0d99f85bf083e39c1460281821e65196f42"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-elementor.php",
+      "size": 7485,
+      "sha256": "27ec766840f9208326a2dbd9042ed5980e018abc00748da9cec62dd5cb94f3b4"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-metaboxes.php",
+      "size": 10660,
+      "sha256": "4d94b9fddb7b597dcdd3c4b7b98ebdea4d6e1ab2bed667e350c439ab01f9fb4c"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-otp.php",
+      "size": 11364,
+      "sha256": "dbed741be22a60f3c6d7775af53563c5bb045b6a0c90c26c1cc5c8e8bbdd5966"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-rest.php",
+      "size": 5530,
+      "sha256": "5072f48f93f717d16ff4f8412ce73b15c7ce2c638c064721faad264fd7fc8255"
+    },
+    {
+      "path": "plugin/beautia-core/includes/class-beautia-sms.php",
+      "size": 14720,
+      "sha256": "48ddaceda4222669b56314ee711ce1b6a7eee50a187bd3f16875f87acbd34528"
+    },
+    {
+      "path": "plugin/beautia-core/includes/live-chat.php",
+      "size": 8424,
+      "sha256": "d81040d79cf0e9318960cf1406e40b3351321c787a807c6d0086c99d7fc14a66"
+    },
+    {
+      "path": "plugin/beautia-core/includes/shortcodes-plus.php",
+      "size": 9655,
+      "sha256": "1fab6a671809434f6baa384e9795eab29145eccf4d2d63e765bb875602dd0e48"
+    },
+    {
+      "path": "plugin/beautia-core/includes/shortcodes.php",
+      "size": 5095,
+      "sha256": "ec2ac973a04390a10dac28c449cf6417e4527dc2a80a07db6ca096b38583634e"
+    },
+    {
+      "path": "plugin/beautia-core/readme.txt",
+      "size": 439,
+      "sha256": "18e97ecd276e651db2e6a86fcf9326b7ffd89134dcd3c97261d7439504544783"
+    },
+    {
+      "path": "theme/beautia/404.php",
+      "size": 754,
+      "sha256": "266f20b182deb986e7771a4e28771ef15e08ad4d24f0310ea05d6e3f42bc6a9f"
+    },
+    {
+      "path": "theme/beautia/README.md",
+      "size": 19316,
+      "sha256": "557fd93d4ed3212edec5aeece78026992712b355312d9c86c35726e9cdce5517"
+    },
+    {
+      "path": "theme/beautia/archive-beautia_portfolio.php",
+      "size": 410,
+      "sha256": "68a9f4645f0857e76fd787e3e748d9003d87b064a2066ad1a4057659a5f64ae7"
+    },
+    {
+      "path": "theme/beautia/archive-beautia_service.php",
+      "size": 7141,
+      "sha256": "4381744b2d2cc51927081b32809b8098b469ae57f858c4c76bf2bc7711ab9a4e"
+    },
+    {
+      "path": "theme/beautia/archive-beautia_staff.php",
+      "size": 2257,
+      "sha256": "8ead65a304df347319409d35b74de682e4016b52483ae3e4acad2695ea91a2a9"
+    },
+    {
+      "path": "theme/beautia/archive.php",
+      "size": 700,
+      "sha256": "deb2b163e9207fb21ac6c77b24d863413e0a057feb6fb7f35e5d73fc96abbe93"
+    },
+    {
+      "path": "theme/beautia/assets/css/admin.css",
+      "size": 4538,
+      "sha256": "6df259d504c7ada86b78d5f8e0efaa4943f2457aef39159058936e0966f072e7"
+    },
+    {
+      "path": "theme/beautia/assets/css/beautia.css",
+      "size": 49674,
+      "sha256": "aac572e27d5f7fb78afbfadc5c711e81df60ded46c5f032d5fdac3a57d339473"
+    },
+    {
+      "path": "theme/beautia/assets/css/collection-hub.css",
+      "size": 12011,
+      "sha256": "e54f3838be20a0823c9eb7c35aac4634ca8462f5e3834d9598f70922469dd157"
+    },
+    {
+      "path": "theme/beautia/assets/css/collection-responsive.css",
+      "size": 8545,
+      "sha256": "3a30cff350742a4457081e2f534228d66e26309685f63116d0cf4c588a2d2986"
+    },
+    {
+      "path": "theme/beautia/assets/css/collection.css",
+      "size": 12955,
+      "sha256": "1091d16018c482a253ba1404db19945047e1b3bee61b79737a2ad371aed2df1c"
+    },
+    {
+      "path": "theme/beautia/assets/css/dark.css",
+      "size": 7230,
+      "sha256": "310c737cffdcbfc0eabd981a58992b1144be91b3f5341d7f7d7b67a95b09fb42"
+    },
+    {
+      "path": "theme/beautia/assets/css/demo-identities.css",
+      "size": 18287,
+      "sha256": "d3568e8cdbe839c9792ff7fdb62e86dfb8861f2872f6f0b7f03e8c6c88cf2590"
+    },
+    {
+      "path": "theme/beautia/assets/css/demos/barber.css",
+      "size": 3675,
+      "sha256": "9fd2d9da64ad1c781b7b4a807a9a8e1a81dc6cc4e0b1ffa7fb6281e0beeef0fd"
+    },
+    {
+      "path": "theme/beautia/assets/css/demos/clinic.css",
+      "size": 1453,
+      "sha256": "e21227ba113d585ef0675a3f1bfc346a0c5da3eaa7eb32aad3d724706afa0300"
+    },
+    {
+      "path": "theme/beautia/assets/css/demos/hair.css",
+      "size": 2192,
+      "sha256": "7bd90c0062004f00b60fb0002df2fd56aa4c5023e0b39fd41ab4465ccb7ea761"
+    },
+    {
+      "path": "theme/beautia/assets/css/demos/lashes.css",
+      "size": 946,
+      "sha256": "98d73c7e5a4ad7c80716ceeeed83839b8345e3749d1741d94e3ccee6569e80cc"
+    },
+    {
+      "path": "theme/beautia/assets/css/demos/makeup.css",
+      "size": 1622,
+      "sha256": "a1c86aed18f5f9723e82564655ac636e40db7161ddc8308558f4dd5417eda880"
+    },
+    {
+      "path": "theme/beautia/assets/css/demos/nails.css",
+      "size": 1907,
+      "sha256": "41a88dfcc2f2029f24f27ebe2e9a5ea92b209b464c3347a6f10251a762a33247"
+    },
+    {
+      "path": "theme/beautia/assets/css/demos/spa.css",
+      "size": 1096,
+      "sha256": "3fe2895c8074a179e1d1e615252351088f1528725a68dfa764f7042d0daddcfa"
+    },
+    {
+      "path": "theme/beautia/assets/css/editor.css",
+      "size": 2127,
+      "sha256": "9c5e7ad1fe57444ae8562fe63f778a9874a982f263f4be0a60c6ce2e80fb1050"
+    },
+    {
+      "path": "theme/beautia/assets/css/fonts.css",
+      "size": 4033,
+      "sha256": "a0a196b0b600c74401ea43e520b55ecb0e0fa0191d25cba5a27a7f0e16a7ff5a"
+    },
+    {
+      "path": "theme/beautia/assets/css/glam-refinement.css",
+      "size": 7667,
+      "sha256": "bbfdc3ef051b4b4c37a4e756eaad7f898f59bc800c56174bdfb7b35285eaaabc"
+    },
+    {
+      "path": "theme/beautia/assets/css/icons.css",
+      "size": 383,
+      "sha256": "d502a5cf12110d89fc21440c1bde394927296844f47534f7c155082b00f4a26f"
+    },
+    {
+      "path": "theme/beautia/assets/css/live-chat.css",
+      "size": 2845,
+      "sha256": "2d0ed5845653e92b9e335088c8bce6c5a0cfb40feefd19fdd7389799d5ce070f"
+    },
+    {
+      "path": "theme/beautia/assets/css/pastel-studio.css",
+      "size": 8044,
+      "sha256": "9ad58183fa553e65f4a81a03185aabacac70c793eb090cf22142b9f0efeaa4ef"
+    },
+    {
+      "path": "theme/beautia/assets/css/polish.css",
+      "size": 63308,
+      "sha256": "4c22e57c45158bd25fe9ebcb1728c9901cccb8335734262b5021493d4682dcdc"
+    },
+    {
+      "path": "theme/beautia/assets/css/reference-luxury.css",
+      "size": 22283,
+      "sha256": "a0232b53e6d4f1fe9067bd8895f79837b2f2bb75c706762cd265e91fcf841c76"
+    },
+    {
+      "path": "theme/beautia/assets/css/rtl.css",
+      "size": 4114,
+      "sha256": "640e1226b900d969d0630040b0e4342e174be5b5ebcc0c0e2f622f8e9f782c27"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Gandom-LICENSE.txt",
+      "size": 4461,
+      "sha256": "e27a6199d81fd87090a5dd6039de591c0fcea6f691e90064d41b4ffc54f84a6b"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Gandom.woff2",
+      "size": 45152,
+      "sha256": "8fa22a2b857613e7416e383707fad3ac9d6cbecf24d7257e996797ab90544be7"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Lalezar-400.woff2",
+      "size": 57296,
+      "sha256": "222f4d74bcead1b44a0a6f55725f1c83cb1063b82fc627807403352f761d5b32"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/MarkaziText-500.woff2",
+      "size": 22376,
+      "sha256": "9886432aaab773d74fb0b15fd771b3c571d5db2094314993db5ecf0916e33ad5"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/MarkaziText-700.woff2",
+      "size": 21224,
+      "sha256": "9e6e7bae8c339b1b646500f78a634ead99e3efee38cbaec750ff206ef76683f9"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Sahel-Bold.woff2",
+      "size": 35996,
+      "sha256": "162c05c4a6c2e975b07390f923425bb5e170e00c8bd3deccd784f6cb4326d289"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Sahel-LICENSE.txt",
+      "size": 4518,
+      "sha256": "4de56cc5fc458113a5704ec4d850191e640396008a6e45ff2a70d67ea6c5c74f"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Sahel-SemiBold.woff2",
+      "size": 35864,
+      "sha256": "6e6a49a9c1d148c3679b60f1144e05cf5651838df6362a04a463ce35556bade0"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Sahel.woff2",
+      "size": 35408,
+      "sha256": "df74c625136d60e981abbd32cc75624007e5b36cc41cc5327dff190d22b21772"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Vazirmatn-300.woff2",
+      "size": 51180,
+      "sha256": "a3aa104f9a256734ca6769e017b4a2697c3036221e13758e0995a0cbeea969c4"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Vazirmatn-400.woff2",
+      "size": 50684,
+      "sha256": "e382101336c6eb32cfb31381c027d02d2e0354bad08f6a395d4088beb3db3d91"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Vazirmatn-500.woff2",
+      "size": 51128,
+      "sha256": "3333e31188a2b628db8780ca22fd5aad85bc083ccee9beb8d4d52db18cb98d48"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Vazirmatn-600.woff2",
+      "size": 51032,
+      "sha256": "6a39a3c25eb18503cad590527b95bb5d4062b889a7ebbd3f01b0488d239e0499"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Vazirmatn-700.woff2",
+      "size": 51020,
+      "sha256": "836fae7d42d83faa249bc00e0099592be98a1fa260d22d82f269b6091e585627"
+    },
+    {
+      "path": "theme/beautia/assets/fonts/Vazirmatn-800.woff2",
+      "size": 51120,
+      "sha256": "cd67558bbca0ad319b89e3b2edb8a914f87f864951d7a9d24e1404cbf3b45b02"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-barber-1.jpg",
+      "size": 120886,
+      "sha256": "df44333129f058529fa8d06c950e1d1a2824f8f3642d732a49d51303f19b76b3"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-barber-2.jpg",
+      "size": 147543,
+      "sha256": "71868d2f186dd57820095ca1b4c632a3b21cb9fd1f15627b774e297767edf645"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-barber-3.jpg",
+      "size": 107012,
+      "sha256": "cbc9ea6412975953d0cc8e00935e58ca17de2c22723efc46dd82fd50a28cf7a2"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-clinic-1.jpg",
+      "size": 146531,
+      "sha256": "e7ed3689e9c408d5d4a445873e73a991592003c0d83dd1c5ec5a33703ecac08c"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-clinic-2.jpg",
+      "size": 145147,
+      "sha256": "319091182576ef6e44b7adbbea8d0a3dc0c150ddaebaa72e544f39da439963a0"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-clinic-3.jpg",
+      "size": 144326,
+      "sha256": "693569b669de0360d3db3b59c855cb22208eaae7fc177593a3579556639ceef5"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-hair-1.jpg",
+      "size": 183529,
+      "sha256": "fca336af727ce207e9a4b39fed43f1a4809d615b5958a59ce618e564b1fb49c2"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-hair-2.jpg",
+      "size": 159383,
+      "sha256": "fcd00c293587ad503ee2ee3d54aa498a5bf5a9665dc99042b92742db95402d93"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-hair-3.jpg",
+      "size": 142796,
+      "sha256": "6ec2be5da78974169606250e5011787fb3b31f2ac5b56e5cf00d661abd33144b"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-lashes-1.jpg",
+      "size": 190924,
+      "sha256": "39699503aeeb75c91ca52376d89d66026f02ca8979d0c0a0b3096a7978f4aaf9"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-lashes-2.jpg",
+      "size": 140695,
+      "sha256": "5db009ae15e66930d368a0b3a8a74ce758447968673436ffca7f6cb080d373d1"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-lashes-3.jpg",
+      "size": 173556,
+      "sha256": "712e2e8a8e86c01b267e81347c7ebbaa264eed53aae332b3c76a4fcbeaae9b40"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-makeup-1.jpg",
+      "size": 205795,
+      "sha256": "45edccdfe57ab8fb916e4f6b03db79c9084af67d7802cb3aeb6825f909b577aa"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-makeup-2.jpg",
+      "size": 119339,
+      "sha256": "03023babbc2e08c8e066596047a5e7a5b8c6ca0ccc4dfa07bc6e08c1f1bdc121"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-makeup-3.jpg",
+      "size": 164903,
+      "sha256": "032c9dedd05b2c7d25f7387064101a552c3a33005ceadc01e0cddcf21a183a41"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-nails-1.jpg",
+      "size": 138315,
+      "sha256": "8d00fe1f80202fed28c8c4f514c6e93b635ad9bf8df7e2ea021fda174d26ace6"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-nails-2.jpg",
+      "size": 94764,
+      "sha256": "cdab6d7ff14956418623c4951807d47c013cee5a9ab9cd6278bb5682d426cf01"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-nails-3.jpg",
+      "size": 202741,
+      "sha256": "80194173aacc4c629ba26ca30eb524ee347db912340fb3c08a4130553d334658"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-spa-1.jpg",
+      "size": 165537,
+      "sha256": "0d1a58cbb973a207190dd61969416640eda3d5b7fa738033b70afbd8ae61681f"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-spa-2.jpg",
+      "size": 204405,
+      "sha256": "d3c081e679e3bc0dbf820457d2d06e9b3893c5642da8afc746b08846e6b79629"
+    },
+    {
+      "path": "theme/beautia/assets/img/article-spa-3.jpg",
+      "size": 174710,
+      "sha256": "01c1331f7bc64e26807a27019a7143e3a6f0aa04a68e545ddf2fb35a11fa8416"
+    },
+    {
+      "path": "theme/beautia/assets/img/ba-nails-before.jpg",
+      "size": 153437,
+      "sha256": "35477a7bd37ad27f5d501e8883c0a7fd1e52fae0c55af2846afdda42fea5548d"
+    },
+    {
+      "path": "theme/beautia/assets/img/collection-social.jpg",
+      "size": 227655,
+      "sha256": "285fd02197041a1df41159267246e747bcaa448dea7ad147befb0027dd9ae7d3"
+    },
+    {
+      "path": "theme/beautia/assets/img/collection-social.png",
+      "size": 2070335,
+      "sha256": "2b66f57e51ba17fb4d1a385a9e5e33d83f701bdfd1c20c00fc79f08153a8e421"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-barber-1.jpg",
+      "size": 145462,
+      "sha256": "16dfd476fbc42ab15eac49ad7478f0b8d3cb075c226ddaa719e69c697ebc028f"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-barber-2.jpg",
+      "size": 121676,
+      "sha256": "bec39423014fa31874511c43e733eab3980d312c493064aa3a498a21e935ec66"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-barber-3.jpg",
+      "size": 116233,
+      "sha256": "88d8f70b7fa519d18475d7fd3c39ca167e7f1550edcd4609a6ecf6df516d2974"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-barber-4.jpg",
+      "size": 190541,
+      "sha256": "0f7eace7ac3bf8bf6aab6a53af2a2b3404a986ccfa2a768e82e7b91cd9d96b03"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-barber-5.jpg",
+      "size": 122729,
+      "sha256": "a4e0ffb696fe6452dfc8f1ce838f76a4b1e1e3a4929a305936777742ed060b62"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-barber-6.jpg",
+      "size": 148106,
+      "sha256": "10ede843df24c53f0586af6ded87816259f4d06c4dfa63b59d1af782fdc85d0b"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-clinic-1.jpg",
+      "size": 152714,
+      "sha256": "c647f9bf0efae98078bd18aa2a48ea4124c783e37401e1a36949eb302b6d983c"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-clinic-2.jpg",
+      "size": 108426,
+      "sha256": "5c07ce9a97d368d9b4fdc065fb54f73ab03be0f14c6e93ef3d496754dcf69450"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-clinic-3.jpg",
+      "size": 103406,
+      "sha256": "e0fbc0bdf7e4ea21dff9946d63c297a4caea2e79cb88eacc1c2be4d1c5e956af"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-clinic-4.jpg",
+      "size": 122637,
+      "sha256": "550c5fb1d842a5ed600d3d78824d3e902c26f55908ef852b67a6d59577919476"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-clinic-5.jpg",
+      "size": 134293,
+      "sha256": "d3fb27e632c26c763d5a876a680672f88beb66de666501cc057230f5a1340aed"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-clinic-6.jpg",
+      "size": 142004,
+      "sha256": "4fafd2349d3f48a006a29f25e837152493e192623123b7cdf471a824ae4480b3"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-hair-2.jpg",
+      "size": 116026,
+      "sha256": "3c7991d6968d06fe4b475a9d1ac404bb2d888d8536008a1077747f53b86cedad"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-hair-3.jpg",
+      "size": 110312,
+      "sha256": "36b08c9fb8b6028a54b3d8ba3f9a42e2060f3e52b0e17f8c4dda7d859fbe6da0"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-hair-4.jpg",
+      "size": 122895,
+      "sha256": "eec4b0fdda384f633a13e66eb18d28d8466e7006b1fc2cb3653664074124bbf5"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-hair-5.jpg",
+      "size": 168407,
+      "sha256": "9c034fde8072fabfa8d5b541b3bdcee661d609f1b03c2ebf6cffa83b1e3b6c0b"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-hair-6.jpg",
+      "size": 167214,
+      "sha256": "f2aee76465a58de8acbebd46ea367ef1a8a394332af4908e5008d62bc5518026"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-lashes-1.jpg",
+      "size": 138828,
+      "sha256": "7aa710c3a885459353e3a36d4ff5d1107e4b0c9c50074d4c052a63b2be3e52ff"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-lashes-2.jpg",
+      "size": 123393,
+      "sha256": "cfde92eabfe03c0abe3581dad02217d6542b8764fb47ba95de58c02b4ae5981b"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-lashes-3.jpg",
+      "size": 143862,
+      "sha256": "d8775b56b399101e5d85085a881154f67714c883dda2c0bd8e15fb19ee754fe8"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-lashes-4.jpg",
+      "size": 157596,
+      "sha256": "579cd584d03ceda1e3f25804107d6f9dec88849e035ff120fbb81ce8d78e7c0d"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-lashes-5.jpg",
+      "size": 172050,
+      "sha256": "4eaaf10c46e54f6d5710fd33110332acd6d539ae65b9dbd2e7f21526adecdd61"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-lashes-6.jpg",
+      "size": 100855,
+      "sha256": "7c9d7e679532c173f05cbbdad7fc2a9823f096975b79aabf34d8a471cec7b8ae"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-makeup-1.jpg",
+      "size": 120454,
+      "sha256": "b233ebb32b9a4f90065648bbd735a2ae1fb168eb65aca27b5fc9371e421369c0"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-makeup-2.jpg",
+      "size": 122914,
+      "sha256": "f2767248ab9a4951a9a7ff7d1bcc2392c0da6d83b9563257c7c90bdc26ceca04"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-makeup-3.jpg",
+      "size": 125270,
+      "sha256": "7f97c7ffb9cbf982e77d1d350db8a145c4c4a762ae3907318edb0a2125820175"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-makeup-4.jpg",
+      "size": 240296,
+      "sha256": "3bfd3ad5aa2256ca9e4524f3cedb7b614e32aa3633ef1e70a722b34b2cfc8b14"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-makeup-5.jpg",
+      "size": 147770,
+      "sha256": "009a47bc9314af4bf9c1f145d3e74f7fea65515a807f668e912dc7a854b549db"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-makeup-6.jpg",
+      "size": 110937,
+      "sha256": "692fa5b3f04826e45ae45e9cbff239504e6edfabda3859d0d093eb0f8b908a19"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-nail-5.jpg",
+      "size": 149007,
+      "sha256": "824686028dfc7eb2a4f92ebeb4d6ab54bdc7e9d1ca20aaa8a03e8022ee9e21a4"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-nail-6.jpg",
+      "size": 97032,
+      "sha256": "f11f9c20dfe563fab1eb639ab77bfc3a367cff0709036125c3a579d0f207dbe9"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-spa-1.jpg",
+      "size": 119784,
+      "sha256": "d2e25e2cc9bce3b073575b6c3794cb804ad8456c7d45367a4d9861d273c3aecb"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-spa-2.jpg",
+      "size": 145451,
+      "sha256": "bee8f002033c9ccf38269edb4bb42f5bf90ab579721ad5f2bbc8116548b00965"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-spa-3.jpg",
+      "size": 191710,
+      "sha256": "6123bb535fa6ea3975eae34f51b98e5a6b901496f8890196d3c51830d35ab2ad"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-spa-4.jpg",
+      "size": 219767,
+      "sha256": "80225776207e51da7353fea625ed6a5c73a64fd6a39181ef4d04a2e807132a8a"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-spa-5.jpg",
+      "size": 173914,
+      "sha256": "1500d95671641fd27b88f73e498370c7e9a427c03cd49319ddd9223946b5f0f6"
+    },
+    {
+      "path": "theme/beautia/assets/img/folio-spa-6.jpg",
+      "size": 161372,
+      "sha256": "3eea2467a37953266be55a9c9268beb38a2981a1bfd84143ed9a6062dc087744"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-after.png",
+      "size": 2401393,
+      "sha256": "8836a1518205bc3cbb7c9b2b2346f7a902f43bbd32805116b438380e629c6d80"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-hair.jpg",
+      "size": 240670,
+      "sha256": "e7925a51447f414f81e328b75d014aea738a600cc32dc673b706f95f397575d6"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-hair.png",
+      "size": 2263599,
+      "sha256": "0ad859f0f1f3e85b4e6b61a1e642d4fc6585899d811f3e46dd857fb6967e6a51"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-nails.jpg",
+      "size": 347633,
+      "sha256": "2e30181bce16bea100fc8aa187ba33024128c0e9cafde84b03246f6954fbbdaf"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-nails.png",
+      "size": 2725478,
+      "sha256": "fed934beeb2074dbd24289581c221da4d3e78f5db911dc7b2af1a3d51300e072"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-portrait.jpg",
+      "size": 286766,
+      "sha256": "30e35d5ef182b04c822c250f46cb2ca56f3e97a7f3d79ef7d77c007ba3825387"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-portrait.png",
+      "size": 2527198,
+      "sha256": "6956b112e51426ebbff96d0edfd11f409f7389fd05985192969304459f839305"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-salon.jpg",
+      "size": 237831,
+      "sha256": "267dd692d3c79ea18222030fb5235d3aea7572c9970263f3b385d2cceffd02a5"
+    },
+    {
+      "path": "theme/beautia/assets/img/glam-salon.png",
+      "size": 2008675,
+      "sha256": "2416bb5cd5f9111935af852c2e00c5d40d95cb9e9a17f120c221a3c512049b12"
+    },
+    {
+      "path": "theme/beautia/assets/img/hero-barber.jpg",
+      "size": 179450,
+      "sha256": "29238d05e0ec1f762b944aff5b6036f1cfdec472fabb611b2301e29f850c3fd2"
+    },
+    {
+      "path": "theme/beautia/assets/img/hero-clinic.jpg",
+      "size": 141274,
+      "sha256": "7131349eb5ef4c006fbf1fd59db88f366ecd52668fa2ae6c70cdfefce6274350"
+    },
+    {
+      "path": "theme/beautia/assets/img/hero-hair.jpg",
+      "size": 156976,
+      "sha256": "0c4c2b469502a1d8b0313f6f4d2d3af6ffa605b9330e129e07b3067396eb7547"
+    },
+    {
+      "path": "theme/beautia/assets/img/hero-lashes.jpg",
+      "size": 134695,
+      "sha256": "fce9440f7d459d1567bea0c6ac38caacf491909c35a0dfcd36f9172c3d6987c3"
+    },
+    {
+      "path": "theme/beautia/assets/img/hero-makeup.jpg",
+      "size": 133694,
+      "sha256": "bad9454d40eaaa3f383685634aac41ac459984a815f076b7e07430cec545d3c3"
+    },
+    {
+      "path": "theme/beautia/assets/img/hero-nails.jpg",
+      "size": 113327,
+      "sha256": "b825a2aec65480d4b22a39b6d94dd7c8971e9955e99ab0d59b13a1f25f3deb1c"
+    },
+    {
+      "path": "theme/beautia/assets/img/hero-spa.jpg",
+      "size": 165998,
+      "sha256": "fd0f4c95fcff2f95a2c3ba2b8e1310aa38154fccf7b5ad12b9d0dade8d2ce297"
+    },
+    {
+      "path": "theme/beautia/assets/img/manicure-after-v2.jpg",
+      "size": 196260,
+      "sha256": "da48d031539c832f0f927de8d9ed03bece79c137d5dbdf54b2356ce7167877fb"
+    },
+    {
+      "path": "theme/beautia/assets/img/manicure-after-v2.png",
+      "size": 1948120,
+      "sha256": "acca56d20fceec3a9f79f02471059109885973d7bb77829b04f462537efe52f7"
+    },
+    {
+      "path": "theme/beautia/assets/img/manicure-before-v2.jpg",
+      "size": 202253,
+      "sha256": "8a33c887860c68df09831cf23fadb08a3e727de6c3885d3a9e3834d5357cb9fb"
+    },
+    {
+      "path": "theme/beautia/assets/img/manicure-before-v2.png",
+      "size": 1972614,
+      "sha256": "1a1e974353914a41ae3b048127da7ef2b1b21d8e37e8aaf5d21726e9d433c33a"
+    },
+    {
+      "path": "theme/beautia/assets/img/nail-after.png",
+      "size": 2601072,
+      "sha256": "e0810997959eff55ef244c279e225e2b051ff0b765851e95501690624e7c3308"
+    },
+    {
+      "path": "theme/beautia/assets/img/nail-before.png",
+      "size": 2436708,
+      "sha256": "d90603f55a241855efad907c87543d01a5f6dac1307e8f3efd86a224c6068212"
+    },
+    {
+      "path": "theme/beautia/assets/img/pastel-hands.png",
+      "size": 1961078,
+      "sha256": "3de283b9c9c61d0e37e7426cafdbc23fb7675cc44b8f9bb44ccbbcc0815f0289"
+    },
+    {
+      "path": "theme/beautia/assets/img/pastel-portrait.png",
+      "size": 2029355,
+      "sha256": "662b5024e6d0975228e589ebcd010aef0f37d2a1f979d217c3f3b8fc6a5c1e12"
+    },
+    {
+      "path": "theme/beautia/assets/img/pastel-salon.png",
+      "size": 1989671,
+      "sha256": "5a6a3b24b607488853407e47edcc53e8838b94774419618ad50ed1ab80a5d449"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-barber-1.jpg",
+      "size": 189068,
+      "sha256": "a72fc59d8a33a4bc19399ffd01dd4808173912d1ef6fb0d1ba3ac77001d1e0e6"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-barber-2.jpg",
+      "size": 180376,
+      "sha256": "d0e2653bad0c7ab79a57d4ce00090a8229c63ab93855f859922cf028bb43d949"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-barber-3.jpg",
+      "size": 227254,
+      "sha256": "d33fb34f7e3d9ce447dc31a5f49eda2946c79443bb7113160decb2099a44f69f"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-barber-4.jpg",
+      "size": 105698,
+      "sha256": "1f9869058b5b3cba250e51be8ae0ceb85a31bc1aeaa8ad1b7e2cb348806d4e08"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-barber-5.jpg",
+      "size": 116333,
+      "sha256": "84e740492f898e6f66cab6fab54a8172ff7006b552d19d5b8875564c0e61ef89"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-barber-6.jpg",
+      "size": 117718,
+      "sha256": "3a1d3cc01394c1493a758717ecae304890dff42c089ac9d52f82b322884a8761"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-barber-7.jpg",
+      "size": 129602,
+      "sha256": "5f427c6434e0dd0f2fc0b51eb98a785c73b0fdc24a77216ea68c4722e481e8ea"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-clinic-1.jpg",
+      "size": 118556,
+      "sha256": "1aa6d78b32ef28bbf46de9e4927c6e65f7928d5b4d2d7026c46214bc5f7d11ec"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-clinic-2.jpg",
+      "size": 142522,
+      "sha256": "470df142582bacd969a0a4b1cb10fe71a9fe5257763161a7e51f059382b7b3c1"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-clinic-3.jpg",
+      "size": 108926,
+      "sha256": "462a178ea3be11d309266a550bf31c5c305cb35cde2f825b7c314a6d433bfb7e"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-clinic-4.jpg",
+      "size": 129002,
+      "sha256": "d7701179d8e3d11416201cd4182250f74634036300fd36022f18e8fbe851c720"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-clinic-5.jpg",
+      "size": 107124,
+      "sha256": "17e731bf9df9e837fb309971094ae6e793cb398be2dba72c9b698cb84bfb8395"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-clinic-6.jpg",
+      "size": 162982,
+      "sha256": "f624b08fffc543a3ca2ea426986101fa3cac4394f94f2fad1ba0da295f894e36"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-hair-1.jpg",
+      "size": 187596,
+      "sha256": "1b08753b19e58b0dbf41a02251097cd26bb64ce1a6218f98043119368cb8e15c"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-hair-2.jpg",
+      "size": 158354,
+      "sha256": "268557c0f6c3ea675cb1dff0905bf04f9a6de2055128b7ddc4f82364550193a4"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-hair-3.jpg",
+      "size": 153408,
+      "sha256": "a98ffdf9bfacb387af099529d5fb30b3f6558034043a6e27bd761470d9c4bdc4"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-hair-4.jpg",
+      "size": 155623,
+      "sha256": "4b3900d56e709e8003b28c80e472813d22b2a00e933aa2225ebb1a2b87d6b322"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-hair-5.jpg",
+      "size": 157972,
+      "sha256": "900ab0e1e897fb865a34b88224c016187467a4db1bb79eda031dee751dd73a2e"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-hair-6.jpg",
+      "size": 198947,
+      "sha256": "2f714b24789b0ef5546048342eb13a7e5c1a4275a7a15a87414c32ef88d5a5fc"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-lash-1.jpg",
+      "size": 166657,
+      "sha256": "b78b0924422bfe7c63063d0f23bd23205748ad8a66f6e5d479795234d64b2d35"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-lash-2.jpg",
+      "size": 140013,
+      "sha256": "16f7c4c64a3418b3a6ccd9e36f6103c2a334aff3a85159115d82f937e2b70d44"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-lash-3.jpg",
+      "size": 123644,
+      "sha256": "619ea73931bfcf7d384153e17356fd9d60c2bfc2695de0faf445a84a0172bf36"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-lash-4.jpg",
+      "size": 95543,
+      "sha256": "d1053d3db9bb0b1ae0a9d980156527ab830a505dda8128c7a0d474d165884e69"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-lash-5.jpg",
+      "size": 113799,
+      "sha256": "74d8b1f6ab74e662a93a45eba5fa66b1afb6f6bab182ed17ec95547fb3fd14c1"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-lash-6.jpg",
+      "size": 124747,
+      "sha256": "67bfa454648410cae89df5c94b9343fb2381c2f383162477184c5907ab4bdd39"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-makeup-1.jpg",
+      "size": 125058,
+      "sha256": "cfa1e696e6e3e2150e6dcb3d8d4843f1febb1433381af49be50197bd89c2bebb"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-makeup-2.jpg",
+      "size": 136039,
+      "sha256": "3a64c31708aef67a65f69afe435f8082909a8b59bc123b56726198565c8db1fc"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-makeup-3.jpg",
+      "size": 131749,
+      "sha256": "4ae315bc36a694e52b1971914b4a35f1e976c225cbc9c9f8ab02a44d50589e40"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-makeup-4.jpg",
+      "size": 104256,
+      "sha256": "20cc647ef8c48f45c47af3967b8e2b98cb47d21a496fb2ec3b3cd9ba6e219fc2"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-makeup-5.jpg",
+      "size": 126940,
+      "sha256": "7ed3ce02602007658fc15e5ddc594da3520718048209a5af87aabc90060f954d"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-makeup-6.jpg",
+      "size": 154414,
+      "sha256": "1c5afd9d6326a534f6b2ac1461c3decaf3543e4f303384339b0f6eee8abaa0ab"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-nail-1.jpg",
+      "size": 130499,
+      "sha256": "f52e688c7e24068fb596ebf1044ee1d45c9f99707b98dabf4fb3b62d701726ff"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-nail-2.jpg",
+      "size": 87781,
+      "sha256": "aee6de92973b37a340b88cfe21d37b69eba686d1b4f5ec53229567df8aed5e59"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-nail-3.jpg",
+      "size": 157091,
+      "sha256": "807535ca6a239817df06936634cb780e7ea1aa269fb3a1a9768fd263e427a280"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-nail-4.jpg",
+      "size": 151596,
+      "sha256": "c26f8a5bc849be01e6b88f82bba01af5deb849702c3694d6898973ad4d733847"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-nail-5.jpg",
+      "size": 147183,
+      "sha256": "46270d33e5058452488854b3bc3df6868516a8d4a45d25ce16b367efe888374e"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-nail-6.jpg",
+      "size": 135166,
+      "sha256": "cd7eec0d1319207917d65754dca42ff7f4aa78a06885a0e18a855a360185a57c"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-spa-1.jpg",
+      "size": 177596,
+      "sha256": "35ce0865ecab29cc592849dd6481de74f7857da38eec663003bbb27c8d7200ef"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-spa-2.jpg",
+      "size": 186069,
+      "sha256": "c5ea675cad113fb5d428b4ecb4dd40e54bcebd954b6f428364fcaf46fd79ef8a"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-spa-3.jpg",
+      "size": 176230,
+      "sha256": "7a1e180da59b01a611ffbd6ccb09a987f2ae5d16808fab6f104e6c095d5c8b14"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-spa-4.jpg",
+      "size": 163250,
+      "sha256": "80d344e360042c3be37fa53939a2a5f2f90401fd6f8145c502d91f19c16c5376"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-spa-5.jpg",
+      "size": 199254,
+      "sha256": "afd7750666970957524cffdac66a648681900167e168c66d2fc64c68e6bdc30d"
+    },
+    {
+      "path": "theme/beautia/assets/img/svc-spa-6.jpg",
+      "size": 171117,
+      "sha256": "3817f74f058ae7a64b341e248160d1025860ca25b0371f62ebbf5a2271d32dac"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-1.jpg",
+      "size": 129853,
+      "sha256": "96101e98d7f2a6093730f8be09ba79b49cd08638827d227c884cb3d0239dc88e"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-2.jpg",
+      "size": 112377,
+      "sha256": "1ad2b674ef8f4534b4a353006a8c51ed08ff58972b94efb519bab5da0822941b"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-3.jpg",
+      "size": 102300,
+      "sha256": "14cc119b409c7abadca26e7ee15a117a0f3c4d9c8ed45915b4ea379896649e46"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-5.jpg",
+      "size": 125516,
+      "sha256": "37b8b8e727679cfd5114ae6ac78709edd93e3d56e2ab84fe53cf4bec0962ffed"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-barber-1.jpg",
+      "size": 81121,
+      "sha256": "b31e8203ca0dace283a12e862e348bfae834686a17a2b63816fc24cca37a6ede"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-barber-2.jpg",
+      "size": 76914,
+      "sha256": "f4b4e4dc1d53dfac1f7345b1dd3825489008693fde239f2627b616e8874f439e"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-barber-3.jpg",
+      "size": 97948,
+      "sha256": "405b09c41dcf46dde5ea7aca387f48a658c903460c1494f946a817b86280934a"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-barber.jpg",
+      "size": 187020,
+      "sha256": "c075e89c9e02c9ceb4f3418547131d6d630ceb6253b2ceed33bb65fe04850663"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-clinic-1.jpg",
+      "size": 55319,
+      "sha256": "bcd018e7be06c291616b32084fbb2fe435027ccb5230d4957fdd9ca166c6c59b"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-clinic-2.jpg",
+      "size": 57848,
+      "sha256": "951da743fb367e16f18e5717c1825822fc65a9f84e6dc6f833602f4e0638e5c4"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-clinic-3.jpg",
+      "size": 64337,
+      "sha256": "35e8428755be7adc0456990f9e29eb0dcca57141dcc319b6c1b5b7b8a3a4a1c8"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-hair-1.jpg",
+      "size": 75008,
+      "sha256": "1a64a9a9206aa138e0a50067c37e53d7dfa3dc12b6cdd225cd16fcad66b39e4a"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-hair-2.jpg",
+      "size": 114140,
+      "sha256": "ac3099350855bd99a2ce0e103d2446b6d7752884e2bd06ef046b9f6e031ea909"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-hair-3.jpg",
+      "size": 102955,
+      "sha256": "c8bd1eb3169d7bcfc08235b540c6f0382540c138ab6136d75ace07e4000f4001"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-lashes-1.jpg",
+      "size": 74435,
+      "sha256": "9afce5b5b2d32a76fa66b77a38f93dabc450ef9cdf53de7eb86af47024d3caaf"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-lashes-2.jpg",
+      "size": 65031,
+      "sha256": "1c2a40f8bcde03956d4606dc0b7230e6fd4228da8ab85d0435b8cc48c5f69de0"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-lashes-3.jpg",
+      "size": 66412,
+      "sha256": "e38de44d4b4a91c6a7656daf19aefc1b5bc3f2fd84741ff17e245bc6ef9ce7c0"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-makeup-1.jpg",
+      "size": 66506,
+      "sha256": "03da3e0a7bb237f2b599f1c6cb59a20e047a016ed2bc26953765cf593d1a81b7"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-makeup-2.jpg",
+      "size": 68558,
+      "sha256": "4b8b18f2afd562a128992455db9cf3a66171024024c72cb62cba2cad69f2a0d6"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-makeup-3.jpg",
+      "size": 111638,
+      "sha256": "d5ea25471aa624b34a1b56c65be2b18ccbf7a129bf90ec630f1d1dd587d856e6"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-nails-1.jpg",
+      "size": 55672,
+      "sha256": "23aa9a15098b43df20f58c36d41de54ebf3ae4bb24baa04e63759248d42a3097"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-nails-2.jpg",
+      "size": 60643,
+      "sha256": "a069966db981761c65882b41ac0d128751a55c58c4913037e2382c20e314ef56"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-nails-3.jpg",
+      "size": 72283,
+      "sha256": "4aa0feb52e022ed6caab6330b997e2f501ab205e92af160b2e26b51af192d6d8"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-spa-1.jpg",
+      "size": 68740,
+      "sha256": "51a4040e1b44e14a5ed6a7c71cd0f34139c8bf8f630ac6db93288f36a2d99576"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-spa-2.jpg",
+      "size": 71202,
+      "sha256": "d2b4bf0dd283b53c3de89724b430246d6aa94e04dc6a8e585812d4dcb1784424"
+    },
+    {
+      "path": "theme/beautia/assets/img/team-spa-3.jpg",
+      "size": 67101,
+      "sha256": "7c5a1098ad5cde1084da2ab7966c5e68195b332a454b0a43411e0ab8636a4f76"
+    },
+    {
+      "path": "theme/beautia/assets/js/admin.js",
+      "size": 1714,
+      "sha256": "49d60ba3a529206682d5803e32d6bb53d979be70678eb1985d4178608608a114"
+    },
+    {
+      "path": "theme/beautia/assets/js/auth.js",
+      "size": 2130,
+      "sha256": "d8bf50f778b616bb7ae8df897140c2e415209e4d6bb45edd00e83ecf88fcf3b2"
+    },
+    {
+      "path": "theme/beautia/assets/js/beautia.js",
+      "size": 36129,
+      "sha256": "76e925154571b26f686268be31da19e3f74178d24d8cb4db215c69de21e1c1d1"
+    },
+    {
+      "path": "theme/beautia/assets/js/booking.js",
+      "size": 16898,
+      "sha256": "59cb06828a7e2042877c889595223b4ca0475f30a312165ddd851e8aba845900"
+    },
+    {
+      "path": "theme/beautia/assets/js/collection.js",
+      "size": 4209,
+      "sha256": "6e275fe45f46a7fa0ee6e783caec11ef998a50c5747c95151a73f3234e8745cf"
+    },
+    {
+      "path": "theme/beautia/assets/js/customizer.js",
+      "size": 816,
+      "sha256": "f984b6bc6b270a870ff747d1faabc27277278d39100322e5ebd4944aef055d90"
+    },
+    {
+      "path": "theme/beautia/assets/js/drawer.js",
+      "size": 4693,
+      "sha256": "be16135c9e3ba73356d0a9e0911e6d8e0a1915814d6bd2188b22b3a0764c0bbf"
+    },
+    {
+      "path": "theme/beautia/assets/js/live-chat.js",
+      "size": 2571,
+      "sha256": "9a1e9243d34f1c92ccd4f652cc70082b03c1934433bbd6094889743f6d7744e8"
+    },
+    {
+      "path": "theme/beautia/demos/barber.php",
+      "size": 10449,
+      "sha256": "5193f4a4f29c1ddd4fde7c2d1d961fbe9fcae70acd1df029dc8d35e49fcb7e3c"
+    },
+    {
+      "path": "theme/beautia/demos/clinic.php",
+      "size": 8490,
+      "sha256": "baef7f2d563820d8c4f912316ca88d37c7bec0d468b81ce29c9c6751e2635896"
+    },
+    {
+      "path": "theme/beautia/demos/hair.php",
+      "size": 6931,
+      "sha256": "c35f9589bd6d67747e00a16d4a02e41766c7eb276b1447420ea9263de97ed7c4"
+    },
+    {
+      "path": "theme/beautia/demos/lashes.php",
+      "size": 5119,
+      "sha256": "b5f69930dc1b98218072c1cf4b2cc4d32f61ae7bdce9f6d005ba7b361210c7bd"
+    },
+    {
+      "path": "theme/beautia/demos/makeup.php",
+      "size": 5638,
+      "sha256": "93db5bf2f4de0c80043a24e2259ef5b98496f8bf742304362b0b69f7c04257fd"
+    },
+    {
+      "path": "theme/beautia/demos/nails.php",
+      "size": 10474,
+      "sha256": "d40eb40b6e842616047f3f1670ec72d20abb8888bcabccae9664e3ac59ac14d1"
+    },
+    {
+      "path": "theme/beautia/demos/spa.php",
+      "size": 6092,
+      "sha256": "cb1f3e5df2c682c79e5cc0f07ae3c52117538e33bcaae3ef8cd79c7a24d9a26f"
+    },
+    {
+      "path": "theme/beautia/elementor-smoke.php",
+      "size": 1093,
+      "sha256": "6f85d7db721249606719dbecdfd024be30aae5c4727ecbf662cda89bfc631e58"
+    },
+    {
+      "path": "theme/beautia/footer.php",
+      "size": 4154,
+      "sha256": "80362d056dafd076aac74999f88f011e9fce222ba75ba78b57378d847f7691fd"
+    },
+    {
+      "path": "theme/beautia/front-page.php",
+      "size": 1103,
+      "sha256": "5725d98e2883595c846f146aa82c1c194bc1aa92ea4d7f2516ef03bd7b97777f"
+    },
+    {
+      "path": "theme/beautia/functions.php",
+      "size": 13545,
+      "sha256": "22b84d34de45f5b73f0876834908eeb1edad6c38b6891907e87cf375a3be7b4d"
+    },
+    {
+      "path": "theme/beautia/header.php",
+      "size": 4925,
+      "sha256": "24ad79e858e5a6863d28e15421851e2992e6712d40956f9f0be89459dd5d7356"
+    },
+    {
+      "path": "theme/beautia/inc/blocks.php",
+      "size": 3702,
+      "sha256": "e3c59e8b5990a4e1260838492a5ebaa79e9a91f4aa7d5a0d83d7ca7b1b1bfa63"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-account.php",
+      "size": 6005,
+      "sha256": "85c00cd8bd5f8b905c90a4eca783fc4ae597986aa2c712e08e9daa4522d0013f"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-admin.php",
+      "size": 32719,
+      "sha256": "88160da9afdbbb86e2606bdadf4aadbab79f2608e14f1ecb0016eb782f27809b"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-booking.php",
+      "size": 35661,
+      "sha256": "80d845d3a07db59c89a01c13478a7adb8ef962f5cd855d7c35e68605b2ef98a2"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-cpt.php",
+      "size": 5271,
+      "sha256": "e4cf5d58af6a390e2c4199b083f81e1812daad43a948b82d7f07cf591484f54b"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-demo-importer.php",
+      "size": 11918,
+      "sha256": "8541307286deddf8828f30e28e34b0d99f85bf083e39c1460281821e65196f42"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-elementor.php",
+      "size": 7485,
+      "sha256": "27ec766840f9208326a2dbd9042ed5980e018abc00748da9cec62dd5cb94f3b4"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-mega-menu.php",
+      "size": 5115,
+      "sha256": "16046ab024e15cf65b9fe4717e17a3f1942688430cf5e98b4e0e4687b39e2d67"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-metaboxes.php",
+      "size": 10660,
+      "sha256": "4d94b9fddb7b597dcdd3c4b7b98ebdea4d6e1ab2bed667e350c439ab01f9fb4c"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-otp.php",
+      "size": 11364,
+      "sha256": "dbed741be22a60f3c6d7775af53563c5bb045b6a0c90c26c1cc5c8e8bbdd5966"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-performance.php",
+      "size": 7513,
+      "sha256": "8dfe98c431f85f3a7561542655224c5a130a23a97cd79b3cc85c867372a620cb"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-rest.php",
+      "size": 5530,
+      "sha256": "5072f48f93f717d16ff4f8412ce73b15c7ce2c638c064721faad264fd7fc8255"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-site-settings.php",
+      "size": 11090,
+      "sha256": "38d0f12ddf9ca1e3afe72e66f7caee9378277d3313b01578862fe12c4d10c392"
+    },
+    {
+      "path": "theme/beautia/inc/class-beautia-sms.php",
+      "size": 14720,
+      "sha256": "48ddaceda4222669b56314ee711ce1b6a7eee50a187bd3f16875f87acbd34528"
+    },
+    {
+      "path": "theme/beautia/inc/customizer.php",
+      "size": 8927,
+      "sha256": "a6857e07165940f4b89d1c6f8915fd39b5b3038b5ac6cdcc483e8f7bee52a7c7"
+    },
+    {
+      "path": "theme/beautia/inc/helpers.php",
+      "size": 31144,
+      "sha256": "674a672c02defe0a1c47c6a3187c40b163dff61788eeb154afe67cb787ed65ff"
+    },
+    {
+      "path": "theme/beautia/inc/internal-core/authentication/class-mobile-login.php",
+      "size": 1768,
+      "sha256": "41e2f4c661fe68eb46caa5b5233dbc49d0ee5b54e1d4207d10e5bc8291b4edc6"
+    },
+    {
+      "path": "theme/beautia/inc/internal-core/authentication/class-otp-security.php",
+      "size": 281,
+      "sha256": "48b4be47f6055c7b1ce955e674fc690b08fd9b3950c37e3c5ed3ae47fe7adad8"
+    },
+    {
+      "path": "theme/beautia/inc/internal-core/authentication/class-otp.php",
+      "size": 619,
+      "sha256": "03f09c805f3d2bb59e71823c176cb2cff5cb40b96c3ee9173d8ee91fb594f04c"
+    },
+    {
+      "path": "theme/beautia/inc/internal-core/bootstrap.php",
+      "size": 250,
+      "sha256": "8c8369103294997be3a15e07e93b2371ae82fd6dc101869db4633c4c17fba11c"
+    },
+    {
+      "path": "theme/beautia/inc/live-chat.php",
+      "size": 8424,
+      "sha256": "d81040d79cf0e9318960cf1406e40b3351321c787a807c6d0086c99d7fc14a66"
+    },
+    {
+      "path": "theme/beautia/inc/shortcodes-plus.php",
+      "size": 9655,
+      "sha256": "1fab6a671809434f6baa384e9795eab29145eccf4d2d63e765bb875602dd0e48"
+    },
+    {
+      "path": "theme/beautia/inc/shortcodes.php",
+      "size": 5095,
+      "sha256": "ec2ac973a04390a10dac28c449cf6417e4527dc2a80a07db6ca096b38583634e"
+    },
+    {
+      "path": "theme/beautia/inc/showcase-content.php",
+      "size": 10952,
+      "sha256": "6be89b6b0bf1d52198c1d823b20034e1d4d381877926e1fd8a8a37fc402ea1b5"
+    },
+    {
+      "path": "theme/beautia/inc/showcase-editorial.php",
+      "size": 21731,
+      "sha256": "7209ee64277f103f0c2c84be765e98af249a3d446c7bfbcc2cff00de4503d678"
+    },
+    {
+      "path": "theme/beautia/inc/showcase-seed.php",
+      "size": 20028,
+      "sha256": "443fb1fc787c9d6cc7673f6668fad8599d298700440f1ed93a558f65eedc15cc"
+    },
+    {
+      "path": "theme/beautia/inc/showcase.php",
+      "size": 33870,
+      "sha256": "6c5c526c4cf58524bcb4c041a5dc6825a628679e73766c06993e42864b7fa45e"
+    },
+    {
+      "path": "theme/beautia/inc/template-tags.php",
+      "size": 51583,
+      "sha256": "2c1841916e7e288b90258e4e9e0f18b1490c27ff31bc480468d810d881c49b3f"
+    },
+    {
+      "path": "theme/beautia/index.php",
+      "size": 1142,
+      "sha256": "234d7aa18d2d150ee10ec46c17c5042bacf6f29eaaf04ff4bef5bd45a5eea62d"
+    },
+    {
+      "path": "theme/beautia/languages/fa_IR.mo",
+      "size": 59409,
+      "sha256": "4de26ca8a3f8e6c04542fd8ebe0ced8c3a428ef018ceaef131fcbf43cf9a8a73"
+    },
+    {
+      "path": "theme/beautia/languages/fa_IR.po",
+      "size": 60812,
+      "sha256": "6d7f7ee1e5f5d30f0f8472d0f3c3f1a6548a63478005eb3f407ec05724d054b8"
+    },
+    {
+      "path": "theme/beautia/page-templates/account.php",
+      "size": 318,
+      "sha256": "92a0740e946053f088df93ff1fffc1a1afd851e602dfd8fbf61905b337fb388d"
+    },
+    {
+      "path": "theme/beautia/page-templates/booking.php",
+      "size": 559,
+      "sha256": "17636c9da6b1613ffb9d11505a77e28643b5843d6cd9efd091a23c1f0f176efb"
+    },
+    {
+      "path": "theme/beautia/page-templates/login.php",
+      "size": 226,
+      "sha256": "b933530f657e856b397e08e1f0b8e66589c2b60e3616d8ab1b036b84b83c8b45"
+    },
+    {
+      "path": "theme/beautia/page-templates/studio.php",
+      "size": 4248,
+      "sha256": "b07e82c2d9240625ecce3893b2b5e306521eade5c676d42a26d5541cd7784506"
+    },
+    {
+      "path": "theme/beautia/page.php",
+      "size": 891,
+      "sha256": "52b6c79d9c001d0de77caab72e0485bf8d0cd7ff0804c899a2d4b3920d89ba54"
+    },
+    {
+      "path": "theme/beautia/release-audit.php",
+      "size": 2540,
+      "sha256": "0e289c77818ff8720a53bb50e64509e64b2e76ae10f61a5cd45aac193c0c8590"
+    },
+    {
+      "path": "theme/beautia/screenshot.png",
+      "size": 1131662,
+      "sha256": "1b0d3df74205d4756685409a81fa3504eca646a6b5458ab0deabc83d3f4a8904"
+    },
+    {
+      "path": "theme/beautia/search.php",
+      "size": 1932,
+      "sha256": "c97e7a7a43fd53cad6a9b11a91aed2c047ecb60ba66de69315e56c81a9d263ff"
+    },
+    {
+      "path": "theme/beautia/searchform.php",
+      "size": 719,
+      "sha256": "ff537d9aefb0070f9ed12c3f63056641960fcff63f8fd05319b89febc5981a55"
+    },
+    {
+      "path": "theme/beautia/sidebar.php",
+      "size": 1293,
+      "sha256": "7c058f47ea7b700f10b3f08a778b329879edca7cf1de44cb3256a27b6275909c"
+    },
+    {
+      "path": "theme/beautia/single-beautia_service.php",
+      "size": 10289,
+      "sha256": "a301aa6f059a263c3ffe6a301e9929c50817985d84e3d2e19ca799385b7b5e55"
+    },
+    {
+      "path": "theme/beautia/single-beautia_staff.php",
+      "size": 5750,
+      "sha256": "6cb78c3160bcc24e5220ba34749be92fdf54dd82c9499da183ac2dd8e089bdd1"
+    },
+    {
+      "path": "theme/beautia/single.php",
+      "size": 3703,
+      "sha256": "7b764e4a470a8e65734bd6958dde1df002942bef144a2ba6080dd7cee944d17d"
+    },
+    {
+      "path": "theme/beautia/style.css",
+      "size": 892,
+      "sha256": "254b0c099a6f01d9a238ff72a8892da47e1ff7d464cb4bb00d5074ed9fa17b14"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/appointments.php",
+      "size": 2119,
+      "sha256": "b2be6c45e04cd2081062f0f1aee590fcb64c83ab4000a319730a0c65f03bd616"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/dashboard.php",
+      "size": 3456,
+      "sha256": "78db80f71041b5aeb0efb1b6941f4a3b6e4c0781418668da0b6bfce35617ee2e"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/favorites.php",
+      "size": 1301,
+      "sha256": "f282fa3e6b778adf81ef0e02e69ff4110edc5a64e6a399882e02cc500610fddf"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/history.php",
+      "size": 3403,
+      "sha256": "9fc946ea044e9572abfeabc38961c438627b7852f06ff16ca0ee339805cffce3"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/logout.php",
+      "size": 451,
+      "sha256": "15ed32de0072a897a1dad481a431fe31dc9b71d55bb73ce62cc5790aecd19eb4"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/loyalty.php",
+      "size": 1342,
+      "sha256": "edd76fbfae7cdaf47eadb64884a03ec90471022f7546d8dc102c9dc66e3604dd"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/panel.php",
+      "size": 1628,
+      "sha256": "df8b73c3c90501e6c9f3d42840d03f0dd7fa54884b7ba67951b4056c908118a1"
+    },
+    {
+      "path": "theme/beautia/template-parts/account/profile.php",
+      "size": 1746,
+      "sha256": "676fb32529583c5380bbc7086812e664ed6577d7e2783f911b36c3ba4124e780"
+    },
+    {
+      "path": "theme/beautia/template-parts/collection-hub.php",
+      "size": 10588,
+      "sha256": "4c9eb67420d4ae84d04f32f02e5b042a22c5fe8f91b4d52d126e458cef6d577c"
+    },
+    {
+      "path": "theme/beautia/template-parts/content/card.php",
+      "size": 982,
+      "sha256": "f0d41170a8784e74d6acafc64499b4c0c5aa79e879e8558331193283ac105108"
+    },
+    {
+      "path": "theme/beautia/template-parts/content/none.php",
+      "size": 340,
+      "sha256": "96f5bc3a6bc3dfdafc6058ce31f3efb0f8d7cf9317dab94dfb72081ba93a4a22"
+    }
+  ]
+}

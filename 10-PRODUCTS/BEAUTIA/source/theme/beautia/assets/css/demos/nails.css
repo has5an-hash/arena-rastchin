@@ -1,0 +1,36 @@
+/* ---- Demo: Nail Studio — glossy, playful, candy pastels ---- */
+.demo-nails{
+  --c-accent:#E8A0BF;
+  --c-accent-2:#B57EDC;
+  --c-dark:#2A1B2E;
+  --c-body:#7A6E80;
+  --c-bg:#FFFDFE;
+  --c-soft:#FCF1F6;
+  --c-line:rgba(42,27,46,.10);
+  --grad:linear-gradient(120deg,#E8A0BF 0%,#C89BE0 55%,#B57EDC 100%);
+  --grad-soft:linear-gradient(170deg,#FCF1F6 0%,#F7F0FC 60%,#fff 100%);
+  --r-lg:30px;--r-xl:46px;
+}
+.demo-nails .sec-title{position:relative;display:inline-block}
+.demo-nails .sec-title::after{
+  content:"";position:absolute;inset-inline-start:-14px;bottom:6px;width:calc(100% + 28px);height:14px;z-index:-1;
+  background:linear-gradient(90deg,rgba(232,160,191,.35),rgba(181,126,220,.28));border-radius:20px;
+}
+.demo-nails .service-media{border-radius:0 0 var(--r-xl) 0}
+.demo-nails .service-icon{border-radius:50% 50% 46% 46%/60% 60% 40% 40%} /* nail shape */
+.demo-nails .hero::before{
+  content:"";position:absolute;inset-inline-end:-120px;top:-120px;width:520px;height:520px;border-radius:50%;
+  background:radial-gradient(circle at 30% 30%,rgba(232,160,191,.55),transparent 62%);filter:blur(10px);z-index:-1;
+  animation:blobFloat 14s ease-in-out infinite;
+}
+.demo-nails .hero::after{
+  content:"";position:absolute;inset-inline-start:-140px;bottom:-160px;width:460px;height:460px;border-radius:50%;
+  background:radial-gradient(circle at 60% 40%,rgba(181,126,220,.42),transparent 62%);z-index:-1;
+  animation:blobFloat 18s ease-in-out infinite reverse;
+}
+@keyframes blobFloat{0%,100%{transform:translate3d(0,0,0) scale(1)}50%{transform:translate3d(-26px,30px,0) scale(1.08)}}
+.demo-nails .quick-book{border-radius:34px;background:rgba(255,255,255,.86);backdrop-filter:blur(14px)}
+.demo-nails .folio{border-radius:34px}
+.demo-nails .price-card{border-radius:34px}
+.demo-nails .btn{box-shadow:0 14px 28px -14px rgba(181,126,220,.9)}
+.demo-nails .staff-photo{border-radius:200px 200px 34px 34px}
