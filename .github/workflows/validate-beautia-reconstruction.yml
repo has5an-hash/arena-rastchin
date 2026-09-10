@@ -1,0 +1,65 @@
+name: Validate Beautia reconstruction
+
+on:
+  push:
+    paths:
+      - '.github/workflows/validate-beautia-reconstruction.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check Pillow
+
+      - name: Verify LFS objects
+        run: git lfs fsck
+
+      - name: Materialize all seven demos
+        run: |
+          python 10-PRODUCTS/BEAUTIA/reconstruction/materialize-demo.py \
+            --base 10-PRODUCTS/BEAUTIA/archives/beautia-nail-sanitized.zip \
+            --dbs 10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip \
+            --demo all \
+            --out /tmp/beautia-runtime \
+            > /tmp/reconstruction-result.json
+
+      - name: Validate manifests
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          root=pathlib.Path('/tmp/beautia-runtime')
+          demos=['nail','clinic','hair','spa','lashes','makeup','barber']
+          for demo in demos:
+              p=root/demo/'CURRENT-RECONSTRUCTION-MANIFEST.json'
+              if not p.exists():
+                  raise SystemExit(f'missing manifest: {demo}')
+              d=json.loads(p.read_text(encoding='utf-8'))
+              if d.get('status') != 'valid-current-reconstruction':
+                  raise SystemExit(f'invalid reconstruction: {demo}: {d}')
+              if d.get('missing_attached_originals'):
+                  raise SystemExit(f'missing attachments: {demo}')
+              if d.get('unmapped_sql_image_basenames'):
+                  raise SystemExit(f'unmapped media: {demo}')
+              cfg=(root/demo/'wp-config.php').read_text(encoding='utf-8')
+              if f"define('DB_NAME', 'beautia_{demo}');" not in cfg:
+                  raise SystemExit(f'wrong DB_NAME: {demo}')
+              if f'/beautia/demoes/{demo}' not in cfg:
+                  raise SystemExit(f'wrong URL config: {demo}')
+              sql=root/demo/'_database'/f'beautia_{demo}.sql'
+              if not sql.exists() or sql.stat().st_size == 0:
+                  raise SystemExit(f'missing SQL: {demo}')
+              print('VALID', demo, d['attached_originals'], d['generated_media_files'])
+          print('ALL_SEVEN_DEMOS_VALID')
+          PY
