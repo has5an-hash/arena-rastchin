@@ -1,103 +1,32 @@
-# فهرست سورس استخراج‌شده بیوتیا
+# فهرست سورس فعلی بیوتیا
 
-این فهرست از بسته سورس موجود در مبدا انتقال استخراج شده است. وجود مسیر در این فهرست به معنی وجود همه فایل‌ها به‌صورت مستقیم در GitHub نیست؛ برای وضعیت انتقال واقعی `90-MANIFESTS/TRANSFER-SUMMARY.json` را ببین.
+آخرین به‌روزرسانی انتقال: 2026-09-10
 
-## Beautia Core Plugin
-- `plugin/beautia-core/beautia-core.php`
-- `plugin/beautia-core/includes/blocks.php`
-- `plugin/beautia-core/includes/class-beautia-account.php`
-- `plugin/beautia-core/includes/class-beautia-admin.php`
-- `plugin/beautia-core/includes/class-beautia-booking.php`
-- `plugin/beautia-core/includes/class-beautia-core-demo-packages.php`
-- `plugin/beautia-core/includes/class-beautia-cpt.php`
-- `plugin/beautia-core/includes/class-beautia-demo-importer.php`
-- `plugin/beautia-core/includes/class-beautia-elementor.php`
-- `plugin/beautia-core/includes/class-beautia-metaboxes.php`
-- `plugin/beautia-core/includes/class-beautia-otp.php`
-- `plugin/beautia-core/includes/class-beautia-rest.php`
-- `plugin/beautia-core/includes/class-beautia-sms.php`
-- `plugin/beautia-core/includes/live-chat.php`
-- `plugin/beautia-core/includes/shortcodes-plus.php`
-- `plugin/beautia-core/includes/shortcodes.php`
-- `plugin/beautia-core/readme.txt`
+## وضعیت قطعی
+سورس استخراج‌شده از جدیدترین `nail.zip` در دسترس این انتقال، پس از ممیزی امنیتی، به‌صورت کامل در مسیر زیر قرار گرفت:
 
-## Theme — root/templates
-- `theme/beautia/404.php`
-- `theme/beautia/README.md`
-- `theme/beautia/archive-beautia_portfolio.php`
-- `theme/beautia/archive-beautia_service.php`
-- `theme/beautia/archive-beautia_staff.php`
-- `theme/beautia/archive.php`
-- `theme/beautia/footer.php`
-- `theme/beautia/front-page.php`
-- `theme/beautia/functions.php`
-- `theme/beautia/header.php`
-- `theme/beautia/index.php`
-- `theme/beautia/page.php`
-- `theme/beautia/search.php`
-- `theme/beautia/searchform.php`
-- `theme/beautia/sidebar.php`
-- `theme/beautia/single-beautia_service.php`
-- `theme/beautia/single-beautia_staff.php`
-- `theme/beautia/single.php`
-- `theme/beautia/style.css`
-- `theme/beautia/elementor-smoke.php`
-- `theme/beautia/release-audit.php`
+`10-PRODUCTS/BEAUTIA/source/`
 
-## Theme — page templates
-- `theme/beautia/page-templates/account.php`
-- `theme/beautia/page-templates/booking.php`
-- `theme/beautia/page-templates/login.php`
-- `theme/beautia/page-templates/studio.php`
+تعداد فایل‌های ثبت‌شده در Source tree: **293 فایل**. این مجموعه شامل Theme، افزونه Beautia Core، CSS/JS، فونت‌ها، تصاویر هر هفت حوزه، تعریف هر هفت دمو، Templateها و فایل manifest سورس است.
 
-## Theme — Core/inc
-- `theme/beautia/inc/blocks.php`
-- `theme/beautia/inc/class-beautia-account.php`
-- `theme/beautia/inc/class-beautia-admin.php`
-- `theme/beautia/inc/class-beautia-booking.php`
-- `theme/beautia/inc/class-beautia-cpt.php`
-- `theme/beautia/inc/class-beautia-demo-importer.php`
-- `theme/beautia/inc/class-beautia-elementor.php`
-- `theme/beautia/inc/class-beautia-mega-menu.php`
-- `theme/beautia/inc/class-beautia-metaboxes.php`
-- `theme/beautia/inc/class-beautia-otp.php`
-- `theme/beautia/inc/class-beautia-performance.php`
-- `theme/beautia/inc/class-beautia-rest.php`
-- `theme/beautia/inc/class-beautia-site-settings.php`
-- `theme/beautia/inc/class-beautia-sms.php`
-- `theme/beautia/inc/customizer.php`
-- `theme/beautia/inc/helpers.php`
-- `theme/beautia/inc/live-chat.php`
-- `theme/beautia/inc/shortcodes-plus.php`
-- `theme/beautia/inc/shortcodes.php`
-- `theme/beautia/inc/showcase-content.php`
-- `theme/beautia/inc/showcase-editorial.php`
-- `theme/beautia/inc/showcase-seed.php`
-- `theme/beautia/inc/showcase.php`
-- `theme/beautia/inc/template-tags.php`
-- `theme/beautia/inc/internal-core/bootstrap.php`
-- `theme/beautia/inc/internal-core/authentication/class-mobile-login.php`
-- `theme/beautia/inc/internal-core/authentication/class-otp-security.php`
-- `theme/beautia/inc/internal-core/authentication/class-otp.php`
+آرشیو دقیق همین سورس:
+`10-PRODUCTS/BEAUTIA/archives/beautia-source-current.zip`
 
-## Assets CSS
-- `admin.css`, `beautia.css`, `collection-hub.css`, `collection-responsive.css`, `collection.css`, `dark.css`, `demo-identities.css`, `editor.css`, `fonts.css`, `glam-refinement.css`, `icons.css`, `live-chat.css`, `pastel-studio.css`, `polish.css`, `reference-luxury.css`, `rtl.css`
-- Demo CSS: `barber.css`, `clinic.css`, `hair.css`, `lashes.css`, `makeup.css`, `nails.css`, `spa.css`
+SHA-256:
+`1f5b957a5f3540d266edf4b313c2be88806ae3509bf09cabb71685537b247fce`
 
-## Assets JS
-- `admin.js`, `auth.js`, `beautia.js`, `booking.js`, `collection.js`, `customizer.js`, `drawer.js`, `live-chat.js`
+## ساختار اصلی
+- `source/theme/beautia/` — قالب فعلی بیوتیا.
+- `source/plugin/beautia-core/` — افزونه فعلی Beautia Core.
+- `source/theme/beautia/demos/` — تعریف هفت دمو: barber, clinic, hair, lashes, makeup, nails, spa.
+- `source/theme/beautia/assets/css/` — CSSهای عمومی، RTL و هویتی دموها.
+- `source/theme/beautia/assets/js/` — اسکریپت‌های رابط، رزرو، احراز هویت، تنظیمات و Live Chat.
+- `source/theme/beautia/assets/img/` — رسانه‌های موجود برای حوزه‌های مختلف.
+- `source/theme/beautia/assets/fonts/` — فونت‌های همراه سورس و Licenseهای موجود.
+- `source/theme/beautia/inc/` — Core classes، settings، importer، Elementor، booking، OTP/SMS، REST و سایر اجزای قالب.
+- `source/theme/beautia/page-templates/` و `template-parts/` — قالب صفحات و اجزای حساب کاربری/محتوا.
 
-## Demo definitions
-- `demos/barber.php`, `clinic.php`, `hair.php`, `lashes.php`, `makeup.php`, `nails.php`, `spa.php`
+## نکته مرجع
+این Source tree جایگزین subset ناقص قبلی GitHub برای ادامه توسعه است. برای نام و مسیر تمام 37,580 فایل محیط تاریخی پروژه، `docs/FULL-FILE-MANIFEST.csv` مرجع inventory است.
 
-## Account template parts
-- `appointments.php`, `dashboard.php`, `favorites.php`, `history.php`, `logout.php`, `loyalty.php`, `panel.php`, `profile.php`
-
-## Other template parts / language
-- `template-parts/collection-hub.php`
-- `template-parts/content/card.php`
-- `template-parts/content/none.php`
-- `languages/fa_IR.po`
-- فونت‌ها در بسته مبدا همراه فایل‌های License مربوط به Gandom/Sahel ثبت شده‌اند.
-
-تعداد فایل‌های سورس استخراج‌شده در بسته مبدا: 122 فایل. Arena نباید از روی این Inventory سورس مفقود را حدس بزند؛ سورس واقعی/بسته کامل باید مبنا باشد.
+وجود Source کامل به معنی اثبات وجود بایت exact شش نصب تاریخی غیر-Nail نیست؛ آن آرشیوهای live-install جداگانه در وضعیت انتقال ثبت شده‌اند و نباید از روی سورس مشترک جعل شوند.
