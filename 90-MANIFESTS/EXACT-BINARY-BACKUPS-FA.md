@@ -1,26 +1,25 @@
-# پشتیبان فایل‌های باینری دقیق برای انتقال Arena
+# وضعیت باینری‌های دقیق برای انتقال Arena
 
-این فایل فقط وضعیت انتقال باینری‌ها را ثبت می‌کند. فایل زمانی «سینک GitHub» محسوب می‌شود که خود بایت‌های دقیق آن داخل Repository قرار گرفته و SHA-256 تأیید شده باشد.
+آخرین به‌روزرسانی: 2026-09-10
 
-## منابع رسمی راست‌چین — بایت مرجع تأییدشده در مبدا
+فایل فقط زمانی «GitHub Sync = verified» است که در Clone تازه، Git LFS/فایل واقعی materialize شود و اندازه و SHA-256 دوباره تطبیق داده شود.
+
+## منابع رسمی راست‌چین
 
 - `ویدیوی آموزش کامل تمام نکات مهم برای فروشندگی افزونه و قالب در راستچین.mp4`
   - size: `93572239`
   - SHA-256: `bdd9d3ee14f5887978f7e61abded143abe445772866bf147b752feca17d6a90f`
-  - Google Drive backup id: `1DrLyiD58RyFf9_TYgQTDQ0Q-FZftv2JR`
-  - GitHub exact sync: **pending**
+  - GitHub exact sync: **verified / Git LFS**
 
 - `راهنمای لایسنس گذاری راستچین.webm`
   - size: `60768704`
   - SHA-256: `29a59962a0d9fcc8fc2dc2c7393c1306e7a9f1a1fcfb4485e655285816612a96`
-  - Google Drive backup id: `1CpUhRCOoYhVtsSjtxNRomu0ls5nmTIB-`
-  - GitHub exact sync: **pending**
+  - GitHub exact sync: **verified / Git LFS**
 
 - `مرجع-ویدیوهای-راستچین.zip`
   - size: `59280537`
   - SHA-256: `2218149ef06e032a11777614cad8e2146c373532b8c36f1797c80557c1e0788d`
-  - Google Drive backup id: `1nN28TK5BASbQAPkgkOZB91_AdL2vLbcV`
-  - GitHub exact sync: **pending**
+  - GitHub exact sync: **verified / Git LFS**
 
 - `استانداردهای-انتشار-محصول-در-راستچین-مرجع-پروژه.docx`
   - size: `40546`
@@ -29,25 +28,43 @@
 
 ## بیوتیا
 
-- `FULL-FILE-MANIFEST.csv`
+- `10-PRODUCTS/BEAUTIA/docs/FULL-FILE-MANIFEST.csv`
   - size: `3725515`
   - SHA-256: `880646d1901b276860d1fcb61c43827868a6d557a89e680b2981a31b05700675`
-  - Google Drive backup id: `1M47LdM6y-xF4R8io5ijuQLWFO2zvAPA0`
-  - GitHub exact sync: **pending**
+  - GitHub exact sync: **verified**
 
-- `beautia-databases.zip` (اصل مبدا؛ برای Public Repository مناسب نیست تا sanitize شود)
-  - size: `269973`
-  - SHA-256: `8b3378f832cb6c710355ed17c59b85a5e783af20846bb16977e87d3482a4992c`
-  - Google Drive backup id: `1AON-uJpIhBk_ucSMmGqlQY8bvLOMHA4m`
-  - contains WordPress user/password/email data; **do not publish this original**
+- `10-PRODUCTS/BEAUTIA/archives/beautia-nail-sanitized.zip`
+  - size: `108964494`
+  - SHA-256: `8d1d680f8636d2fc784d41b4f0b72c1ca088a2079b811e6c21e73b660b95e609`
+  - GitHub exact sync: **verified / Git LFS**
+  - ZIP CRC/integrity: **verified**
+  - wp-config keys/salts: **sanitized**
 
-- `beautia-nail-sanitized.zip`
-  - نسخه sanitize‌شده جدید در مبدا ساخته و ZIP-integrity تست شده است.
-  - size: `109093349`
-  - SHA-256: `c99a3a9e131c295b395c5b9f82fb7dcf9f11dd4b6ae326b4eb694839c9498d4a`
-  - `wp-config.php` secrets/DB password placeholder شده و پوشه Duplicator backup حذف شده است.
-  - GitHub exact sync: **pending**
+- `10-PRODUCTS/BEAUTIA/archives/beautia-source-current.zip`
+  - size: `50064947`
+  - SHA-256: `1f5b957a5f3540d266edf4b313c2be88806ae3509bf09cabb71685537b247fce`
+  - GitHub exact sync: **verified / Git LFS**
+  - extracted editable Source tree: **293 files**
+
+- `10-PRODUCTS/BEAUTIA/archives/beautia-databases-sanitized.zip`
+  - size: `212850`
+  - SHA-256: `a61a6c07552b28a3d8fec7a6e47ff278da6a28460db5c560222feaa9d08108bc`
+  - contains 7 SQL dumps: **verified**
+  - login hash / OTP transient / SMS runtime log: **sanitized**
+  - GitHub exact sync: **verified**
+
+- `10-PRODUCTS/BEAUTIA/beautia-docs-complete.zip`
+  - size: `484251`
+  - SHA-256: `6e715a5c9189e306e65bf2995261cdb27c7ab010f44d77ea90e5dca7448f0a64`
+  - GitHub exact sync: **verified**
+
+## فایل‌های raw که عمداً Public نیستند
+- `beautia-databases.zip` خام: حاوی داده auth/runtime بود و فقط نسخه sanitize‌شده منتشر شده است.
+- `nail.zip` خام: حاوی wp-config keys/salts بود و فقط نسخه sanitize‌شده منتشر شده است.
+
+## فایل‌های exact تاریخی که هنوز بایت آن‌ها در ابزار فعلی در دسترس نیست
+root archive و شش live-install archive غیر-Nail؛ فهرست دقیق در `BEAUTIA-TRANSFER-MANIFEST.json` ثبت شده است.
 
 ## Loraniq Admin
-هیچ فایل لورانیک در این انتقال نباید کپی شود. تنها Source of Truth فایل‌های لورانیک:
+هیچ فایل لورانیک در این Repo مرجع نیست. Source of Truth:
 `https://github.com/has5an-hash/loraniq-admin`
