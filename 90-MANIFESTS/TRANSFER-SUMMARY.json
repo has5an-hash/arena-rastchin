@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T21:30:00+03:30",
+  "updated_at": "2026-09-10T20:32:00+03:30",
   "repo_name": "has5an-hash/arena-rastchin",
   "visibility": "public-by-owner-decision",
   "arena_ready_entrypoints": [
@@ -9,7 +9,13 @@
   ],
   "project_rules_transferred": true,
   "rtltheme_standard_md_transferred": true,
+  "rtltheme_standard_docx_exact_synced": true,
   "rtltheme_video_derived_knowledge_transferred": true,
+  "rtltheme_large_binary_originals": {
+    "seller_training_mp4": {"size": 93572239, "sha256": "bdd9d3ee14f5887978f7e61abded143abe445772866bf147b752feca17d6a90f", "github_exact_sync": false, "drive_backup_id": "1DrLyiD58RyFf9_TYgQTDQ0Q-FZftv2JR"},
+    "license_guide_webm": {"size": 60768704, "sha256": "29a59962a0d9fcc8fc2dc2c7393c1306e7a9f1a1fcfb4485e655285816612a96", "github_exact_sync": false, "drive_backup_id": "1CpUhRCOoYhVtsSjtxNRomu0ls5nmTIB-"},
+    "video_reference_zip": {"size": 59280537, "sha256": "2218149ef06e032a11777614cad8e2146c373532b8c36f1797c80557c1e0788d", "github_exact_sync": false, "drive_backup_id": "1nN28TK5BASbQAPkgkOZB91_AdL2vLbcV"}
+  },
   "zarpuls": {
     "reference_status_transferred": true,
     "readme_transferred": true,
@@ -29,6 +35,9 @@
     "technical_guide_transferred": true,
     "source_subset_transferred": true,
     "source_inventory_transferred": true,
+    "full_file_manifest": {"size": 3725515, "sha256": "880646d1901b276860d1fcb61c43827868a6d557a89e680b2981a31b05700675", "github_exact_sync": false, "drive_backup_id": "1M47LdM6y-xF4R8io5ijuQLWFO2zvAPA0"},
+    "original_database_archive": {"size": 269973, "sha256": "8b3378f832cb6c710355ed17c59b85a5e783af20846bb16977e87d3482a4992c", "public_publish_allowed": false, "drive_backup_id": "1AON-uJpIhBk_ucSMmGqlQY8bvLOMHA4m"},
+    "new_sanitized_nail_archive": {"size": 109093349, "sha256": "c99a3a9e131c295b395c5b9f82fb7dcf9f11dd4b6ae326b4eb694839c9498d4a", "zip_integrity_verified": true, "github_exact_sync": false},
     "binary_sync_in_progress": true
   },
   "mr_seo_reference_transferred": true,
@@ -36,5 +45,6 @@
   "private_sensitive_originals_excluded": true,
   "temporary_transfer_artifacts_cleaned": true,
   "public_repo_secret_policy": "Only sanitized, non-secret files are allowed.",
-  "binary_integrity_policy": "A binary is marked synced only after exact byte content and SHA-256 are verified against the origin."
+  "binary_integrity_policy": "A binary is marked synced only after exact byte content and SHA-256 are verified against the origin.",
+  "current_hard_blocker": "The connected GitHub write API only accepts inline UTF-8/base64 strings and has no local-file or Git LFS upload parameter. Large 57-109 MB binary assets cannot be moved byte-for-byte through this connector without another binary-capable Git/Git LFS transport."
 }
