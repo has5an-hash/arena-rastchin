@@ -1,16 +1,19 @@
 {
-  "generated_by": "GitHub Actions from verified sanitized transfer artifacts",
+  "generated_by": "Verified transfer artifacts plus cloud reconstruction QA",
+  "updated_at": "2026-09-10T23:42:00+03:30",
   "security_note": "Raw wp-config secrets, login hashes, OTP transients and SMS runtime logs are intentionally excluded/sanitized for the public repository.",
   "artifacts": {
     "beautia-nail-sanitized.zip": {
       "size": 108964494,
       "sha256": "8d1d680f8636d2fc784d41b4f0b72c1ca088a2079b811e6c21e73b660b95e609",
-      "status": "verified"
+      "status": "verified",
+      "storage": "git-lfs"
     },
     "beautia-source-current.zip": {
       "size": 50064947,
       "sha256": "1f5b957a5f3540d266edf4b313c2be88806ae3509bf09cabb71685537b247fce",
-      "status": "verified"
+      "status": "verified",
+      "storage": "git-lfs"
     },
     "beautia-databases-sanitized.zip": {
       "size": 212850,
@@ -29,6 +32,54 @@
     }
   },
   "editable_source_file_count": 293,
+  "current_demo_reconstruction": {
+    "tool": "reconstruction/materialize-demo.py",
+    "audit": "reconstruction/CURRENT-RECONSTRUCTION-AUDIT.json",
+    "cloud_validation_workflow": ".github/workflows/validate-beautia-reconstruction.yml",
+    "github_actions_run_id": 34527828618,
+    "git_lfs_fsck": "passed",
+    "demos": {
+      "nail": {
+        "attached_originals": 30,
+        "generated_media_files": 263,
+        "status": "valid"
+      },
+      "clinic": {
+        "attached_originals": 36,
+        "generated_media_files": 305,
+        "status": "valid"
+      },
+      "hair": {
+        "attached_originals": 30,
+        "generated_media_files": 256,
+        "status": "valid"
+      },
+      "spa": {
+        "attached_originals": 40,
+        "generated_media_files": 337,
+        "status": "valid"
+      },
+      "lashes": {
+        "attached_originals": 36,
+        "generated_media_files": 304,
+        "status": "valid"
+      },
+      "makeup": {
+        "attached_originals": 38,
+        "generated_media_files": 320,
+        "status": "valid"
+      },
+      "barber": {
+        "attached_originals": 39,
+        "generated_media_files": 326,
+        "status": "valid"
+      }
+    },
+    "missing_attached_media": 0,
+    "unmapped_media": 0,
+    "all_seven_demos_valid": true,
+    "historical_exact": false
+  },
   "known_missing_exact_live_archives": [
     "beautia-root-complete.zip",
     "beautia-demo-clinic-complete.zip",
@@ -38,5 +89,7 @@
     "beautia-demo-makeup-complete.zip",
     "beautia-demo-barber-complete.zip"
   ],
-  "missing_note": "These exact historical/live archives are referenced by the project upload manifest but are not byte-accessible in the current File Library/Drive/tool bridge. Do not fabricate them. Current editable shared source + sanitized seven-database archive + sanitized Nail live install are transferred."
+  "current_arena_handoff_complete": true,
+  "historical_archive_set_complete": false,
+  "missing_note": "Exact historical/root + six non-Nail live archives remain unavailable as original bytes. Do not fabricate or label reconstructed-current runtimes as historical exact."
 }
