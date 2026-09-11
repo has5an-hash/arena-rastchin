@@ -1,0 +1,23 @@
+/* ---- Demo: Brows & Lashes Bar — warm nude, soft luxe ---- */
+.demo-lashes{
+  --c-accent:#8A5A44;
+  --c-accent-2:#C89C7C;
+  --c-dark:#2E2019;
+  --c-body:#7C6A5F;
+  --c-bg:#FFFBF7;
+  --c-soft:#F6EBE1;
+  --c-line:rgba(46,32,25,.12);
+  --grad:linear-gradient(120deg,#8A5A44,#C89C7C);
+  --grad-soft:linear-gradient(180deg,#F6EBE1,#FFFBF7);
+  --r-lg:22px;--r-xl:34px;
+}
+.demo-lashes .sec-title{letter-spacing:-.02em}
+.demo-lashes .service-card{border:1px solid var(--c-line);box-shadow:none}
+.demo-lashes .service-card:hover{box-shadow:0 24px 46px -30px rgba(138,90,68,.75)}
+.demo-lashes .quote-card{background:#F6EBE1}
+.demo-lashes .hero-badges{border-top-color:rgba(138,90,68,.2)}
+.demo-lashes .marquee{background:#2E2019}
+.demo-lashes .stats{background:#2E2019}
+.demo-lashes .site-footer{background:#2E2019}
+.demo-lashes .folio figcaption{background:linear-gradient(transparent,rgba(46,32,25,.9))}
+.demo-lashes .staff-photo{border-radius:22px}

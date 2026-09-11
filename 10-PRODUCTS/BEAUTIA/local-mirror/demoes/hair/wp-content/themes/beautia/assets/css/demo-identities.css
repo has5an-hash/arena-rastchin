@@ -1,0 +1,135 @@
+/* Distinct, light editorial identities, shared accessible interaction surfaces. */
+html[data-beautia-appearance="pastel"] body.demo-nails{--demo-accent:#95546f;--demo-tint:#fae9ef;--demo-soft:#fff7fa;--demo-ink:#492d3c;--demo-body:Sahel;--demo-heading:Gandom;--demo-weight:400;--demo-size:30px}
+html[data-beautia-appearance="pastel"] body.demo-clinic{--demo-accent:#276f70;--demo-tint:#dff2ed;--demo-soft:#f3fbf9;--demo-ink:#234b4b;--demo-body:Vazirmatn;--demo-heading:Vazirmatn;--demo-weight:700;--demo-size:28px}
+html[data-beautia-appearance="pastel"] body.demo-hair{--demo-accent:#886035;--demo-tint:#f3e7d4;--demo-soft:#fffaf1;--demo-ink:#493927;--demo-body:Sahel;--demo-heading:'Markazi Text';--demo-weight:700;--demo-size:38px}
+html[data-beautia-appearance="pastel"] body.demo-spa{--demo-accent:#5e7241;--demo-tint:#e9eddd;--demo-soft:#f9fbf3;--demo-ink:#39482d;--demo-body:Vazirmatn;--demo-heading:Gandom;--demo-weight:400;--demo-size:30px}
+html[data-beautia-appearance="pastel"] body.demo-lashes{--demo-accent:#80628e;--demo-tint:#eee5f5;--demo-soft:#fcf8ff;--demo-ink:#503c5d;--demo-body:Sahel;--demo-heading:Sahel;--demo-weight:600;--demo-size:29px}
+html[data-beautia-appearance="pastel"] body.demo-makeup{--demo-accent:#a34269;--demo-tint:#f8e2ec;--demo-soft:#fff5f8;--demo-ink:#572a42;--demo-body:Vazirmatn;--demo-heading:Lalezar;--demo-weight:400;--demo-size:33px}
+html[data-beautia-appearance="pastel"] body.demo-barber{--demo-accent:#79543d;--demo-tint:#eee4d9;--demo-soft:#fcf9f4;--demo-ink:#49382e;--demo-body:Sahel;--demo-heading:Lalezar;--demo-weight:400;--demo-size:35px}
+html[data-beautia-appearance="pastel"] body.studio-experience{
+ --lux-action:var(--demo-accent);--lux-tint:var(--demo-soft);--lux-glow:var(--demo-tint);--lux-rose:var(--demo-tint);--lux-ink:var(--demo-ink);--lux-line:color-mix(in srgb,var(--demo-accent) 22%,white);--c-accent:var(--demo-accent);--c-soft:var(--demo-soft);--c-dark:var(--demo-ink);--c-line:var(--lux-line);--font-body:var(--demo-body);--font-display:var(--demo-heading);
+ font-family:var(--demo-body),Tahoma,sans-serif;background:#fff;
+}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(p,a,button,input,select,textarea,label,small,li){font-family:var(--demo-body),Tahoma,sans-serif}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(h1,h2,.sec-title,.studio-hero-copy h1,.studio-reservation h2,.page-hero h1){font-family:var(--demo-heading),var(--demo-body),sans-serif;font-weight:var(--demo-weight);color:var(--demo-ink);letter-spacing:0}
+html[data-beautia-appearance="pastel"] body.studio-experience .studio-hero-copy h1{font-size:var(--demo-size);line-height:1.65}
+html[data-beautia-appearance="pastel"] body.studio-experience .studio-reservation h2{font-size:24px}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(.studio-hero,.cta-band){background:linear-gradient(110deg,var(--demo-tint),var(--demo-soft));color:var(--demo-ink)}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(.studio-discovery,.studio-availability,.nail-comparison,.page-hero:not(.has-image),.collection-bar,.site-footer,.widget,.verify-summary){background:var(--demo-soft)}
+html[data-beautia-appearance="pastel"] body.studio-experience .studio-photo::after{background:linear-gradient(90deg,var(--demo-soft),transparent 22%)}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(.btn-primary,.cta-band .btn-primary,.mood-tabs button[aria-pressed=true],.inspiration-toolbar button[aria-pressed=true],.cal-day.is-selected,.slot.is-selected){background:var(--demo-accent);border-color:var(--demo-accent);color:#fff}
+html[data-beautia-appearance="pastel"] body.studio-experience .btn-primary :is(span,svg){color:inherit}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(.cta-band h2,.cta-band p,.cta-band .eyebrow){color:var(--demo-ink)}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(.eyebrow,.studio-kicker,.mood-tabs button,.btn-outline){color:var(--demo-accent)}
+html[data-beautia-appearance="pastel"] body.studio-experience .page-hero.has-image :is(h1,p,a,span,.post-meta){color:#fff}
+html[data-beautia-appearance="pastel"] body.studio-experience .entry-content h2{font-size:30px;line-height:1.8;margin-block:32px 16px}
+html[data-beautia-appearance="pastel"] body.studio-experience .entry-content h3{font-size:23px;line-height:1.8}
+/* Shared header contract: identities may vary, but navigation must remain
+   readable, aligned and above page content at every desktop breakpoint. */
+html[data-beautia-appearance="pastel"] body.studio-experience .site-header,
+html[data-beautia-appearance="pastel"] body.studio-experience .site-header.is-scrolled{
+ background:rgba(255,255,255,.97);border-bottom:1px solid var(--lux-line);box-shadow:0 8px 28px color-mix(in srgb,var(--demo-accent) 10%,transparent);color:var(--demo-ink);z-index:1000;
+}
+html[data-beautia-appearance="pastel"] body.studio-experience .header-in{min-height:82px;gap:clamp(14px,1.8vw,28px);flex-wrap:nowrap}
+html[data-beautia-appearance="pastel"] body.studio-experience .header-brand{flex:0 0 auto;min-width:0}
+html[data-beautia-appearance="pastel"] body.studio-experience .main-nav{flex:1 1 auto;min-width:0}
+html[data-beautia-appearance="pastel"] body.studio-experience .nav-list{gap:clamp(12px,1.55vw,25px);flex-wrap:nowrap;justify-content:center}
+html[data-beautia-appearance="pastel"] body.studio-experience .nav-list>li>a{display:inline-flex;align-items:center;justify-content:center;min-width:44px;color:var(--demo-ink);font-family:var(--demo-body),Tahoma,sans-serif;font-size:14px;font-weight:600;white-space:nowrap;opacity:1}
+html[data-beautia-appearance="pastel"] body.studio-experience .header-actions{gap:8px;margin-inline-start:auto;flex:0 0 auto}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(.header-actions .icon-btn,.header-account){border-color:var(--lux-line);color:var(--demo-ink);background:#fff}
+html[data-beautia-appearance="pastel"] body.studio-experience .header-actions .btn-primary{background:var(--demo-accent);border-color:var(--demo-accent);color:#fff}
+html[data-beautia-appearance="pastel"] body.studio-experience .brand-text :is(strong,em){color:var(--demo-ink);opacity:1}
+html[data-beautia-appearance="pastel"] body.studio-experience .brand-mark{background:var(--demo-accent);color:#fff;border-color:var(--demo-accent)}
+html[data-beautia-appearance="pastel"] body.studio-experience .nav-list>.beautia-mega>.sub-menu{z-index:1100;background:rgba(255,255,255,.98);border-color:var(--lux-line)}
+html[data-beautia-appearance="pastel"] body.studio-experience .beautia-mega>.sub-menu>li>a{color:var(--demo-ink)}
+html[data-beautia-appearance="pastel"] body.studio-experience :is(.studio-hero-copy>p,.discovery-grid p,.service-body p,.post-body p,.about-copy p,.quote-card blockquote){text-align:justify;text-align-last:right;text-justify:inter-word;color:var(--c-body);opacity:1}
+html[data-beautia-appearance="pastel"] body.demo-hair :is(.service-card,.post-card){border-radius:8px}
+html[data-beautia-appearance="pastel"] body.demo-clinic :is(.service-card,.post-card){border-radius:18px}
+html[data-beautia-appearance="pastel"] body.demo-spa :is(.service-card,.post-card){border-radius:30px 8px 30px 8px}
+html[data-beautia-appearance="pastel"] body.demo-barber :is(.service-card,.post-card,.btn){border-radius:6px}
+
+/* Domain-specific decision aids: shared accessibility, distinct visual voice. */
+html[data-beautia-appearance="pastel"] body.studio-experience .studio-specialty{background:#fff}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.72fr);gap:clamp(24px,5vw,80px);align-items:end;margin-bottom:34px}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-head p{margin:0;color:var(--demo-ink);text-align:justify;text-align-last:right;line-height:2}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-bottom:28px}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-count-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-grid article{min-width:0;padding:28px;border:1px solid var(--lux-line);background:var(--demo-soft);border-radius:18px;position:relative;overflow:hidden}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-code{display:inline-flex;align-items:center;justify-content:center;min-width:44px;height:32px;padding-inline:10px;margin-bottom:22px;background:var(--demo-accent);color:#fff;border-radius:999px;font:700 12px/1 var(--demo-body),sans-serif;direction:ltr}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-grid h3{margin:0 0 10px;color:var(--demo-ink);font:var(--demo-weight) 22px/1.6 var(--demo-heading),var(--demo-body),sans-serif}
+html[data-beautia-appearance="pastel"] body.studio-experience .specialty-grid p{margin:0;color:var(--demo-ink);line-height:1.9;text-align:justify;text-align-last:right}
+html[data-beautia-appearance="pastel"] body.demo-clinic .specialty-grid article{border-radius:4px 24px 4px 24px;border-inline-start:4px solid var(--demo-accent)}
+html[data-beautia-appearance="pastel"] body.demo-hair .specialty-grid article{border-radius:2px;background:#fff;border-top:5px solid var(--demo-accent);box-shadow:0 16px 45px #5a382114}
+html[data-beautia-appearance="pastel"] body.demo-spa .specialty-grid{gap:0}
+html[data-beautia-appearance="pastel"] body.demo-spa .specialty-grid article{border-radius:50% 50% 18px 18px;text-align:center;padding-top:42px}
+html[data-beautia-appearance="pastel"] body.demo-lashes .specialty-grid article{border-radius:90px 18px 90px 18px;padding:38px}
+html[data-beautia-appearance="pastel"] body.demo-makeup .specialty-grid article{border-radius:0;border:2px solid var(--demo-ink);box-shadow:7px 7px 0 var(--demo-accent)}
+html[data-beautia-appearance="pastel"] body.demo-barber .specialty-grid article{border-radius:3px;background:var(--demo-ink);border-color:var(--demo-ink)}
+html[data-beautia-appearance="pastel"] body.demo-barber .specialty-grid :is(h3,p){color:#fff}
+
+/* Layout identities: composition, card rhythm and galleries change per demo. */
+@media(min-width:761px){
+ html[data-beautia-appearance="pastel"] body.demo-clinic .studio-hero-grid{grid-template-columns:1.08fr .92fr;gap:46px}
+ html[data-beautia-appearance="pastel"] body.demo-clinic .studio-visual{order:0;padding:0}
+ html[data-beautia-appearance="pastel"] body.demo-clinic .studio-photo{height:510px;border-radius:28px 5px 28px 5px;box-shadow:18px 18px 0 var(--demo-tint)}
+ html[data-beautia-appearance="pastel"] body.demo-clinic .studio-hero-copy{border-inline-start:4px solid var(--demo-accent);padding-inline-start:34px}
+ html[data-beautia-appearance="pastel"] body.demo-clinic .services .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ html[data-beautia-appearance="pastel"] body.demo-clinic .services .service-card{display:grid;grid-template-columns:42% 1fr;min-height:250px}
+ html[data-beautia-appearance="pastel"] body.demo-clinic .services .service-media{height:100%;aspect-ratio:auto;border-radius:0 17px 17px 0}
+ html[data-beautia-appearance="pastel"] body.demo-hair .studio-hero-grid{grid-template-columns:1fr;min-height:680px;padding-block:30px}
+ html[data-beautia-appearance="pastel"] body.demo-hair .studio-visual,html[data-beautia-appearance="pastel"] body.demo-hair .studio-hero-copy{grid-area:1/1}
+ html[data-beautia-appearance="pastel"] body.demo-hair .studio-visual{order:0;padding:0}
+ html[data-beautia-appearance="pastel"] body.demo-hair .studio-photo{height:620px;border-radius:3px}
+ html[data-beautia-appearance="pastel"] body.demo-hair .studio-photo::after{background:linear-gradient(90deg,#fffdf900 20%,#fffaf1e8 70%,#fffaf1 100%)}
+ html[data-beautia-appearance="pastel"] body.demo-hair .studio-hero-copy{z-index:2;align-self:center;justify-self:end;width:min(520px,46%);margin-inline-end:34px;padding:38px;background:#fffaf1ec;border-radius:2px;border-inline-end:5px solid var(--demo-accent);box-shadow:0 28px 70px #3c281c25}
+ html[data-beautia-appearance="pastel"] body.demo-hair .services .service-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+ html[data-beautia-appearance="pastel"] body.demo-hair .services .service-card:nth-child(even){transform:translateY(38px)}
+ html[data-beautia-appearance="pastel"] body.demo-hair .portfolio .masonry{columns:2;column-gap:34px}
+ html[data-beautia-appearance="pastel"] body.demo-spa .studio-hero-grid{grid-template-columns:.9fr 1.1fr;gap:72px}
+ html[data-beautia-appearance="pastel"] body.demo-spa .studio-visual{order:0}
+ html[data-beautia-appearance="pastel"] body.demo-spa .studio-photo{height:560px;border-radius:48% 48% 44% 44%;outline:1px solid var(--demo-accent);outline-offset:12px}
+ html[data-beautia-appearance="pastel"] body.demo-spa .studio-hero-copy{text-align:center}
+ html[data-beautia-appearance="pastel"] body.demo-spa .studio-hero-copy>p{margin-inline:auto}
+ html[data-beautia-appearance="pastel"] body.demo-spa .studio-reservation{text-align:right}
+ html[data-beautia-appearance="pastel"] body.demo-spa .discovery-grid>div:first-child{order:2}
+ html[data-beautia-appearance="pastel"] body.demo-spa .services .service-grid{gap:40px}
+ html[data-beautia-appearance="pastel"] body.demo-spa .services .service-card:nth-child(2),html[data-beautia-appearance="pastel"] body.demo-spa .services .service-card:nth-child(5){margin-top:46px}
+ html[data-beautia-appearance="pastel"] body.demo-lashes .studio-hero-grid{grid-template-columns:1.18fr .82fr;gap:54px}
+ html[data-beautia-appearance="pastel"] body.demo-lashes .studio-photo{height:520px;border-radius:260px;box-shadow:0 0 0 18px #fff,0 0 0 19px var(--demo-tint)}
+ html[data-beautia-appearance="pastel"] body.demo-lashes .studio-visual{padding:20px 40px 20px 20px}
+ html[data-beautia-appearance="pastel"] body.demo-lashes .studio-hero-copy{padding:44px;border-radius:120px 28px 120px 28px;background:#fff;border:1px solid var(--demo-tint)}
+ html[data-beautia-appearance="pastel"] body.demo-lashes .services .service-card:nth-child(3n+2){border-radius:80px 80px 22px 22px}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .studio-hero-grid{grid-template-columns:.86fr 1.14fr;gap:22px}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .studio-visual{order:0;padding:0}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .studio-photo{height:590px;border-radius:0;transform:none;clip-path:polygon(8% 0,100% 0,92% 100%,0 100%)}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .studio-hero-copy{padding:45px 52px;border:3px solid var(--demo-ink);box-shadow:14px 14px 0 var(--demo-accent)}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .services .service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .services .service-card{display:grid;grid-template-columns:1fr 1.12fr}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .services .service-card:nth-child(even) .service-media{order:2}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .portfolio .masonry{columns:4;column-gap:14px}
+ html[data-beautia-appearance="pastel"] body.demo-barber .studio-hero-grid{grid-template-columns:1.22fr .78fr;gap:0;padding-block:34px}
+ html[data-beautia-appearance="pastel"] body.demo-barber .studio-visual{padding:0 0 0 38px}
+ html[data-beautia-appearance="pastel"] body.demo-barber .studio-photo{height:590px;border-radius:2px;clip-path:polygon(0 0,100% 0,92% 100%,0 100%)}
+ html[data-beautia-appearance="pastel"] body.demo-barber .studio-hero-copy{padding:42px;border:1px solid #7b5a4538;border-inline-start:8px double var(--demo-accent)}
+ html[data-beautia-appearance="pastel"] body.demo-barber .studio-reservation{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+ html[data-beautia-appearance="pastel"] body.demo-barber .studio-reservation h2,html[data-beautia-appearance="pastel"] body.demo-barber .studio-reservation .btn,html[data-beautia-appearance="pastel"] body.demo-barber .studio-reservation .text-link{grid-column:1/-1}
+ html[data-beautia-appearance="pastel"] body.demo-barber .portfolio .masonry{columns:2}
+ html[data-beautia-appearance="pastel"] body.demo-barber .portfolio .folio:nth-child(3n+1){border:8px solid var(--demo-soft)}
+}
+
+@media(max-width:760px){
+ html[data-beautia-appearance="pastel"] body.studio-experience .specialty-head{grid-template-columns:1fr;gap:12px}
+ html[data-beautia-appearance="pastel"] body.studio-experience :is(.specialty-grid,.specialty-count-4){grid-template-columns:1fr}
+ html[data-beautia-appearance="pastel"] body.studio-experience .specialty-grid article{padding:24px}
+ html[data-beautia-appearance="pastel"] body.demo-clinic .studio-photo{border-radius:22px 4px 22px 4px}
+ html[data-beautia-appearance="pastel"] body.demo-hair .studio-photo{border-radius:2px;height:330px}
+ html[data-beautia-appearance="pastel"] body.demo-spa .studio-photo{border-radius:48% 48% 24px 24px;height:360px}
+ html[data-beautia-appearance="pastel"] body.demo-lashes .studio-photo{border-radius:50%;height:310px;width:310px;margin-inline:auto}
+ html[data-beautia-appearance="pastel"] body.demo-makeup .studio-photo{border-radius:0;clip-path:polygon(7% 0,100% 0,93% 100%,0 100%);height:330px}
+ html[data-beautia-appearance="pastel"] body.demo-barber .studio-photo{border-radius:2px;height:280px;clip-path:polygon(0 0,100% 0,94% 100%,0 100%)}
+}
+
+/* Every portfolio caption remains legible on both pale and dark photography. */
+html[data-beautia-appearance="pastel"] body.studio-experience .folio figcaption{background:linear-gradient(180deg,transparent 0%,rgba(24,12,22,.2) 30%,rgba(24,12,22,.92) 100%);color:#fff;text-shadow:0 2px 12px rgba(0,0,0,.55)}
+html[data-beautia-appearance="pastel"] body.studio-experience .folio figcaption :is(h3,span,a,svg){color:#fff}
+@media(max-width:760px){html[data-beautia-appearance="pastel"] body.studio-experience .studio-photo::after{background:linear-gradient(0deg,var(--demo-soft),transparent 35%)}html[data-beautia-appearance="pastel"] body.studio-experience .entry-content h2{font-size:25px}}

@@ -1,0 +1,99 @@
+/* =========================================================================
+   Beautia typography — bundled Persian fonts (self-hosted, GDPR safe,
+   no Google Fonts / CDN request).
+
+   • Vazirmatn  — body & UI (6 weights)      by Saber Rastikerdar (OFL)
+   • Markazi Text — Persian display / titles by Borna Izadpanah    (OFL)
+   • Lalezar    — optional decorative accent by Borna Izadpanah    (OFL)
+   ========================================================================= */
+
+@font-face{
+  font-family:"Vazirmatn";src:url("../fonts/Vazirmatn-300.woff2") format("woff2");
+  font-weight:300;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Vazirmatn";src:url("../fonts/Vazirmatn-400.woff2") format("woff2");
+  font-weight:400;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Vazirmatn";src:url("../fonts/Vazirmatn-500.woff2") format("woff2");
+  font-weight:500;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Vazirmatn";src:url("../fonts/Vazirmatn-600.woff2") format("woff2");
+  font-weight:600;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Vazirmatn";src:url("../fonts/Vazirmatn-700.woff2") format("woff2");
+  font-weight:700;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Vazirmatn";src:url("../fonts/Vazirmatn-800.woff2") format("woff2");
+  font-weight:800;font-style:normal;font-display:swap;
+}
+
+@font-face{
+  font-family:"Markazi Text";src:url("../fonts/MarkaziText-500.woff2") format("woff2");
+  font-weight:500;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Markazi Text";src:url("../fonts/MarkaziText-700.woff2") format("woff2");
+  font-weight:700;font-style:normal;font-display:swap;
+}
+
+@font-face{
+  font-family:"Lalezar";src:url("../fonts/Lalezar-400.woff2") format("woff2");
+  font-weight:400;font-style:normal;font-display:swap;
+}
+
+/* The editorial demo identities use Sahel for interface copy and Gandom for
+   selected display headings. Keep their declarations in the shared font
+   bundle so identity CSS never depends on an optional visual stylesheet. */
+@font-face{
+  font-family:"Sahel";src:url("../fonts/Sahel.woff2") format("woff2");
+  font-weight:400;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Sahel";src:url("../fonts/Sahel-SemiBold.woff2") format("woff2");
+  font-weight:600;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Sahel";src:url("../fonts/Sahel-Bold.woff2") format("woff2");
+  font-weight:700;font-style:normal;font-display:swap;
+}
+@font-face{
+  font-family:"Gandom";src:url("../fonts/Gandom.woff2") format("woff2");
+  font-weight:400;font-style:normal;font-display:swap;
+}
+
+:root{
+  /* Persian first — the Latin faces are only a fallback for mixed content. */
+  --font-display:"Markazi Text","Vazirmatn","Playfair Display",Tahoma,serif;
+  --font-body:"Vazirmatn","Jost","Segoe UI",Tahoma,system-ui,sans-serif;
+  --font-accent:"Lalezar","Vazirmatn",Tahoma,sans-serif;
+  --font-num:"Vazirmatn",system-ui,sans-serif;
+}
+
+/* Latin sites (or when the admin switches the site language) keep the
+   original Latin pairing. */
+html[lang^="en"] body:not(.rtl){
+  --font-display:"Playfair Display","Markazi Text",Georgia,serif;
+  --font-body:"Jost","Vazirmatn","Segoe UI",system-ui,sans-serif;
+}
+
+/* Markazi Text runs small — compensate so Persian titles feel right. */
+.rtl h1,.rtl h2,.rtl h3,.rtl h4,.rtl .sec-title,.rtl .hero-title{
+  font-weight:700;
+  letter-spacing:0;
+  line-height:1.35;
+}
+.rtl h1,.rtl .hero-title{font-size:clamp(2.8rem,6vw,5.4rem)}
+.rtl h2,.rtl .sec-title{font-size:clamp(2.1rem,4.2vw,3.5rem)}
+.rtl h3{font-size:clamp(1.35rem,2vw,1.75rem)}
+.rtl .brand-text strong{font-size:1.6rem;line-height:1.2}
+.rtl .eyebrow{letter-spacing:.06em;font-weight:700}
+.rtl body,.rtl p,.rtl li{line-height:1.95}
+
+/* Persian digits look best slightly tighter in numeric UI. */
+.rtl .badge strong,.rtl .stat strong,.rtl .panel-card strong,
+.rtl .appt-date strong,.rtl .price-row strong{font-family:var(--font-num);font-weight:800}

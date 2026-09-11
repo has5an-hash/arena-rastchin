@@ -1,0 +1,68 @@
+/* ---- Demo: Barbershop — dark walnut, brass & vintage stripes ---- */
+.demo-barber{
+  --c-accent:#B8763A;
+  --c-accent-2:#D9A566;
+  --c-dark:#F3EDE4;      /* headings are light on dark */
+  --c-body:#ABA096;
+  --c-bg:#1C1A17;
+  --c-soft:#252220;
+  --c-line:rgba(243,237,228,.12);
+  --grad:linear-gradient(120deg,#B8763A,#D9A566);
+  --grad-soft:linear-gradient(180deg,#252220,#1C1A17);
+  --r-lg:6px;--r-md:5px;--r-sm:3px;--r-xl:8px;--r-pill:3px;
+}
+.demo-barber{background:#1C1A17;color:#ABA096}
+.demo-barber .site-header{background:#1C1A17;border-bottom-color:rgba(243,237,228,.1)}
+.demo-barber .site-header.is-scrolled{background:rgba(28,26,23,.92);backdrop-filter:blur(10px)}
+.demo-barber .topbar{background:#141210;color:#8C8177}
+
+.demo-barber .service-card,.demo-barber .feature,.demo-barber .quote-card,.demo-barber .price-card,
+.demo-barber .quick-book,.demo-barber .wizard-body,.demo-barber .auth-card,.demo-barber .account-content,
+.demo-barber .account-nav,.demo-barber .post-card,.demo-barber .booking-box,.demo-barber .team-card,
+.demo-barber .panel-card{background:#252220;border-color:rgba(243,237,228,.1);color:#ABA096}
+.demo-barber input,.demo-barber select,.demo-barber textarea{background:#1C1A17;border-color:rgba(243,237,228,.16);color:#F3EDE4}
+.demo-barber input::placeholder,.demo-barber textarea::placeholder{color:#6F675F}
+
+/* Masculine, condensed, uppercase-ish headings */
+.demo-barber h1,.demo-barber h2,.demo-barber h3,.demo-barber h4{color:#F3EDE4;font-weight:700;letter-spacing:0}
+.demo-barber .sec-title{letter-spacing:.01em}
+.demo-barber .eyebrow{letter-spacing:.28em;color:#D9A566}
+
+.demo-barber .hero-veil{background:linear-gradient(280deg,rgba(28,26,23,.95) 8%,rgba(28,26,23,.72) 42%,rgba(28,26,23,.18) 74%,transparent)}
+.demo-barber .btn-ghost{color:#F3EDE4;border-color:rgba(243,237,228,.28)}
+.demo-barber .btn-ghost::after{background:#B8763A}
+.demo-barber .btn-primary{background:var(--grad);color:#1C1A17;font-weight:700}
+
+.demo-barber .stats,.demo-barber .site-footer{background:#141210}
+.demo-barber .services,.demo-barber .testimonials{background:linear-gradient(180deg,#252220,#1C1A17)}
+.demo-barber .page-hero{background:linear-gradient(180deg,#252220,#1C1A17)}
+
+/* The barber pole: a diagonal red/white/blue stripe used as a section rule. */
+.demo-barber .marquee{
+  background:repeating-linear-gradient(115deg,#B8763A 0 22px,#8E5327 22px 44px);
+}
+.demo-barber .marquee-item,.demo-barber .marquee-item svg{color:#1C1A17}
+.demo-barber .sec-head::after{
+  content:"";display:block;width:120px;height:6px;margin:18px auto 0;border-radius:3px;
+  background:repeating-linear-gradient(115deg,#B8763A 0 8px,#F3EDE4 8px 16px);
+  opacity:.85;
+}
+.demo-barber .sec-head.is-start::after{margin-inline:0}
+
+/* Warm, slightly aged photography */
+.demo-barber .service-media img,.demo-barber .folio img,.demo-barber .team-media img{
+  filter:sepia(.22) contrast(1.06) saturate(.95);
+  transition:filter .5s var(--ease,ease);
+}
+.demo-barber .service-card:hover .service-media img,
+.demo-barber .folio:hover img,
+.demo-barber .team-card:hover .team-media img{filter:sepia(0) contrast(1.02)}
+
+/* Price list reads like a shop board */
+.demo-barber .price-card{border-top:3px solid #B8763A}
+.demo-barber .price-row{border-bottom:1px dashed rgba(243,237,228,.16)}
+.demo-barber .price-row strong{color:#D9A566}
+
+.demo-barber .badge,.demo-barber .chip{background:rgba(184,118,58,.16);color:#D9A566;border-color:rgba(184,118,58,.35)}
+.demo-barber .slot:hover,.demo-barber .slot.is-active{background:#B8763A;color:#1C1A17;border-color:#B8763A}
+.demo-barber .step.is-done .step-dot,.demo-barber .step.is-active .step-dot{background:#B8763A;color:#1C1A17}
