@@ -1,0 +1,7 @@
+{
+  "product": "Beautia",
+  "version": "4.0.0",
+  "core": {"theme": "core/beautia.zip", "plugin": "core/beautia-core.zip"},
+  "coreDemos": ["nails", "clinic", "hair", "spa", "lashes", "makeup", "barber"],
+  "standaloneDemos": {"format": "Duplicator", "requiredFiles": ["installer.php", "archive.zip|archive.daf"], "status": "generated-after-demo-approval"}
+}

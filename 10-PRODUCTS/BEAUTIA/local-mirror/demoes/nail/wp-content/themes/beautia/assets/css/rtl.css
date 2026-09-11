@@ -1,0 +1,83 @@
+/* =========================================================================
+   RTL refinements — Persian / Arabic / Hebrew.
+   The core stylesheet already uses logical properties (margin-inline,
+   padding-inline, inset-inline), so this file only mirrors the handful of
+   physical offsets, flips directional icons and retunes the type.
+   ========================================================================= */
+
+body.rtl{direction:rtl;text-align:right}
+body.rtl .sec-head.align-left{text-align:right}
+
+/* --- Header / navigation ------------------------------------------------ */
+body.rtl .nav-list > li > a::after{left:auto;right:0}
+body.rtl .nav-list .sub-menu{left:auto;right:0}
+body.rtl .nav-list li:not(.beautia-mega):hover > .sub-menu,
+body.rtl .nav-list li.is-hovering > .sub-menu,
+body.rtl .nav-list li:focus-within > .sub-menu{transform:translateY(0)}
+body.rtl .mobile-nav{transform:translateX(-100%)}
+body.rtl .mobile-nav.is-open{transform:translateX(0)}
+body.rtl .skip-link:focus{left:auto;right:20px}
+
+/* --- Hero --------------------------------------------------------------- */
+body.rtl .hero-veil{background:linear-gradient(260deg,rgba(255,255,255,.96) 8%,rgba(255,255,255,.78) 38%,rgba(255,255,255,.12) 68%,transparent)}
+body.rtl .hero-scroll{left:auto;right:50%;transform:translateX(50%)}
+
+/* Dark demos need their own mirrored veil. */
+body.rtl.demo-hair .hero-veil{background:linear-gradient(260deg,rgba(20,17,15,.94) 10%,rgba(20,17,15,.7) 45%,rgba(20,17,15,.15) 75%,transparent)}
+body.rtl.demo-barber .hero-veil{background:linear-gradient(80deg,rgba(28,26,23,.95) 8%,rgba(28,26,23,.72) 42%,rgba(28,26,23,.18) 74%,transparent)}
+body.rtl.demo-makeup .hero-veil{background:linear-gradient(260deg,rgba(27,27,30,.95) 8%,rgba(27,27,30,.7) 42%,rgba(27,27,30,.15) 74%,transparent)}
+
+/* --- Directional icons -------------------------------------------------- */
+body.rtl .btn-ico,
+body.rtl .link-arrow svg,
+body.rtl .account-nav a svg.chevron,
+body.rtl .accordion-head svg{transform:scaleX(-1)}
+body.rtl .btn:hover .btn-ico,
+body.rtl .link-arrow:hover svg{transform:scaleX(-1) translateX(4px)}
+body.rtl .to-top svg{transform:rotate(-90deg)}
+
+/* Prev/next pairs must mirror as a PAIR, not each on its own — otherwise both
+   chevrons end up pointing the same way in RTL. */
+body.rtl .slider-prev svg,
+body.rtl .dp-prev svg{transform:none}
+body.rtl .slider-next svg,
+body.rtl .dp-next svg{transform:rotate(180deg)}
+
+/* --- Marquee ------------------------------------------------------------ */
+body.rtl .marquee-track{animation-name:marqueeRtl}
+@keyframes marqueeRtl{to{transform:translateX(50%)}}
+
+/* --- Before / after slider (stays LTR, it is a spatial control) --------- */
+body.rtl .ba-wrap{direction:ltr}
+
+/* --- Forms, codes and numbers ------------------------------------------- */
+body.rtl .otp-digits{direction:ltr}
+body.rtl input[type="tel"],
+body.rtl input[type="email"],
+body.rtl input[type="url"],
+body.rtl .mobile-field input,
+body.rtl .booking-code,
+body.rtl .price-tag,
+body.rtl time,
+body.rtl .slot{direction:ltr;text-align:center;unicode-bidi:plaintext}
+body.rtl .mobile-field input{text-align:right}
+body.rtl .field-hint,body.rtl .form-note{text-align:right}
+body.rtl .checkbox input,body.rtl .radio input{margin-left:8px;margin-right:0}
+
+/* --- Widgets / footer --------------------------------------------------- */
+body.rtl .widget-title::after{left:auto;right:0}
+body.rtl .widget_categories li::before,
+body.rtl .widget_archive li::before{transform:scaleX(-1)}
+body.rtl .footer-cols{text-align:right}
+
+/* --- Timeline / steps --------------------------------------------------- */
+body.rtl .steps::before{left:auto;right:0}
+body.rtl .timeline::before{left:auto;right:14px}
+body.rtl .timeline-item{padding-inline-start:44px;padding-inline-end:0}
+
+/* --- Admin-ish tables inside the account panel -------------------------- */
+body.rtl .table th,body.rtl .table td{text-align:right}
+body.rtl .table .num{direction:ltr;text-align:left}
+
+/* --- Cursor blob should not be mirrored --------------------------------- */
+body.rtl .cursor,body.rtl .cursor span{transform:translate(-50%,-50%)}

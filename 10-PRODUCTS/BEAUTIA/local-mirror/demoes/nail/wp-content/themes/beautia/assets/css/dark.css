@@ -1,0 +1,156 @@
+/* =========================================================================
+   Beautia — dark mode
+
+   Activated by `data-theme="dark"` on <html> (set by beautia.js from the
+   saved preference, or from the OS setting on first visit).
+
+   The light demos get a hand-tuned dark palette that keeps their accent
+   identity; the two demos that are already dark (hair, barber) only get a
+   light touch so they do not turn muddy.
+   ========================================================================= */
+
+html[data-theme="dark"]{color-scheme:dark}
+
+html[data-theme="dark"] body{
+  --c-dark:#F4F1F6;          /* headings / high contrast text */
+  --c-body:#A9A2B2;          /* body copy */
+  --c-bg:#121016;            /* page background */
+  --c-soft:#1A1720;          /* raised surfaces */
+  --c-line:rgba(244,241,246,.12);
+  --c-white:#1A1720;
+  --grad-soft:linear-gradient(160deg,#1A1720,#121016);
+
+  --sh-xs:0 1px 2px rgba(0,0,0,.5);
+  --sh-sm:0 2px 6px rgba(0,0,0,.4), 0 10px 26px -12px rgba(0,0,0,.7);
+  --sh-md:0 6px 14px rgba(0,0,0,.45), 0 26px 52px -22px rgba(0,0,0,.85);
+  --sh-lg:0 10px 22px rgba(0,0,0,.5), 0 52px 92px -44px rgba(0,0,0,1);
+  --hairline:1px solid rgba(244,241,246,.10);
+
+  background:var(--c-bg);
+  color:var(--c-body);
+}
+
+/* Per-demo dark palettes — each keeps its own tinted background so the
+   demos still feel different from one another in the dark. */
+html[data-theme="dark"] body.demo-nails  { --c-bg:#141019; --c-soft:#1D1725; }
+html[data-theme="dark"] body.demo-clinic { --c-bg:#0E1618; --c-soft:#152123; --c-accent-2:#7FC8C3; }
+html[data-theme="dark"] body.demo-spa    { --c-bg:#111511; --c-soft:#19201A; }
+html[data-theme="dark"] body.demo-lashes { --c-bg:#171210; --c-soft:#211A16; }
+html[data-theme="dark"] body.demo-makeup { --c-bg:#121114; --c-soft:#1B1A1E; }
+/* Already-dark demos: only deepen slightly. */
+html[data-theme="dark"] body.demo-hair   { --c-bg:#100E0D; --c-soft:#1A1715; }
+html[data-theme="dark"] body.demo-barber { --c-bg:#161412; --c-soft:#211E1B; }
+
+/* --- Surfaces ----------------------------------------------------------- */
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .mobile-nav,
+html[data-theme="dark"] .header-search{background:var(--c-bg);border-bottom-color:var(--c-line)}
+html[data-theme="dark"] .site-header.is-scrolled{
+  background:color-mix(in srgb, var(--c-bg) 76%, transparent);
+  box-shadow:0 1px 0 rgba(255,255,255,.06), var(--sh-sm);
+}
+html[data-theme="dark"] .topbar{background:#0C0A0F;color:#8B8494}
+html[data-theme="dark"] .stats,
+html[data-theme="dark"] .site-footer,
+html[data-theme="dark"] .footer-bottom{background:#0C0A0F}
+html[data-theme="dark"] .services,
+html[data-theme="dark"] .testimonials,
+html[data-theme="dark"] .steps-band,
+html[data-theme="dark"] .page-hero{background:var(--grad-soft)}
+
+html[data-theme="dark"] .service-card,
+html[data-theme="dark"] .feature,
+html[data-theme="dark"] .price-card,
+html[data-theme="dark"] .quote-card,
+html[data-theme="dark"] .post-card,
+html[data-theme="dark"] .staff-card,
+html[data-theme="dark"] .panel-card,
+html[data-theme="dark"] .step-card,
+html[data-theme="dark"] .faq-item,
+html[data-theme="dark"] .quick-book,
+html[data-theme="dark"] .wizard-body,
+html[data-theme="dark"] .auth-card,
+html[data-theme="dark"] .account-nav,
+html[data-theme="dark"] .account-content,
+html[data-theme="dark"] .booking-box,
+html[data-theme="dark"] .appt{
+  background:var(--c-soft);
+  border-color:var(--c-line);
+  color:var(--c-body);
+}
+html[data-theme="dark"] .about-img-sub{border-color:var(--c-bg)}
+
+/* --- Forms -------------------------------------------------------------- */
+html[data-theme="dark"] input,
+html[data-theme="dark"] select,
+html[data-theme="dark"] textarea{
+  background:#0F0D13;border-color:rgba(244,241,246,.16);color:var(--c-dark);
+}
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder{color:#6B6577}
+html[data-theme="dark"] select option{background:#0F0D13;color:#F4F1F6}
+html[data-theme="dark"] .otp-digits input{background:#0F0D13}
+html[data-theme="dark"] code{background:rgba(244,241,246,.08);color:var(--c-dark)}
+
+/* --- Hero: the veil has to go dark or the headline disappears ----------- */
+html[data-theme="dark"] .hero-veil{
+  background:linear-gradient(100deg,
+    color-mix(in srgb, var(--c-bg) 95%, transparent) 8%,
+    color-mix(in srgb, var(--c-bg) 76%, transparent) 40%,
+    color-mix(in srgb, var(--c-bg) 20%, transparent) 70%,
+    transparent);
+}
+html[data-theme="dark"] .rtl .hero-veil,
+html[data-theme="dark"] body.rtl .hero-veil{
+  background:linear-gradient(260deg,
+    color-mix(in srgb, var(--c-bg) 95%, transparent) 8%,
+    color-mix(in srgb, var(--c-bg) 76%, transparent) 40%,
+    color-mix(in srgb, var(--c-bg) 20%, transparent) 70%,
+    transparent);
+}
+html[data-theme="dark"] .hero::after{background:linear-gradient(to top, var(--c-bg), transparent)}
+
+/* Photography needs to be a touch calmer against a dark canvas. */
+html[data-theme="dark"] .service-media img,
+html[data-theme="dark"] .folio img,
+html[data-theme="dark"] .about-img img,
+html[data-theme="dark"] .hero-bg{filter:brightness(.88) contrast(1.04)}
+html[data-theme="dark"] .service-card:hover .service-media img,
+html[data-theme="dark"] .folio:hover img{filter:brightness(1) contrast(1.02)}
+
+/* --- Small chrome ------------------------------------------------------- */
+html[data-theme="dark"] .btn-ghost{color:var(--c-dark);border-color:rgba(244,241,246,.22)}
+html[data-theme="dark"] .btn-light{background:var(--c-soft);color:var(--c-dark)}
+html[data-theme="dark"] .filters .filter{border-color:rgba(244,241,246,.14)}
+html[data-theme="dark"] .marquee{background:#0C0A0F}
+html[data-theme="dark"] .marquee-item{color:var(--c-dark)}
+html[data-theme="dark"] .loyalty-track{background:rgba(244,241,246,.10)}
+html[data-theme="dark"] .status.is-confirmed{background:rgba(47,163,107,.18);color:#5CD39A}
+html[data-theme="dark"] .status.is-pending{background:rgba(216,155,42,.20);color:#E8B75A}
+html[data-theme="dark"] .cta-band{
+  background:linear-gradient(120deg,
+    color-mix(in srgb, var(--c-accent) 18%, var(--c-bg)),
+    color-mix(in srgb, var(--c-accent-2) 14%, var(--c-bg)));
+}
+html[data-theme="dark"] ::selection{background:var(--c-accent);color:#0F0D13}
+
+/* --- The toggle itself -------------------------------------------------- */
+.theme-toggle{
+  display:grid;place-items:center;width:42px;height:42px;border-radius:50%;
+  border:1px solid color-mix(in srgb, var(--c-dark) 12%, transparent);
+  color:var(--c-dark);background:transparent;
+  transition:background .35s var(--ease), color .35s ease, transform .35s var(--ease), border-color .35s ease;
+}
+.theme-toggle:hover{transform:rotate(-18deg) scale(1.06);color:var(--c-accent);border-color:var(--c-accent)}
+.theme-toggle .ico-sun{display:none}
+.theme-toggle .ico-moon{display:block}
+html[data-theme="dark"] .theme-toggle .ico-sun{display:block}
+html[data-theme="dark"] .theme-toggle .ico-moon{display:none}
+html[data-theme="dark"] .theme-toggle{border-color:rgba(244,241,246,.18)}
+
+/* Avoid a white flash while the stylesheet and fonts load. */
+html[data-theme="dark"]{background:#121016}
+
+@media (prefers-reduced-motion:reduce){
+  .theme-toggle:hover{transform:none}
+}

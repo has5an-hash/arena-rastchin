@@ -1,0 +1,225 @@
+{
+    "folder": "clinic",
+    "url": "http:\/\/localhost\/beautia\/demoes\/clinic\/",
+    "active_demo": "clinic",
+    "showcase": "0",
+    "colors": [],
+    "rows": [
+        {
+            "type": "beautia_service",
+            "id": 93,
+            "title": "هیدرافیشیال پاک‌سازی عمیق",
+            "demo": "clinic",
+            "image": "svc-clinic-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 95,
+            "title": "بوتاکس — یک‌سوم بالای صورت",
+            "demo": "clinic",
+            "image": "svc-clinic-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 97,
+            "title": "فیلر لب",
+            "demo": "clinic",
+            "image": "svc-clinic-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 98,
+            "title": "لیزر موهای زائد — تمام بدن",
+            "demo": "clinic",
+            "image": "svc-clinic-4.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 99,
+            "title": "میکرونیدلینگ + پی‌آرپی",
+            "demo": "clinic",
+            "image": "svc-clinic-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 100,
+            "title": "ویزیت و مشاوره پزشک",
+            "demo": "clinic",
+            "image": "svc-clinic-6.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 104,
+            "title": "برنامه درمان اسکار آکنه — سه جلسه",
+            "demo": "clinic",
+            "image": "folio-clinic-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 105,
+            "title": "کانتور طبیعی لب",
+            "demo": "clinic",
+            "image": "folio-clinic-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 106,
+            "title": "پروتکل درخشندگی",
+            "demo": "clinic",
+            "image": "folio-clinic-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 107,
+            "title": "لیزر موهای زائد — تمام بدن · دفتر الهام",
+            "demo": "clinic",
+            "image": "folio-clinic-4-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 108,
+            "title": "میکرونیدلینگ + پی‌آرپی · دفتر الهام",
+            "demo": "clinic",
+            "image": "folio-clinic-5-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 109,
+            "title": "ویزیت و مشاوره پزشک · دفتر الهام",
+            "demo": "clinic",
+            "image": "folio-clinic-6-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 101,
+            "title": "دکتر لیلا فرهادی",
+            "demo": "clinic",
+            "image": "team-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 102,
+            "title": "دکتر آرمان نبوی",
+            "demo": "clinic",
+            "image": "team-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 103,
+            "title": "نیلوفر قدیری",
+            "demo": "clinic",
+            "image": "team-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 113,
+            "title": "برای جلسه اول مشاوره پوست چه چیزهایی یادداشت کنیم؟",
+            "demo": "clinic",
+            "image": "svc-barber-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 114,
+            "title": "چطور یک دفتر ساده برای روتین پوست داشته باشیم؟",
+            "demo": "clinic",
+            "image": "svc-barber-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 115,
+            "title": "چک‌لیست انتخاب یک وقت مشاوره مناسب",
+            "demo": "clinic",
+            "image": "svc-barber-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 116,
+            "title": "کلینیک بیوتیا — کلینیک پوست و زیبایی",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 118,
+            "title": "درباره کلینیک بیوتیا",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 120,
+            "title": "خدمات و تعرفه‌ها",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 122,
+            "title": "دفتر الهام و نمونه‌کارها",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 124,
+            "title": "مجله کلینیک بیوتیا",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 126,
+            "title": "تماس و برنامه مراجعه",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 128,
+            "title": "رزرو نوبت کلینیک بیوتیا",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 130,
+            "title": "پنل من · کلینیک بیوتیا",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 132,
+            "title": "ورود · کلینیک بیوتیا",
+            "demo": "clinic",
+            "image": "",
+            "literal_slashes": 0
+        }
+    ]
+}

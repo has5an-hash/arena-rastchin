@@ -1,0 +1,225 @@
+{
+    "folder": "spa",
+    "url": "http:\/\/localhost\/beautia\/demoes\/spa\/",
+    "active_demo": "spa",
+    "showcase": "0",
+    "colors": [],
+    "rows": [
+        {
+            "type": "beautia_service",
+            "id": 187,
+            "title": "ماساژ آروماتراپی امضایی",
+            "demo": "spa",
+            "image": "svc-spa-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 189,
+            "title": "ماساژ سنگ داغ",
+            "demo": "spa",
+            "image": "svc-spa-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 191,
+            "title": "رپ سم‌زدایی بدن",
+            "demo": "spa",
+            "image": "svc-spa-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 192,
+            "title": "فیشیال آرام‌بخش",
+            "demo": "spa",
+            "image": "svc-spa-4.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 193,
+            "title": "پکیج دونفره",
+            "demo": "spa",
+            "image": "svc-spa-5-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 194,
+            "title": "ماساژ بارداری",
+            "demo": "spa",
+            "image": "svc-spa-6-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 198,
+            "title": "اتاق سکوت",
+            "demo": "spa",
+            "image": "folio-spa-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 199,
+            "title": "بار دمنوش گیاهی",
+            "demo": "spa",
+            "image": "folio-spa-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 200,
+            "title": "رپ سم‌زدایی بدن · دفتر الهام",
+            "demo": "spa",
+            "image": "folio-spa-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 201,
+            "title": "فیشیال آرام‌بخش · دفتر الهام",
+            "demo": "spa",
+            "image": "folio-spa-4-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 202,
+            "title": "پکیج دونفره · دفتر الهام",
+            "demo": "spa",
+            "image": "folio-spa-5-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 203,
+            "title": "ماساژ بارداری · دفتر الهام",
+            "demo": "spa",
+            "image": "folio-spa-6-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 195,
+            "title": "گلنار سپهری",
+            "demo": "spa",
+            "image": "team-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 196,
+            "title": "هدی کریمی",
+            "demo": "spa",
+            "image": "team-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 197,
+            "title": "مهسا تهرانی",
+            "demo": "spa",
+            "image": "team-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 207,
+            "title": "چطور برای اولین تجربه اسپا آماده شویم؟",
+            "demo": "spa",
+            "image": "svc-barber-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 208,
+            "title": "طراحی یک قرار آرام در تقویم هفتگی",
+            "demo": "spa",
+            "image": "svc-barber-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 209,
+            "title": "نور، صدا و بافت؛ جزئیات یک فضای آرام",
+            "demo": "spa",
+            "image": "svc-barber-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 210,
+            "title": "اسپای سوما — اسپا و آرامش",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 212,
+            "title": "درباره اسپای سوما",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 214,
+            "title": "خدمات و تعرفه‌ها",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 216,
+            "title": "دفتر الهام و نمونه‌کارها",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 218,
+            "title": "مجله اسپای سوما",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 220,
+            "title": "تماس و برنامه مراجعه",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 222,
+            "title": "رزرو نوبت اسپای سوما",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 224,
+            "title": "پنل من · اسپای سوما",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 226,
+            "title": "ورود · اسپای سوما",
+            "demo": "spa",
+            "image": "",
+            "literal_slashes": 0
+        }
+    ]
+}

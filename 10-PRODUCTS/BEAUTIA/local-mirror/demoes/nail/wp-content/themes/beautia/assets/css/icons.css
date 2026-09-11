@@ -1,0 +1,7 @@
+/* Inline SVG icon helpers — Beautia ships its own hand-drawn icon set
+   (see inc/helpers.php › beautia_icon_set) so no icon font is loaded. */
+.bi{display:inline-block;vertical-align:middle;flex:none}
+.bi-star,.stars .bi{fill:currentColor}
+.bi-heart.is-active{fill:currentColor}
+.icon-spin{animation:biSpin 2.4s linear infinite}
+@keyframes biSpin{to{transform:rotate(360deg)}}

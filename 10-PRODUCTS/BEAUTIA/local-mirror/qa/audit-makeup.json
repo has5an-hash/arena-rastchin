@@ -1,0 +1,225 @@
+{
+    "folder": "makeup",
+    "url": "http:\/\/localhost\/beautia\/demoes\/makeup\/",
+    "active_demo": "makeup",
+    "showcase": "0",
+    "colors": [],
+    "rows": [
+        {
+            "type": "beautia_service",
+            "id": 280,
+            "title": "میکاپ عروس",
+            "demo": "makeup",
+            "image": "svc-makeup-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 282,
+            "title": "میکاپ مجلسی و شب",
+            "demo": "makeup",
+            "image": "svc-makeup-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 284,
+            "title": "میکاپ ادیتوریال و عکاسی",
+            "demo": "makeup",
+            "image": "svc-makeup-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 285,
+            "title": "کلاس خصوصی آرایش شخصی",
+            "demo": "makeup",
+            "image": "svc-makeup-4-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 286,
+            "title": "دوره حرفه‌ای میکاپ آرتیستی",
+            "demo": "makeup",
+            "image": "svc-makeup-5-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 287,
+            "title": "فیشیال آماده‌سازی پوست",
+            "demo": "makeup",
+            "image": "svc-makeup-6-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 292,
+            "title": "گریم نرم عروس",
+            "demo": "makeup",
+            "image": "svc-clinic-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 293,
+            "title": "قرمز ادیتوریال",
+            "demo": "makeup",
+            "image": "svc-clinic-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 294,
+            "title": "میکاپ ادیتوریال و عکاسی · دفتر الهام",
+            "demo": "makeup",
+            "image": "svc-clinic-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 295,
+            "title": "کلاس خصوصی آرایش شخصی · دفتر الهام",
+            "demo": "makeup",
+            "image": "svc-clinic-4.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 296,
+            "title": "دوره حرفه‌ای میکاپ آرتیستی · دفتر الهام",
+            "demo": "makeup",
+            "image": "svc-clinic-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 297,
+            "title": "فیشیال آماده‌سازی پوست · دفتر الهام",
+            "demo": "makeup",
+            "image": "svc-clinic-6.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 288,
+            "title": "بهار انصاری",
+            "demo": "makeup",
+            "image": "team-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 289,
+            "title": "ملیکا شریفی",
+            "demo": "makeup",
+            "image": "team-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 291,
+            "title": "مهسا تهرانی",
+            "demo": "makeup",
+            "image": "team-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 300,
+            "title": "مودبورد میکاپ را از رنگ لباس شروع کنیم",
+            "demo": "makeup",
+            "image": "svc-hair-4.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 301,
+            "title": "میکاپ روز و شب؛ نقش نور را فراموش نکنیم",
+            "demo": "makeup",
+            "image": "svc-hair-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 302,
+            "title": "تقویم آماده‌شدن برای مراسم، بدون عجله",
+            "demo": "makeup",
+            "image": "svc-hair-6.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 303,
+            "title": "استودیو میوز — میکاپ و آکادمی",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 305,
+            "title": "درباره استودیو میوز",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 307,
+            "title": "خدمات و تعرفه‌ها",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 309,
+            "title": "دفتر الهام و نمونه‌کارها",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 311,
+            "title": "مجله استودیو میوز",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 313,
+            "title": "تماس و برنامه مراجعه",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 315,
+            "title": "رزرو نوبت استودیو میوز",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 317,
+            "title": "پنل من · استودیو میوز",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 319,
+            "title": "ورود · استودیو میوز",
+            "demo": "makeup",
+            "image": "",
+            "literal_slashes": 0
+        }
+    ]
+}

@@ -1,0 +1,2019 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Beautia 1.1.0\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"PO-Revision-Date: 2026-09-02\n"
+
+msgid "Primary Menu"
+msgstr "منوی اصلی"
+
+msgid "Footer Menu"
+msgstr "منوی فوتر"
+
+msgid "Customer Panel Menu"
+msgstr "منوی پنل کاربری"
+
+msgid "Main Sidebar"
+msgstr "سایدبار اصلی"
+
+msgid "Footer Column 1"
+msgstr "ستون ۱ فوتر"
+
+msgid "Footer Column 2"
+msgstr "ستون ۲ فوتر"
+
+msgid "Footer Column 3"
+msgstr "ستون ۳ فوتر"
+
+msgid "Footer Column 4"
+msgstr "ستون ۴ فوتر"
+
+msgid "Toman"
+msgstr "تومان"
+
+msgid "Loading…"
+msgstr "در حال بارگذاری…"
+
+msgid "No free time slots on this day."
+msgstr "برای این روز ساعت خالی وجود ندارد."
+
+msgid "Please choose a service first."
+msgstr "لطفاً ابتدا یک خدمت را انتخاب کنید."
+
+msgid "Please choose a time slot."
+msgstr "لطفاً یک ساعت را انتخاب کنید."
+
+msgid "Verification code was sent to your mobile."
+msgstr "کد تأیید به موبایل شما ارسال شد."
+
+msgid "The code is not correct."
+msgstr "کد وارد شده صحیح نیست."
+
+msgid "Resend code in %s seconds"
+msgstr "ارسال مجدد کد تا %s ثانیه دیگر"
+
+msgid "Resend code"
+msgstr "ارسال مجدد کد"
+
+msgid "Something went wrong, please try again."
+msgstr "مشکلی پیش آمد، لطفاً دوباره تلاش کنید."
+
+msgid "Skip to content"
+msgstr "پرش به محتوا"
+
+msgid "Primary"
+msgstr "اصلی"
+
+msgid "Search"
+msgstr "جستجو"
+
+msgid "My panel"
+msgstr "پنل من"
+
+msgid "Login"
+msgstr "ورود"
+
+msgid "Book Now"
+msgstr "رزرو نوبت"
+
+msgid "Menu"
+msgstr "منو"
+
+msgid "Book an appointment"
+msgstr "رزرو نوبت"
+
+msgid "Contact"
+msgstr "تماس با ما"
+
+msgid "Opening hours"
+msgstr "ساعات کاری"
+
+msgid "Customer area"
+msgstr "بخش مشتریان"
+
+msgid "My appointments"
+msgstr "نوبت‌های من"
+
+msgid "Login with mobile"
+msgstr "ورود با موبایل"
+
+msgid "© %1$s %2$s — Crafted with Beautia."
+msgstr "© %1$s %2$s — طراحی‌شده با قالب بیوتیا."
+
+msgid "Back to top"
+msgstr "بازگشت به بالا"
+
+msgid "Close"
+msgstr "بستن"
+
+msgid "Journal"
+msgstr "مجله"
+
+msgid "Guides, aftercare tips and behind the scenes of the studio."
+msgstr "راهنماها، نکات مراقبت بعد از خدمت و پشت‌صحنه‌ی سالن."
+
+msgid "%d min read"
+msgstr "%d دقیقه مطالعه"
+
+msgid "Search results for “%s”"
+msgstr "نتایج جستجو برای «%s»"
+
+msgid "This page went for a manicure"
+msgstr "این صفحه رفته مانیکور!"
+
+msgid "The page you are looking for does not exist — but your next appointment does."
+msgstr "صفحه‌ای که دنبالش هستید وجود ندارد — ولی نوبت بعدی شما هست."
+
+msgid "Back home"
+msgstr "بازگشت به خانه"
+
+msgid "Search for:"
+msgstr "جستجو برای:"
+
+msgid "Search services, articles…"
+msgstr "جستجوی خدمات، مقالات…"
+
+msgid "Specialists for this service"
+msgstr "متخصص‌های این خدمت"
+
+msgid "Deposit: %s"
+msgstr "بیعانه: %s"
+
+msgid "SMS confirmation & reminder"
+msgstr "پیامک تأیید و یادآوری"
+
+msgid "Sterilised, single-use tools"
+msgstr "ابزار استریل و یک‌بارمصرف"
+
+msgid "Book this service"
+msgstr "رزرو این خدمت"
+
+msgid "Save to favourites"
+msgstr "افزودن به علاقه‌مندی‌ها"
+
+msgid "Our services"
+msgstr "خدمات ما"
+
+msgid "Choose a treatment and book a free slot in seconds."
+msgstr "یک خدمت را انتخاب کنید و در چند ثانیه نوبت خالی رزرو کنید."
+
+msgid "Book"
+msgstr "رزرو"
+
+msgid "Details"
+msgstr "جزئیات"
+
+msgid "Portfolio"
+msgstr "نمونه‌کارها"
+
+msgid "A selection of our favourite transformations."
+msgstr "گلچینی از تغییرات محبوب ما."
+
+msgid "Book with me"
+msgstr "رزرو با من"
+
+msgid "Nail Studio"
+msgstr "استودیو ناخن"
+
+msgid "Glossy, playful nail art studio with gallery-first layout."
+msgstr "دموی براق و شاد ناخن‌کاری با چیدمان گالری‌محور."
+
+msgid "Aesthetic & Medical Clinic"
+msgstr "کلینیک زیبایی و پوست"
+
+msgid "Clean, trustworthy clinic demo with doctors and treatments."
+msgstr "دموی تمیز و قابل‌اعتماد کلینیک با پزشکان و خدمات درمانی."
+
+msgid "Hair Salon"
+msgstr "سالن مو"
+
+msgid "Dark editorial salon demo with gold typography."
+msgstr "دموی تیره و مجله‌ای سالن مو با تایپوگرافی طلایی."
+
+msgid "Spa & Wellness"
+msgstr "اسپا و تندرستی"
+
+msgid "Calm organic spa demo with soft motion."
+msgstr "دموی آرام و ارگانیک اسپا با حرکات نرم."
+
+msgid "Brows & Lashes Bar"
+msgstr "بار ابرو و مژه"
+
+msgid "Warm nude brow-bar demo with before/after slider."
+msgstr "دموی نود و گرم ابرو و مژه با اسلایدر قبل/بعد."
+
+msgid "Makeup Artist & Academy"
+msgstr "میکاپ آرتیست و آموزشگاه"
+
+msgid "Bold high-contrast makeup artist / academy demo."
+msgstr "دموی جسور و پرکنتراست میکاپ آرتیست و آموزشگاه."
+
+msgid "Barbershop"
+msgstr "آرایشگاه مردانه"
+
+msgid "Masculine barbershop demo with fades, beards and hot-towel shaves."
+msgstr "دموی آرایشگاه مردانه با فید، ریش و اصلاح با حوله داغ."
+
+msgid "Book an Appointment"
+msgstr "رزرو نوبت"
+
+msgid "My Account"
+msgstr "حساب کاربری من"
+
+msgid "Login / Register"
+msgstr "ورود / ثبت‌نام"
+
+msgid "%d min"
+msgstr "%d دقیقه"
+
+msgid "%1$dh %2$dm"
+msgstr "%1$d ساعت و %2$d دقیقه"
+
+msgid "%dh"
+msgstr "%d ساعت"
+
+msgid "Service"
+msgstr "خدمت"
+
+msgid "Services"
+msgstr "خدمات"
+
+msgid "Service Category"
+msgstr "دسته خدمت"
+
+msgid "Service Categories"
+msgstr "دسته‌های خدمات"
+
+msgid "Portfolio Item"
+msgstr "نمونه‌کار"
+
+msgid "Portfolio Category"
+msgstr "دسته نمونه‌کار"
+
+msgid "Portfolio Categories"
+msgstr "دسته‌های نمونه‌کار"
+
+msgid "Team Member"
+msgstr "عضو تیم"
+
+msgid "Team"
+msgstr "تیم ما"
+
+msgid "Specialty"
+msgstr "تخصص"
+
+msgid "Specialties"
+msgstr "تخصص‌ها"
+
+msgid "Testimonial"
+msgstr "نظر مشتری"
+
+msgid "Testimonials"
+msgstr "نظرات مشتریان"
+
+msgid "Before / After"
+msgstr "قبل / بعد"
+
+msgid "Add New %s"
+msgstr "افزودن %s"
+
+msgid "Edit %s"
+msgstr "ویرایش %s"
+
+msgid "New %s"
+msgstr "%s جدید"
+
+msgid "View %s"
+msgstr "نمایش %s"
+
+msgid "Search %s"
+msgstr "جستجوی %s"
+
+msgid "No %s found"
+msgstr "هیچ %s یافت نشد"
+
+msgid "Price"
+msgstr "قیمت"
+
+msgid "Duration"
+msgstr "مدت زمان"
+
+msgid "Compare-at price (optional)"
+msgstr "قیمت پیش از تخفیف (اختیاری)"
+
+msgid "Duration (minutes)"
+msgstr "مدت زمان (دقیقه)"
+
+msgid "Clean-up buffer after service (minutes)"
+msgstr "زمان آماده‌سازی بعد از خدمت (دقیقه)"
+
+msgid "Required deposit (0 = none)"
+msgstr "بیعانه لازم (۰ یعنی بدون بیعانه)"
+
+msgid "Parallel capacity per slot"
+msgstr "ظرفیت هم‌زمان در هر نوبت"
+
+msgid "Icon"
+msgstr "آیکن"
+
+msgid "Staff who can perform it"
+msgstr "پرسنلی که این خدمت را انجام می‌دهند"
+
+msgid "Highlights (one per line)"
+msgstr "ویژگی‌ها (هر خط یک مورد)"
+
+msgid "Bookable online"
+msgstr "قابل رزرو آنلاین"
+
+msgid "Job title"
+msgstr "سمت شغلی"
+
+msgid "Years of experience"
+msgstr "سال‌های تجربه"
+
+msgid "Mobile (for SMS notifications)"
+msgstr "موبایل (برای اطلاع‌رسانی پیامکی)"
+
+msgid "Instagram URL"
+msgstr "آدرس اینستاگرام"
+
+msgid "WhatsApp number"
+msgstr "شماره واتس‌اپ"
+
+msgid "Linked WordPress user ID (optional)"
+msgstr "شناسه کاربر وردپرس مرتبط (اختیاری)"
+
+msgid "Weekly working hours"
+msgstr "ساعات کاری هفتگی"
+
+msgid "Days off (YYYY-MM-DD, one per line)"
+msgstr "روزهای مرخصی (۱۴۰۵-۰۱-۰۱ میلادی، هر خط یک تاریخ)"
+
+msgid "Client"
+msgstr "مشتری"
+
+msgid "Related service"
+msgstr "خدمت مرتبط"
+
+msgid "Gallery image URLs (one per line)"
+msgstr "آدرس تصاویر گالری (هر خط یک آدرس)"
+
+msgid "Author role / service"
+msgstr "سمت نویسنده / خدمت دریافتی"
+
+msgid "Rating 1-5"
+msgstr "امتیاز ۱ تا ۵"
+
+msgid "Before image URL"
+msgstr "آدرس تصویر قبل"
+
+msgid "After image URL"
+msgstr "آدرس تصویر بعد"
+
+msgid "Force demo style on this page"
+msgstr "اعمال استایل دموی خاص روی این صفحه"
+
+msgid "Transparent header"
+msgstr "هدر شیشه‌ای"
+
+msgid "Page subtitle"
+msgstr "زیرعنوان صفحه"
+
+msgid "Beautia Options"
+msgstr "تنظیمات بیوتیا"
+
+msgid "— Global —"
+msgstr "— پیش‌فرض سایت —"
+
+msgid "Monday"
+msgstr "دوشنبه"
+
+msgid "Tuesday"
+msgstr "سه‌شنبه"
+
+msgid "Wednesday"
+msgstr "چهارشنبه"
+
+msgid "Thursday"
+msgstr "پنجشنبه"
+
+msgid "Friday"
+msgstr "جمعه"
+
+msgid "Saturday"
+msgstr "شنبه"
+
+msgid "Sunday"
+msgstr "یکشنبه"
+
+msgid "Day"
+msgstr "روز"
+
+msgid "Open"
+msgstr "باز"
+
+msgid "From"
+msgstr "از ساعت"
+
+msgid "To"
+msgstr "تا ساعت"
+
+msgid "Break from"
+msgstr "استراحت از"
+
+msgid "Break to"
+msgstr "استراحت تا"
+
+msgid "Custom Webhook"
+msgstr "وب‌هوک اختصاصی"
+
+msgid "Log only (development)"
+msgstr "فقط ثبت در لاگ (حالت توسعه)"
+
+msgid "Login / register verification code"
+msgstr "کد تأیید ورود / ثبت‌نام"
+
+msgid "Booking submitted (awaiting confirmation)"
+msgstr "ثبت نوبت (در انتظار تأیید)"
+
+msgid "Booking confirmed"
+msgstr "تأیید نوبت"
+
+msgid "Booking rescheduled"
+msgstr "تغییر زمان نوبت"
+
+msgid "Booking cancelled"
+msgstr "لغو نوبت"
+
+msgid "Reminder before the appointment"
+msgstr "یادآوری پیش از نوبت"
+
+msgid "Service completed / thank you"
+msgstr "اتمام خدمت / تشکر"
+
+msgid "Marked as no-show"
+msgstr "عدم مراجعه"
+
+msgid "New booking — notify staff"
+msgstr "نوبت جدید — اطلاع به پرسنل"
+
+msgid "New booking — notify admin"
+msgstr "نوبت جدید — اطلاع به مدیر"
+
+msgid "Birthday greeting + gift code"
+msgstr "تبریک تولد + کد هدیه"
+
+msgid "{site}\nYour verification code: {code}\nValid for {ttl} minutes."
+msgstr "{site}\nکد تأیید شما: {code}\nاعتبار: {ttl} دقیقه"
+
+msgid "{name} dear,\nYour request for {service} on {date} at {time} has been received and is waiting for confirmation.\nTracking code: {code}\n{site}"
+msgstr "{name} عزیز،\nدرخواست شما برای {service} در تاریخ {date} ساعت {time} ثبت شد و در انتظار تأیید است.\nکد پیگیری: {code}\n{site}"
+
+msgid "{name} dear,\nYour appointment for {service} is confirmed.\n{date} at {time}\nSpecialist: {staff}\nAddress: {address}\n{site}"
+msgstr "{name} عزیز،\nنوبت شما برای {service} تأیید شد.\n{date} ساعت {time}\nمتخصص: {staff}\nآدرس: {address}\n{site}"
+
+msgid "{name} dear,\nYour appointment {code} has been moved to {date} at {time}.\n{site}"
+msgstr "{name} عزیز،\nنوبت شما با کد {code} به تاریخ {date} ساعت {time} منتقل شد.\n{site}"
+
+msgid "{name} dear,\nYour appointment {code} on {date} at {time} has been cancelled.\n{site}"
+msgstr "{name} عزیز،\nنوبت شما با کد {code} در تاریخ {date} ساعت {time} لغو شد.\n{site}"
+
+msgid "{name} dear,\nReminder: {service} tomorrow {date} at {time}.\nPlease arrive 10 minutes earlier.\n{site}"
+msgstr "{name} عزیز،\nیادآوری: {service} فردا {date} ساعت {time}.\nلطفاً ۱۰ دقیقه زودتر تشریف بیاورید.\n{site}"
+
+msgid "{name} dear,\nThank you for visiting us. We hope you loved your {service}.\nShare your experience: {review_url}"
+msgstr "{name} عزیز،\nاز حضور شما سپاسگزاریم. امیدواریم از {service} راضی بوده باشید.\nنظرتان را ثبت کنید: {review_url}"
+
+msgid "{name} dear,\nWe missed you at {time} on {date}. Contact us to rebook.\n{site}"
+msgstr "{name} عزیز،\nدر تاریخ {date} ساعت {time} منتظرتان بودیم. برای رزرو مجدد تماس بگیرید.\n{site}"
+
+msgid "New booking: {service}\n{date} {time}\nClient: {name} - {mobile}"
+msgstr "نوبت جدید: {service}\n{date} {time}\nمشتری: {name} - {mobile}"
+
+msgid "New booking #{id} {service} for {name} ({mobile}) on {date} {time}."
+msgstr "نوبت جدید #{id} — {service} برای {name} ({mobile}) در {date} {time}."
+
+msgid "{name} dear, happy birthday! 🎉\nUse code {code} for a {discount} discount this month.\n{site}"
+msgstr "{name} عزیز، تولدت مبارک! 🎉\nبا کد {code} این ماه {discount} تخفیف بگیر.\n{site}"
+
+msgid "Empty destination number."
+msgstr "شماره مقصد خالی است."
+
+msgid "Please enter a valid mobile number."
+msgstr "لطفاً یک شماره موبایل معتبر وارد کنید."
+
+msgid "This number cannot be used."
+msgstr "این شماره قابل استفاده نیست."
+
+msgid "Too many attempts. Please try again in an hour."
+msgstr "تعداد درخواست‌ها زیاد است. لطفاً یک ساعت دیگر تلاش کنید."
+
+msgid "Please wait %d seconds before requesting a new code."
+msgstr "لطفاً %d ثانیه صبر کنید و سپس کد جدید بگیرید."
+
+msgid "The code has expired. Please request a new one."
+msgstr "مهلت کد به پایان رسید. لطفاً کد جدید درخواست کنید."
+
+msgid "Too many wrong attempts. Please request a new code."
+msgstr "تعداد تلاش‌های نادرست زیاد بود. لطفاً کد جدید بگیرید."
+
+msgid "The verification code is not correct."
+msgstr "کد تأیید صحیح نیست."
+
+msgid "Verification code sent."
+msgstr "کد تأیید ارسال شد."
+
+msgid "Welcome!"
+msgstr "خوش آمدید!"
+
+msgid "Beautia"
+msgstr "بیوتیا"
+
+msgid "Mobile number"
+msgstr "شماره موبایل"
+
+msgid "Used for OTP login and booking notifications."
+msgstr "برای ورود با کد یکبارمصرف و اطلاع‌رسانی نوبت‌ها استفاده می‌شود."
+
+msgid "Beautia Customer"
+msgstr "مشتری بیوتیا"
+
+msgid "Beautia Staff"
+msgstr "پرسنل بیوتیا"
+
+msgid "Pending"
+msgstr "در انتظار تأیید"
+
+msgid "Confirmed"
+msgstr "تأیید شده"
+
+msgid "Completed"
+msgstr "انجام شده"
+
+msgid "Cancelled"
+msgstr "لغو شده"
+
+msgid "No-show"
+msgstr "عدم مراجعه"
+
+msgid "The selected service does not exist."
+msgstr "خدمت انتخاب‌شده وجود ندارد."
+
+msgid "Please enter your name."
+msgstr "لطفاً نام خود را وارد کنید."
+
+msgid "Please choose a valid date and time."
+msgstr "لطفاً تاریخ و ساعت معتبر انتخاب کنید."
+
+msgid "Sorry, this time slot has just been taken. Please pick another one."
+msgstr "متأسفیم، این ساعت همین الان رزرو شد. لطفاً ساعت دیگری انتخاب کنید."
+
+msgid "You already have %d active appointments. Please cancel one before booking again."
+msgstr "شما %d نوبت فعال دارید. برای رزرو جدید ابتدا یکی را لغو کنید."
+
+msgid "Could not save the appointment. Please try again."
+msgstr "ثبت نوبت انجام نشد. لطفاً دوباره تلاش کنید."
+
+msgid "Appointment not found."
+msgstr "نوبت یافت نشد."
+
+msgid "Unknown status."
+msgstr "وضعیت نامعتبر است."
+
+msgid "Invalid date."
+msgstr "تاریخ نامعتبر است."
+
+msgid "our specialist"
+msgstr "متخصص ما"
+
+msgid "New appointment"
+msgstr "نوبت جدید"
+
+msgid "Please verify your mobile number first."
+msgstr "لطفاً ابتدا شماره موبایل خود را تأیید کنید."
+
+msgid "Your appointment has been registered. A confirmation SMS was sent to you."
+msgstr "نوبت شما ثبت شد. پیامک تأیید برای شما ارسال گردید."
+
+msgid "You are not allowed to do this."
+msgstr "شما اجازه‌ی این کار را ندارید."
+
+msgid "Appointments can only be cancelled up to %d hours in advance. Please call us."
+msgstr "لغو نوبت فقط تا %d ساعت قبل ممکن است. لطفاً با ما تماس بگیرید."
+
+msgid "cancelled by customer"
+msgstr "لغو توسط مشتری"
+
+msgid "Your appointment has been cancelled."
+msgstr "نوبت شما لغو شد."
+
+msgid "Your appointment has been moved."
+msgstr "زمان نوبت شما تغییر کرد."
+
+msgid "Dashboard"
+msgstr "پیشخوان"
+
+msgid "My Appointments"
+msgstr "نوبت‌های من"
+
+msgid "History"
+msgstr "تاریخچه"
+
+msgid "Favorites"
+msgstr "علاقه‌مندی‌ها"
+
+msgid "Loyalty Club"
+msgstr "باشگاه مشتریان"
+
+msgid "Profile"
+msgstr "پروفایل"
+
+msgid "Logout"
+msgstr "خروج"
+
+msgid "Diamond"
+msgstr "الماس"
+
+msgid "Gold"
+msgstr "طلایی"
+
+msgid "Silver"
+msgstr "نقره‌ای"
+
+msgid "Bronze"
+msgstr "برنزی"
+
+msgid "Please log in."
+msgstr "لطفاً وارد شوید."
+
+msgid "Your profile has been updated."
+msgstr "پروفایل شما به‌روزرسانی شد."
+
+msgid "Please log in first."
+msgstr "لطفاً ابتدا وارد شوید."
+
+msgid "Appointments"
+msgstr "نوبت‌ها"
+
+msgid "Booking Settings"
+msgstr "تنظیمات نوبت‌دهی"
+
+msgid "SMS Gateway"
+msgstr "درگاه پیامک"
+
+msgid "SMS Log"
+msgstr "گزارش پیامک‌ها"
+
+msgid "Demo Importer"
+msgstr "نصب دمو"
+
+msgid "Beautia is ready!"
+msgstr "بیوتیا آماده است!"
+
+msgid "Import a demo to get a complete website in one click."
+msgstr "با یک کلیک یک دمو را نصب کنید تا سایت کامل تحویل بگیرید."
+
+msgid "Open demo importer"
+msgstr "باز کردن نصب‌کننده دمو"
+
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+msgid "Beautia Dashboard"
+msgstr "پیشخوان بیوتیا"
+
+msgid "Today"
+msgstr "امروز"
+
+msgid "All time"
+msgstr "کل نوبت‌ها"
+
+msgid "Revenue this month"
+msgstr "درآمد این ماه"
+
+msgid "Today’s schedule"
+msgstr "برنامه‌ی امروز"
+
+msgid "All"
+msgstr "همه"
+
+msgid "Name, mobile or code…"
+msgstr "نام، موبایل یا کد پیگیری…"
+
+msgid "Previous"
+msgstr "قبلی"
+
+msgid "Next"
+msgstr "بعدی"
+
+msgid "Code"
+msgstr "کد"
+
+msgid "Customer"
+msgstr "مشتری"
+
+msgid "Specialist"
+msgstr "متخصص"
+
+msgid "When"
+msgstr "زمان"
+
+msgid "Status"
+msgstr "وضعیت"
+
+msgid "Actions"
+msgstr "عملیات"
+
+msgid "No appointments yet."
+msgstr "هنوز نوبتی ثبت نشده است."
+
+msgid "Confirm"
+msgstr "تأیید"
+
+msgid "Complete"
+msgstr "انجام شد"
+
+msgid "Cancel"
+msgstr "لغو"
+
+msgid "Delete"
+msgstr "حذف"
+
+msgid "Note:"
+msgstr "یادداشت:"
+
+msgid "Rules"
+msgstr "قوانین"
+
+msgid "Slot step (minutes)"
+msgstr "فاصله بین نوبت‌ها (دقیقه)"
+
+msgid "Minimum lead time (minutes)"
+msgstr "حداقل فاصله تا رزرو (دقیقه)"
+
+msgid "How many days ahead can be booked"
+msgstr "تا چند روز آینده قابل رزرو باشد"
+
+msgid "Customer can cancel until (hours before)"
+msgstr "مهلت لغو توسط مشتری (ساعت قبل)"
+
+msgid "Max active bookings per customer"
+msgstr "حداکثر نوبت فعال برای هر مشتری"
+
+msgid "Send reminder (hours before)"
+msgstr "ارسال یادآوری (ساعت قبل)"
+
+msgid "Currency"
+msgstr "واحد پول"
+
+msgid "Salon address"
+msgstr "آدرس سالن"
+
+msgid "Salon phone"
+msgstr "تلفن سالن"
+
+msgid "Admin mobile for SMS alerts"
+msgstr "موبایل مدیر برای هشدار پیامکی"
+
+msgid "Calendar"
+msgstr "تقویم"
+
+msgid "Gregorian"
+msgstr "میلادی"
+
+msgid "Jalali (Shamsi)"
+msgstr "شمسی (جلالی)"
+
+msgid "Holidays"
+msgstr "روزهای تعطیل"
+
+msgid "Behaviour"
+msgstr "رفتار سیستم"
+
+msgid "Confirm bookings automatically"
+msgstr "تأیید خودکار نوبت‌ها"
+
+msgid "Require mobile verification before booking"
+msgstr "الزام تأیید موبایل پیش از رزرو"
+
+msgid "E-mail the admin on every booking"
+msgstr "ارسال ایمیل به مدیر برای هر نوبت"
+
+msgid "OTP"
+msgstr "کد یکبارمصرف"
+
+msgid "Code length"
+msgstr "طول کد"
+
+msgid "Valid (minutes)"
+msgstr "اعتبار (دقیقه)"
+
+msgid "Resend cool-down (s)"
+msgstr "فاصله ارسال مجدد (ثانیه)"
+
+msgid "Max per hour"
+msgstr "حداکثر در ساعت"
+
+msgid "Sender line"
+msgstr "خط ارسال"
+
+msgid "Line number"
+msgstr "شماره خط"
+
+msgid "Username"
+msgstr "نام کاربری"
+
+msgid "Password"
+msgstr "رمز عبور"
+
+msgid "Sender"
+msgstr "فرستنده"
+
+msgid "From number"
+msgstr "شماره فرستنده"
+
+msgid "Endpoint URL"
+msgstr "آدرس مقصد (Endpoint)"
+
+msgid "Secret token"
+msgstr "توکن امنیتی"
+
+msgid "Provider"
+msgstr "سرویس‌دهنده"
+
+msgid "All providers are built into the theme — no paid SMS plugin needed."
+msgstr "همه‌ی سرویس‌دهنده‌ها داخل خود قالب پیاده‌سازی شده‌اند — نیازی به افزونه پولی پیامک نیست."
+
+msgid "Test"
+msgstr "تست"
+
+msgid "Send a test SMS"
+msgstr "ارسال پیامک آزمایشی"
+
+msgid "Message templates"
+msgstr "قالب متن پیامک‌ها"
+
+msgid "Available placeholders:"
+msgstr "شورت‌کدهای قابل استفاده:"
+
+msgid "On"
+msgstr "فعال"
+
+msgid "Event"
+msgstr "رویداد"
+
+msgid "Message"
+msgstr "متن پیام"
+
+msgid "Time"
+msgstr "زمان"
+
+msgid "Nothing sent yet."
+msgstr "هنوز پیامکی ارسال نشده است."
+
+msgid "Beautia test message ✔"
+msgstr "پیامک آزمایشی بیوتیا ✔"
+
+msgid "Sent."
+msgstr "ارسال شد."
+
+msgid "Beautia Demo Importer"
+msgstr "نصب‌کننده دموهای بیوتیا"
+
+msgid "Pick a demo. The importer creates the pages, menus, services, team, portfolio, testimonials, opening hours and colour scheme for you. You can import several demos into one site — every page can use its own style."
+msgstr "یک دمو را انتخاب کنید. نصب‌کننده صفحات، منوها، خدمات، تیم، نمونه‌کارها، نظرات، ساعات کاری و رنگ‌بندی را برای شما می‌سازد. می‌توانید چند دمو را در یک سایت نصب کنید — هر صفحه می‌تواند استایل خودش را داشته باشد."
+
+msgid "Import this demo"
+msgstr "نصب این دمو"
+
+msgid "Not allowed."
+msgstr "دسترسی مجاز نیست."
+
+msgid "Demo imported successfully."
+msgstr "دمو با موفقیت نصب شد."
+
+msgid "Unknown demo."
+msgstr "دموی نامعتبر."
+
+msgid "Beautia Theme"
+msgstr "قالب بیوتیا"
+
+msgid "Demo / Style"
+msgstr "دمو / استایل"
+
+msgid "Active demo"
+msgstr "دموی فعال"
+
+msgid "Colours"
+msgstr "رنگ‌بندی"
+
+msgid "Accent"
+msgstr "رنگ اصلی"
+
+msgid "Secondary accent"
+msgstr "رنگ مکمل"
+
+msgid "Headings / dark"
+msgstr "رنگ عناوین / تیره"
+
+msgid "Body text"
+msgstr "رنگ متن"
+
+msgid "Page background"
+msgstr "پس‌زمینه صفحه"
+
+msgid "Soft surface"
+msgstr "سطح ملایم"
+
+msgid "Typography"
+msgstr "تایپوگرافی"
+
+msgid "Display / headings font stack"
+msgstr "فونت عناوین"
+
+msgid "Body font stack"
+msgstr "فونت متن"
+
+msgid "Base font size (px)"
+msgstr "اندازه پایه فونت (پیکسل)"
+
+msgid "Header"
+msgstr "هدر"
+
+msgid "Header layout"
+msgstr "چیدمان هدر"
+
+msgid "Classic (logo left)"
+msgstr "کلاسیک (لوگو کنار)"
+
+msgid "Centered logo"
+msgstr "لوگوی وسط"
+
+msgid "Split navigation"
+msgstr "منوی دوطرفه"
+
+msgid "Transparent over hero"
+msgstr "شیشه‌ای روی تصویر"
+
+msgid "Show top bar"
+msgstr "نمایش نوار بالایی"
+
+msgid "Sticky header"
+msgstr "هدر چسبان"
+
+msgid "Header button label"
+msgstr "متن دکمه هدر"
+
+msgid "Contact & Social"
+msgstr "تماس و شبکه‌های اجتماعی"
+
+msgid "Phone"
+msgstr "تلفن"
+
+msgid "Address"
+msgstr "آدرس"
+
+msgid "E-mail"
+msgstr "ایمیل"
+
+msgid "Opening hours line"
+msgstr "متن ساعات کاری"
+
+msgid "Google Maps embed URL"
+msgstr "آدرس نقشه گوگل"
+
+msgid "Instagram"
+msgstr "اینستاگرام"
+
+msgid "Telegram"
+msgstr "تلگرام"
+
+msgid "WhatsApp"
+msgstr "واتس‌اپ"
+
+msgid "YouTube"
+msgstr "یوتیوب"
+
+msgid "Pinterest"
+msgstr "پینترست"
+
+msgid "Motion & Effects"
+msgstr "حرکت و جلوه‌ها"
+
+msgid "Scroll reveal animations"
+msgstr "انیمیشن ظاهرشدن هنگام اسکرول"
+
+msgid "Custom magnetic cursor"
+msgstr "نشانگر مغناطیسی اختصاصی"
+
+msgid "Parallax images"
+msgstr "تصاویر پارالاکس"
+
+msgid "Marquee ribbons"
+msgstr "نوار متن متحرک"
+
+msgid "Film grain overlay"
+msgstr "افکت دانه‌دانه فیلم"
+
+msgid "Preloader"
+msgstr "لودر ابتدای سایت"
+
+msgid "Mobile sticky booking bar"
+msgstr "نوار چسبان رزرو در موبایل"
+
+msgid "Footer"
+msgstr "فوتر"
+
+msgid "Copyright text"
+msgstr "متن کپی‌رایت"
+
+msgid "Show booking CTA band"
+msgstr "نمایش نوار دعوت به رزرو"
+
+msgid "Sat – Thu: 10:00 – 20:00"
+msgstr "شنبه تا پنجشنبه: ۱۰:۰۰ تا ۲۰:۰۰"
+
+msgid "Beauty, refined"
+msgstr "زیبایی، در بالاترین سطح"
+
+msgid "Where beauty<br/>meets precision"
+msgstr "جایی که زیبایی<br/>با دقت گره می‌خورد"
+
+msgid "A calm, luxurious studio and a team obsessed with detail. Book your visit in under a minute — you only need your mobile number."
+msgstr "یک فضای آرام و لاکچری با تیمی که عاشق جزئیات است. نوبتتان را در کمتر از یک دقیقه رزرو کنید — فقط شماره موبایل لازم دارید."
+
+msgid "Explore services"
+msgstr "مشاهده خدمات"
+
+msgid "Average rating"
+msgstr "میانگین امتیاز"
+
+msgid "Happy clients"
+msgstr "مشتری راضی"
+
+msgid "SMS confirmation on every step"
+msgstr "پیامک تأیید در تمام مراحل"
+
+msgid "Scroll"
+msgstr "اسکرول"
+
+msgid "Quick booking"
+msgstr "رزرو سریع"
+
+msgid "Add services in the dashboard"
+msgstr "خدمات را از پیشخوان اضافه کنید"
+
+msgid "Preferred date"
+msgstr "تاریخ دلخواه"
+
+msgid "Check availability"
+msgstr "بررسی زمان‌های خالی"
+
+msgid "Login with a verification code — no password needed."
+msgstr "ورود با کد تأیید پیامکی — بدون نیاز به رمز عبور."
+
+msgid "Nail Art"
+msgstr "طراحی ناخن"
+
+msgid "Skin Care"
+msgstr "مراقبت پوست"
+
+msgid "Lashes"
+msgstr "مژه"
+
+msgid "Hair Colour"
+msgstr "رنگ مو"
+
+msgid "Massage"
+msgstr "ماساژ"
+
+msgid "Makeup"
+msgstr "میکاپ"
+
+msgid "What we do"
+msgstr "چه کاری انجام می‌دهیم"
+
+msgid "Signature services"
+msgstr "خدمات ویژه‌ی ما"
+
+msgid "Every treatment is performed with sterilised tools, premium products and a specialist matched to your needs."
+msgstr "هر خدمت با ابزار استریل، محصولات درجه‌یک و متخصصی متناسب با نیاز شما انجام می‌شود."
+
+msgid "No services yet — import a demo or add your first service."
+msgstr "هنوز خدمتی ثبت نشده — یک دمو نصب کنید یا اولین خدمت را بسازید."
+
+msgid "Our work"
+msgstr "کارهای ما"
+
+msgid "Recent transformations"
+msgstr "جدیدترین نمونه‌کارها"
+
+msgid "Real clients, real results — swipe through our latest looks."
+msgstr "مشتری واقعی، نتیجه واقعی — جدیدترین کارهایمان را ببینید."
+
+msgid "Meet the artists"
+msgstr "با تیم ما آشنا شوید"
+
+msgid "Your specialists"
+msgstr "متخصص‌های شما"
+
+msgid "Certified professionals with years of hands-on experience."
+msgstr "حرفه‌ای‌های دارای مدرک با سال‌ها تجربه‌ی عملی."
+
+msgid "Loved by our clients"
+msgstr "محبوب مشتریان"
+
+msgid "What people say"
+msgstr "مشتریان چه می‌گویند"
+
+msgid "Appointments served"
+msgstr "نوبت انجام‌شده"
+
+msgid "Return clients"
+msgstr "مشتریان بازگشتی"
+
+msgid "Transparent pricing"
+msgstr "قیمت شفاف"
+
+msgid "Menu & prices"
+msgstr "لیست خدمات و قیمت"
+
+msgid "Reserve a slot"
+msgstr "رزرو نوبت"
+
+msgid "Login with mobile + OTP"
+msgstr "ورود با موبایل و کد پیامکی"
+
+msgid "No passwords. Clients enter their number, receive a code by SMS and they are in."
+msgstr "بدون رمز عبور. مشتری شماره‌اش را وارد می‌کند، کد پیامکی می‌گیرد و وارد می‌شود."
+
+msgid "Smart appointment engine"
+msgstr "موتور هوشمند نوبت‌دهی"
+
+msgid "Per-staff schedules, breaks, buffers, capacity, holidays and lead-time rules."
+msgstr "برنامه‌ی اختصاصی هر پرسنل، استراحت، فاصله بین نوبت‌ها، ظرفیت، تعطیلات و قوانین زمان رزرو."
+
+msgid "SMS at every stage"
+msgstr "پیامک در تمام مراحل"
+
+msgid "Submitted, confirmed, rescheduled, reminder, completed, no-show — fully editable templates."
+msgstr "ثبت، تأیید، تغییر زمان، یادآوری، اتمام و عدم مراجعه — با متن‌های کاملاً قابل ویرایش."
+
+msgid "Customer panel"
+msgstr "پنل کاربری"
+
+msgid "Upcoming visits, history, cancel & reschedule, favourites, loyalty tier and profile."
+msgstr "نوبت‌های پیش‌رو، تاریخچه، لغو و تغییر زمان، علاقه‌مندی‌ها، سطح وفاداری و پروفایل."
+
+msgid "Owner dashboard"
+msgstr "پیشخوان مدیریت"
+
+msgid "Daily agenda, revenue, statuses, SMS log and one-click confirmations."
+msgstr "برنامه‌ی روزانه، درآمد، وضعیت‌ها، گزارش پیامک و تأیید تک‌کلیکی."
+
+msgid "No paid plugins"
+msgstr "بدون افزونه پولی"
+
+msgid "Booking, OTP, SMS, portfolio and panel are native theme features."
+msgstr "نوبت‌دهی، ورود پیامکی، ارسال پیامک، نمونه‌کار و پنل، همگی بخشی از خود قالب هستند."
+
+msgid "Built in"
+msgstr "داخلی و یکپارچه"
+
+msgid "Professional features, zero add-ons"
+msgstr "امکانات حرفه‌ای، بدون هیچ افزونه"
+
+msgid "Results"
+msgstr "نتایج"
+
+msgid "Before & after"
+msgstr "قبل و بعد"
+
+msgid "After"
+msgstr "بعد"
+
+msgid "Before"
+msgstr "قبل"
+
+msgid "Beauty notes & guides"
+msgstr "یادداشت‌ها و راهنماهای زیبایی"
+
+msgid "Read more"
+msgstr "ادامه مطلب"
+
+msgid "Ready when you are"
+msgstr "هر وقت آماده بودید"
+
+msgid "Book your next appointment in 60 seconds"
+msgstr "نوبت بعدی‌تان را در ۶۰ ثانیه رزرو کنید"
+
+msgid "Choose a service, pick a free slot, verify your mobile — done. You will receive an SMS at every step."
+msgstr "خدمت را انتخاب کنید، ساعت خالی را بردارید، موبایلتان را تأیید کنید — تمام. در هر مرحله پیامک دریافت می‌کنید."
+
+msgid "Book now"
+msgstr "همین حالا رزرو کن"
+
+msgid "Call"
+msgstr "تماس"
+
+msgid "Panel"
+msgstr "پنل"
+
+msgid "Date & time"
+msgstr "تاریخ و ساعت"
+
+msgid "Verify"
+msgstr "تأیید"
+
+msgid "Done"
+msgstr "پایان"
+
+msgid "Which service would you like?"
+msgstr "کدام خدمت را می‌خواهید؟"
+
+msgid "No bookable services found. Import a demo or create services first."
+msgstr "خدمت قابل رزروی یافت نشد. ابتدا یک دمو نصب کنید یا خدمت بسازید."
+
+msgid "Continue"
+msgstr "ادامه"
+
+msgid "Choose your specialist"
+msgstr "متخصص خود را انتخاب کنید"
+
+msgid "Any available specialist"
+msgstr "هر متخصص در دسترس"
+
+msgid "Fastest availability"
+msgstr "سریع‌ترین زمان خالی"
+
+msgid "Back"
+msgstr "بازگشت"
+
+msgid "Pick a date and a free slot"
+msgstr "تاریخ و ساعت خالی را انتخاب کنید"
+
+msgid "Select a day to see the available times."
+msgstr "برای دیدن ساعت‌های خالی، یک روز را انتخاب کنید."
+
+msgid "Confirm your details"
+msgstr "تأیید اطلاعات شما"
+
+msgid "Full name"
+msgstr "نام و نام خانوادگی"
+
+msgid "e.g. Sara Ahmadi"
+msgstr "مثلاً سارا احمدی"
+
+msgid "Notes (optional)"
+msgstr "توضیحات (اختیاری)"
+
+msgid "Allergies, inspiration photos, preferences…"
+msgstr "حساسیت‌ها، عکس نمونه، سلیقه‌ی شما…"
+
+msgid "Send verification code"
+msgstr "ارسال کد تأیید"
+
+msgid "Confirm booking"
+msgstr "ثبت نهایی نوبت"
+
+msgid "Your appointment"
+msgstr "نوبت شما"
+
+msgid "Free cancellation up to %d hours before your appointment."
+msgstr "لغو رایگان تا %d ساعت پیش از نوبت."
+
+msgid "Your appointment is registered!"
+msgstr "نوبت شما ثبت شد!"
+
+msgid "Tracking code:"
+msgstr "کد پیگیری:"
+
+msgid "Open my panel"
+msgstr "ورود به پنل من"
+
+msgid "Back to home"
+msgstr "بازگشت به خانه"
+
+msgid "You are logged in"
+msgstr "شما وارد شده‌اید"
+
+msgid "Go to my panel"
+msgstr "رفتن به پنل من"
+
+msgid "Login or sign up"
+msgstr "ورود یا ثبت‌نام"
+
+msgid "Enter your mobile number, we will text you a one-time code. No password required."
+msgstr "شماره موبایلتان را وارد کنید تا کد یکبارمصرف برایتان پیامک شود. نیازی به رمز عبور نیست."
+
+msgid "Send code"
+msgstr "ارسال کد"
+
+msgid "Your name"
+msgstr "نام شما"
+
+msgid "e.g. Sara"
+msgstr "مثلاً سارا"
+
+msgid "Verify & continue"
+msgstr "تأیید و ادامه"
+
+msgid "Change number"
+msgstr "تغییر شماره"
+
+msgid "Your number is only used for booking notifications."
+msgstr "شماره‌ی شما فقط برای اطلاع‌رسانی نوبت‌ها استفاده می‌شود."
+
+msgid "Closed"
+msgstr "تعطیل"
+
+msgid "Tracking code e.g. BK7H2K9A"
+msgstr "کد پیگیری مثل BK7H2K9A"
+
+msgid "Track"
+msgstr "پیگیری"
+
+msgid "No appointment found with this code."
+msgstr "نوبتی با این کد یافت نشد."
+
+msgid "Hero with quick booking"
+msgstr "هدر اصلی با فرم رزرو سریع"
+
+msgid "Services grid"
+msgstr "شبکه خدمات"
+
+msgid "Filterable portfolio"
+msgstr "نمونه‌کار فیلترشونده"
+
+msgid "Team members"
+msgstr "اعضای تیم"
+
+msgid "Price menu"
+msgstr "لیست قیمت"
+
+msgid "Testimonial slider"
+msgstr "اسلایدر نظرات"
+
+msgid "Animated counters"
+msgstr "شمارنده‌های متحرک"
+
+msgid "Feature list"
+msgstr "فهرست امکانات"
+
+msgid "Before / after sliders"
+msgstr "اسلایدرهای قبل و بعد"
+
+msgid "Journal teaser"
+msgstr "بخش مقالات"
+
+msgid "Booking CTA band"
+msgstr "نوار دعوت به رزرو"
+
+msgid "Booking wizard"
+msgstr "فرم چندمرحله‌ای رزرو"
+
+msgid "Full salon landing page"
+msgstr "صفحه فرود کامل سالن"
+
+msgid "Beautia pill"
+msgstr "دکمه گرد بیوتیا"
+
+msgid "Arch frame"
+msgstr "قاب طاقی"
+
+msgid "Beautia quote card"
+msgstr "کارت نقل‌قول بیوتیا"
+
+msgid "Nothing found"
+msgstr "چیزی یافت نشد"
+
+msgid "Try another keyword or browse our services."
+msgstr "کلمه دیگری امتحان کنید یا خدمات ما را ببینید."
+
+msgid "Upcoming"
+msgstr "پیش‌رو"
+
+msgid "Total spent"
+msgstr "مجموع پرداختی"
+
+msgid "%d%% member discount"
+msgstr "%d%% تخفیف عضویت"
+
+msgid "Your next visit"
+msgstr "نوبت بعدی شما"
+
+msgid "Any specialist"
+msgstr "هر متخصص"
+
+msgid "No upcoming appointment"
+msgstr "نوبتی در پیش ندارید"
+
+msgid "Treat yourself — book your next visit now."
+msgstr "به خودتان برسید — همین حالا نوبت بگیرید."
+
+msgid "Loyalty progress"
+msgstr "پیشرفت باشگاه مشتریان"
+
+msgid "%d more visits to the next tier"
+msgstr "%d نوبت دیگر تا سطح بعدی"
+
+msgid "Top tier reached — enjoy!"
+msgstr "به بالاترین سطح رسیدید — لذت ببرید!"
+
+msgid "Upcoming appointments"
+msgstr "نوبت‌های پیش‌رو"
+
+msgid "Nothing booked yet."
+msgstr "هنوز نوبتی رزرو نکرده‌اید."
+
+msgid "Call us to change"
+msgstr "برای تغییر تماس بگیرید"
+
+msgid "Visit history"
+msgstr "تاریخچه مراجعات"
+
+msgid "Date"
+msgstr "تاریخ"
+
+msgid "No visits recorded yet."
+msgstr "هنوز مراجعه‌ای ثبت نشده است."
+
+msgid "Book again"
+msgstr "رزرو دوباره"
+
+msgid "Favourite services"
+msgstr "خدمات مورد علاقه"
+
+msgid "You have not saved any service yet."
+msgstr "هنوز خدمتی را ذخیره نکرده‌اید."
+
+msgid "Loyalty club"
+msgstr "باشگاه مشتریان"
+
+msgid "Every completed visit moves you closer to a better tier and a bigger permanent discount."
+msgstr "هر نوبت انجام‌شده شما را به سطح بالاتر و تخفیف دائمی بیشتر نزدیک‌تر می‌کند."
+
+msgid "from %d visits"
+msgstr "از %d نوبت"
+
+msgid "%d%% off"
+msgstr "%d%% تخفیف"
+
+msgid "Completed visits: %d"
+msgstr "نوبت‌های انجام‌شده: %d"
+
+msgid "My profile"
+msgstr "پروفایل من"
+
+msgid "First name"
+msgstr "نام"
+
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+msgid "Mobile (verified)"
+msgstr "موبایل (تأییدشده)"
+
+msgid "Birthday (for your gift code)"
+msgstr "تاریخ تولد (برای کد هدیه)"
+
+msgid "Send me offers and reminders by SMS"
+msgstr "پیشنهادها و یادآوری‌ها را پیامک کنید"
+
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+msgid "Log out of your account?"
+msgstr "از حساب خود خارج می‌شوید؟"
+
+msgid "Online reservation"
+msgstr "رزرو آنلاین"
+
+msgid "Four quick steps: service, specialist, time and mobile verification."
+msgstr "چهار مرحله‌ی سریع: خدمت، متخصص، زمان و تأیید موبایل."
+
+msgid "{name} dear,\nYou are on the waiting list for {date}.\nAs soon as a slot opens we will text you.\n{site}"
+msgstr "{name} عزیز،\nشما در فهرست انتظار تاریخ {date} ثبت شدید.\nبه‌محض خالی‌شدن یک نوبت برایتان پیامک می‌کنیم.\n{site}"
+
+msgid "{name} dear,\nGood news — a slot has just opened on {date}.\nBook it before someone else does:\n{site}"
+msgstr "{name} عزیز،\nخبر خوب — همین حالا یک نوبت در تاریخ {date} خالی شد.\nپیش از آنکه کسی دیگر بگیرد رزروش کنید:\n{site}"
+
+msgid "Please pick a score from one to five stars."
+msgstr "لطفاً امتیازی بین یک تا پنج ستاره انتخاب کنید."
+
+msgid "Please sign in first."
+msgstr "لطفاً ابتدا وارد شوید."
+
+msgid "You can only review a visit that is finished."
+msgstr "فقط برای نوبت‌های انجام‌شده می‌توانید نظر ثبت کنید."
+
+msgid "You have already reviewed this visit."
+msgstr "برای این نوبت قبلاً نظر ثبت کرده‌اید."
+
+msgid "Customer rated the visit %d/5."
+msgstr "مشتری به این نوبت امتیاز %d از ۵ داد."
+
+msgid "Thank you! Your review helps us — and the next customer."
+msgstr "ممنون! نظر شما هم به ما کمک می‌کند، هم به مشتری بعدی."
+
+msgid "Drag to compare"
+msgstr "برای مقایسه بکشید"
+
+msgid "Real results"
+msgstr "نتیجه واقعی"
+
+msgid "Before and after, without retouching"
+msgstr "قبل و بعد، بدون روتوش"
+
+msgid "Drag the handle and judge for yourself. Every photo is taken in the salon, under the same light, with no filter."
+msgstr "دستگیره را بکشید و خودتان قضاوت کنید. همه عکس‌ها داخل سالن، با یک نور و بدون فیلتر گرفته شده‌اند."
+
+msgid "Same angle, same light, no filter"
+msgstr "یک زاویه، یک نور، بدون فیلتر"
+
+msgid "Published with the client’s written consent"
+msgstr "انتشار فقط با رضایت کتبی مشتری"
+
+msgid "The full aftercare plan is sent to you by SMS"
+msgstr "برنامه کامل مراقبت بعد از خدمت پیامک می‌شود"
+
+msgid "Drag the handle left and right"
+msgstr "دستگیره را چپ و راست بکشید"
+
+msgid "Rate this visit"
+msgstr "ثبت امتیاز"
+
+msgid "How was your visit?"
+msgstr "نوبت‌تان چطور بود؟"
+
+msgid "Your score is private; the text is published only after we approve it."
+msgstr "امتیاز شما محرمانه است؛ متن فقط پس از تأیید ما منتشر می‌شود."
+
+msgid "%d stars"
+msgstr "%d ستاره"
+
+msgid "Tell us in a sentence or two (optional)"
+msgstr "در یکی دو جمله برایمان بنویسید (اختیاری)"
+
+msgid "Send review"
+msgstr "ثبت نظر"
+
+msgid "Pick a day"
+msgstr "انتخاب روز"
+
+msgid "This day is fully booked. Leave your number and we will text you the moment a slot opens."
+msgstr "این روز کاملاً پر است. شماره‌تان را بگذارید تا به‌محض خالی‌شدن یک نوبت، برایتان پیامک کنیم."
+
+msgid "Notify me"
+msgstr "به من خبر بده"
+
+msgid "0912 000 0000"
+msgstr "۰۹۱۲ ۰۰۰ ۰۰۰۰"
+
+msgid "%s result found"
+msgstr "%s نتیجه پیدا شد"
+
+msgid "%s results found"
+msgstr "%s نتیجه پیدا شد"
+
+msgid "Nothing matched your search"
+msgstr "چیزی با جست‌وجوی شما مطابقت نداشت"
+
+msgid "Try a different word, or jump straight to one of these:"
+msgstr "کلمه دیگری امتحان کنید، یا مستقیم به یکی از این بخش‌ها بروید:"
+
+msgid "Every specialist, their experience and the services they perform."
+msgstr "همه متخصصان، سابقه کاری و خدماتی که انجام می‌دهند."
+
+msgid "View profile"
+msgstr "مشاهده پروفایل"
+
+msgid "About split with checklist"
+msgstr "بخش درباره ما با چک‌لیست"
+
+msgid "How it works — three steps"
+msgstr "چطور کار می‌کند — سه قدم"
+
+msgid "FAQ accordion"
+msgstr "آکاردئون پرسش‌های پرتکرار"
+
+msgid "Opening hours table"
+msgstr "جدول ساعات کاری"
+
+msgid "Track my appointment"
+msgstr "پیگیری نوبت"
+
+msgid "Export CSV"
+msgstr "خروجی CSV"
+
+msgid "Last 14 days"
+msgstr "۱۴ روز گذشته"
+
+msgid "Confirmed and completed appointments per day."
+msgstr "نوبت‌های تأییدشده و انجام‌شده در هر روز."
+
+msgid "Value"
+msgstr "ارزش"
+
+msgid "Busiest day"
+msgstr "شلوغ‌ترین روز"
+
+msgid "Mobile"
+msgstr "موبایل"
+
+msgid "You are already on the waiting list for this day."
+msgstr "شما از قبل در فهرست انتظار این روز هستید."
+
+msgid "Dear customer"
+msgstr "مشتری گرامی"
+
+msgid "You are on the list — we will text you the moment a slot opens."
+msgstr "در فهرست انتظار ثبت شدید — به‌محض خالی‌شدن نوبت برایتان پیامک می‌کنیم."
+
+msgid "SMS delivery failed"
+msgstr "ارسال پیامک ناموفق بود"
+
+msgid "Search a service…"
+msgstr "جست‌وجوی خدمت…"
+
+msgid "Filter by category"
+msgstr "فیلتر بر اساس دسته"
+
+msgid "Sort"
+msgstr "مرتب‌سازی"
+
+msgid "Default order"
+msgstr "ترتیب پیش‌فرض"
+
+msgid "Cheapest first"
+msgstr "ارزان‌ترین اول"
+
+msgid "Most expensive first"
+msgstr "گران‌ترین اول"
+
+msgid "Shortest first"
+msgstr "کوتاه‌ترین زمان اول"
+
+msgid "No service matches your filters."
+msgstr "هیچ خدمتی با فیلترهای شما مطابقت ندارد."
+
+msgid "Full price list"
+msgstr "لیست کامل تعرفه‌ها"
+
+msgid "%s services shown"
+msgstr "%s خدمت نمایش داده شد"
+
+msgid "Copied!"
+msgstr "کپی شد!"
+
+msgid "%s min read"
+msgstr "%s دقیقه مطالعه"
+
+msgid "Share this article"
+msgstr "این مطلب را هم‌رسانی کنید"
+
+msgid "Copy link"
+msgstr "کپی لینک"
+
+msgid "Written by"
+msgstr "نویسنده"
+
+msgid "Keep reading"
+msgstr "ادامه مطالعه"
+
+msgid "Our team"
+msgstr "تیم ما"
+
+msgid "%s years of experience"
+msgstr "%s سال تجربه"
+
+msgid "%s services"
+msgstr "%s خدمت"
+
+msgid "client rating"
+msgstr "امتیاز مراجعان"
+
+msgid "Working hours"
+msgstr "ساعات کاری"
+
+msgid "Off"
+msgstr "تعطیل"
+
+msgid "Specialist profile"
+msgstr "پروفایل متخصص"
+
+msgid "About me"
+msgstr "درباره من"
+
+msgid "Services I perform"
+msgstr "خدماتی که انجام می‌دهم"
+
+msgid "Selected work"
+msgstr "نمونه‌کارهای منتخب"
+
+msgid "Show the floating quick-booking button on every page"
+msgstr "نمایش دکمه شناور رزرو سریع در همه صفحه‌ها"
+
+msgid "Choose a service and a day — we will show you the free times immediately."
+msgstr "خدمت و روز را انتخاب کنید — ساعت‌های خالی بلافاصله نمایش داده می‌شوند."
+
+msgid "Continue to booking"
+msgstr "ادامه در فرم رزرو"
+
+msgid "Or call us"
+msgstr "یا تماس بگیرید"
+
+msgid "Breadcrumb"
+msgstr "مسیر صفحه"
+
+msgid "Home"
+msgstr "خانه"
+
+msgid "What is included"
+msgstr "این خدمت شامل چه چیزهایی است"
+
+msgid "Recent results"
+msgstr "نمونه‌کارهای اخیر"
+
+msgid "Aftercare"
+msgstr "مراقبت‌های بعد از خدمت"
+
+msgid "How long does this appointment take?"
+msgstr "این نوبت چقدر طول می‌کشد؟"
+
+msgid "Plan for about %s, including consultation and preparation. We never overlap appointments, so the time is entirely yours."
+msgstr "حدود %s زمان در نظر بگیرید؛ شامل مشاوره و آماده‌سازی. ما هرگز نوبت‌ها را روی هم نمی‌گذاریم، پس این زمان کاملاً در اختیار شماست."
+
+msgid "How do I pay?"
+msgstr "پرداخت چگونه است؟"
+
+msgid "You pay at the salon after the service. If a deposit is required for this treatment it will be shown on the booking form before you confirm."
+msgstr "پرداخت پس از انجام خدمت و در محل انجام می‌شود. اگر این خدمت نیاز به بیعانه داشته باشد، پیش از تأیید نهایی در فرم رزرو به شما نمایش داده می‌شود."
+
+msgid "Can I choose my specialist?"
+msgstr "می‌توانم متخصص را خودم انتخاب کنم؟"
+
+msgid "Yes — in step two of the booking form you can pick a specific specialist, or leave it on “any available” for the earliest slot."
+msgstr "بله — در گام دوم فرم رزرو می‌توانید یک متخصص مشخص را انتخاب کنید یا گزینه «هر متخصص در دسترس» را بگذارید تا نزدیک‌ترین زمان خالی به شما داده شود."
+
+msgid "What if I need to cancel?"
+msgstr "اگر بخواهم لغو کنم چه؟"
+
+msgid "Cancel or reschedule free of charge from your customer panel, up to the cancellation window shown on your confirmation SMS."
+msgstr "لغو یا تغییر زمان به‌صورت رایگان از پنل کاربری‌تان انجام می‌شود، تا پیش از پایان مهلتی که در پیامک تأیید برایتان ذکر شده است."
+
+msgid "Save %s"
+msgstr "%s تخفیف"
+
+msgid "Book with your mobile number only"
+msgstr "رزرو فقط با شماره موبایل"
+
+msgid "You may also like"
+msgstr "شاید بپسندید"
+
+msgid "Related services"
+msgstr "خدمات مرتبط"
+
+msgid "Aftercare steps (one per line)"
+msgstr "مراحل مراقبت بعد از خدمت (هر مورد در یک خط)"
+
+msgid "Switch between light and dark mode"
+msgstr "جابه‌جایی میان حالت روشن و تیره"
+
+msgid "Dark mode"
+msgstr "حالت تیره"
+
+msgid "Show the light / dark switch in the header"
+msgstr "نمایش کلید روشن/تیره در سربرگ سایت"
+
+msgid "Default: follow the visitor’s device"
+msgstr "پیش‌فرض: مطابق تنظیم دستگاه بازدیدکننده"
+
+msgid "Default: always light"
+msgstr "پیش‌فرض: همیشه روشن"
+
+msgid "Default: always dark"
+msgstr "پیش‌فرض: همیشه تیره"
+
+msgid "About the studio"
+msgstr "درباره مجموعه"
+
+msgid "A team obsessed with the details"
+msgstr "تیمی که وسواس جزئیات دارد"
+
+msgid "We are a small, specialised team. Every tool is sterilised, every product is professional grade, and every appointment gets the time it actually needs — never a rushed queue."
+msgstr "ما تیمی کوچک و کاملاً تخصصی هستیم. همه ابزارها استریل می‌شوند، همه محصولات درجه حرفه‌ای‌اند و برای هر نوبت دقیقاً همان زمانی که لازم است در نظر گرفته می‌شود — هرگز صف و عجله."
+
+msgid "Hospital-grade sterilisation and single-use tools"
+msgstr "استریلیزاسیون در سطح بیمارستانی و ابزار یک‌بارمصرف"
+
+msgid "Specialists matched to your treatment, not whoever is free"
+msgstr "متخصص متناسب با خدمت شما، نه هرکسی که بی‌کار باشد"
+
+msgid "Transparent pricing — the price you see is the price you pay"
+msgstr "تعرفه شفاف — همان قیمتی که می‌بینید، همان را می‌پردازید"
+
+msgid "A written aftercare plan sent to you by SMS"
+msgstr "برنامه مراقبت بعد از خدمت، پیامک می‌شود"
+
+msgid "years of experience"
+msgstr "سال تجربه"
+
+msgid "Pick a service and a free slot"
+msgstr "خدمت و ساعت خالی را انتخاب کنید"
+
+msgid "Real availability, calculated from each specialist’s own schedule."
+msgstr "زمان‌های واقعاً خالی، محاسبه‌شده از برنامه اختصاصی هر متخصص."
+
+msgid "Verify your mobile number"
+msgstr "شماره موبایلتان را تأیید کنید"
+
+msgid "A one-time code by SMS — no account, no password to remember."
+msgstr "یک کد یک‌بارمصرف پیامکی — بدون ساخت حساب و بدون رمزی که باید به خاطر بسپارید."
+
+msgid "Get your confirmation SMS"
+msgstr "پیامک تأیید را دریافت کنید"
+
+msgid "Plus a reminder the day before, and everything visible in your panel."
+msgstr "به‌علاوه یادآوری یک روز قبل، و همه‌چیز در پنل کاربری شما."
+
+msgid "Booking in 60 seconds"
+msgstr "رزرو در ۶۰ ثانیه"
+
+msgid "How it works"
+msgstr "چطور کار می‌کند"
+
+msgid "How do I book an appointment?"
+msgstr "چطور نوبت بگیرم؟"
+
+msgid "Choose your service, your specialist and a free slot, then confirm your mobile number with the code we text you. The whole flow takes about a minute and needs no account."
+msgstr "خدمت، متخصص و یک ساعت خالی را انتخاب کنید و بعد شماره موبایلتان را با کدی که برایتان پیامک می‌شود تأیید کنید. کل مسیر حدود یک دقیقه طول می‌کشد و نیازی به ساخت حساب کاربری ندارد."
+
+msgid "Do I need a password to log in?"
+msgstr "برای ورود به رمز عبور نیاز دارم؟"
+
+msgid "No. Beautia uses your mobile number and a one-time SMS code. Your number is your identity, and the code is valid for a few minutes only."
+msgstr "خیر. ورود فقط با شماره موبایل و کد یک‌بارمصرف پیامکی انجام می‌شود. شماره شما همان هویت شماست و کد تنها چند دقیقه اعتبار دارد."
+
+msgid "Can I cancel or move my appointment?"
+msgstr "می‌توانم نوبتم را لغو یا جابه‌جا کنم؟"
+
+msgid "Yes — from your customer panel, up to the cancellation window set by the salon. You will receive an SMS confirming the change immediately."
+msgstr "بله — از پنل کاربری خودتان و تا پیش از پایان مهلت لغوی که مجموعه تعیین کرده است. بلافاصله پیامک تأیید تغییر برایتان ارسال می‌شود."
+
+msgid "Will I be reminded before my visit?"
+msgstr "پیش از مراجعه یادآوری می‌شود؟"
+
+msgid "Yes. An automatic reminder is sent the day before, and a follow-up message after the visit with aftercare advice."
+msgstr "بله. یک روز قبل پیامک یادآوری خودکار و پس از مراجعه هم پیامک پیگیری همراه با توصیه‌های مراقبتی ارسال می‌شود."
+
+msgid "What if I arrive late?"
+msgstr "اگر دیر برسم چه می‌شود؟"
+
+msgid "Please call us. We hold your slot for 10 minutes; after that the appointment may need to be shortened or moved so the next client is not delayed."
+msgstr "لطفاً تماس بگیرید. نوبت شما تا ۱۰ دقیقه نگه داشته می‌شود؛ پس از آن ممکن است لازم باشد خدمت کوتاه‌تر شود یا نوبت جابه‌جا گردد تا مراجعه‌کننده بعدی معطل نماند."
+
+msgid "Good to know"
+msgstr "خوب است بدانید"
+
+msgid "Frequently asked questions"
+msgstr "پرسش‌های پرتکرار"
+
+msgid "Still unsure about something? Call us — we would rather answer a question than have you guess."
+msgstr "هنوز سؤالی دارید؟ تماس بگیرید — ترجیح می‌دهیم جواب بدهیم تا اینکه شما حدس بزنید."
+
+msgid "Nail artistry, refined"
+msgstr "هنر ناخن، در اوج ظرافت"
+
+msgid "Nails that speak<br/>before you do"
+msgstr "ناخن‌هایی که پیش از شما<br/>حرف می‌زنند"
+
+msgid "A calm studio, sterilised tools and artists obsessed with shape. Book in under a minute — all you need is your mobile number."
+msgstr "استودیویی آرام، ابزار کاملاً استریل و هنرمندانی وسواسی روی فرم. کمتر از یک دقیقه نوبت بگیرید — فقط به شماره موبایلتان نیاز دارید."
+
+msgid "Physician-led aesthetics"
+msgstr "زیبایی زیر نظر پزشک"
+
+msgid "Science first,<br/>beauty always"
+msgstr "اول علم،<br/>همیشه زیبایی"
+
+msgid "Evidence-based treatments, hospital-grade hygiene and honest advice. Reserve your consultation online in a minute."
+msgstr "درمان‌های مبتنی بر شواهد علمی، بهداشت در سطح بیمارستانی و مشاوره صادقانه. نوبت مشاوره را در یک دقیقه آنلاین رزرو کنید."
+
+msgid "Colour & cutting house"
+msgstr "خانه رنگ و کوتاهی مو"
+
+msgid "Hair with<br/>an attitude"
+msgstr "مویی که<br/>شخصیت دارد"
+
+msgid "Balayage, precision cutting and treatments that keep your hair healthy between visits."
+msgstr "بالیاژ، کوتاهی تخصصی و درمان‌هایی که موهای شما را بین دو مراجعه سالم نگه می‌دارد."
+
+msgid "Spa & wellness"
+msgstr "اسپا و تندرستی"
+
+msgid "Breathe out.<br/>You have arrived"
+msgstr "نفس عمیق بکشید،<br/>رسیدید"
+
+msgid "Slow treatments, natural oils and a quiet room away from the city. Reserve your escape online."
+msgstr "درمان‌های آهسته، روغن‌های طبیعی و اتاقی ساکت، دور از هیاهوی شهر. فرار کوتاهتان را آنلاین رزرو کنید."
+
+msgid "Brows & lashes bar"
+msgstr "بار تخصصی مژه و ابرو"
+
+msgid "Wake up<br/>ready"
+msgstr "آماده<br/>بیدار شوید"
+
+msgid "Hand-mapped lash sets and brows that finally behave. Three-week refills, always on time."
+msgstr "ست‌های مژه با نقشه اختصاصی و ابروهایی که بالاخره رام می‌شوند. ترمیم سه‌هفته‌ای، همیشه سر وقت."
+
+msgid "Makeup artist & academy"
+msgstr "میکاپ آرتیست و آکادمی"
+
+msgid "Your face,<br/>only louder"
+msgstr "همان چهره شما،<br/>فقط رساتر"
+
+msgid "Bridal, editorial and camera-ready makeup — plus a certified academy for the next generation of artists."
+msgstr "میکاپ عروس، ادیتوریال و مناسب دوربین — به‌همراه آکادمی دارای مدرک برای نسل بعدی هنرمندان."
+
+msgid "Barbershop since 2013"
+msgstr "آرایشگاه مردانه، از سال ۱۳۹۲"
+
+msgid "Sharp cuts,<br/>hot towels"
+msgstr "اصلاح تمیز،<br/>حوله داغ"
+
+msgid "Classic cuts, clean fades and a straight-razor shave. Book your chair from your phone — no queue, no waiting."
+msgstr "اصلاح کلاسیک، فید تمیز و تراش با تیغ راست. صندلی‌تان را با موبایل رزرو کنید — بدون صف، بدون معطلی."
+
+msgid "Language & direction"
+msgstr "زبان و جهت نوشتار"
+
+msgid "Automatic (follow site language)"
+msgstr "خودکار (بر اساس زبان سایت)"
+
+msgid "Always right-to-left"
+msgstr "همیشه راست‌چین"
+
+msgid "Always left-to-right"
+msgstr "همیشه چپ‌چین"
+
+msgid "Always load the bundled Persian translation"
+msgstr "همیشه ترجمه فارسی همراه قالب بارگذاری شود"
+
+msgid "Display numbers with Persian digits"
+msgstr "نمایش اعداد با ارقام فارسی"
+
+msgid "Beautia Sections"
+msgstr "بخش‌های بیوتیا"
+
+msgid "Hero"
+msgstr "بخش آغازین"
+
+msgid "About"
+msgstr "درباره ما"
+
+msgid "Pricing"
+msgstr "تعرفه‌ها"
+
+msgid "Features"
+msgstr "امکانات"
+
+msgid "Statistics"
+msgstr "آمار"
+
+msgid "FAQ"
+msgstr "پرسش‌های متداول"
+
+msgid "Blog"
+msgstr "مجله"
+
+msgid "Call to Action"
+msgstr "فراخوان اقدام"
+
+msgid "Appointment Tracking"
+msgstr "پیگیری نوبت"
+
+msgid "Content"
+msgstr "محتوا"
+
+msgid "Number of items"
+msgstr "تعداد موارد"
+
+msgid "Mobile Login"
+msgstr "ورود با موبایل"
+
+msgid "Customer Account"
+msgstr "پنل مشتری"
+
+msgid "Choose a date"
+msgstr "یک تاریخ انتخاب کنید"
+
+msgid "Your appointment has been registered. Connect an SMS gateway to deliver confirmation messages."
+msgstr "نوبت شما ثبت شد. برای ارسال پیام تأیید، درگاه پیامک را متصل کنید."
+
+msgid "Choose a service, pick a free slot, verify your mobile — done. SMS notifications start as soon as you connect your gateway."
+msgstr "خدمت و ساعت خالی را انتخاب و موبایلتان را تأیید کنید — تمام. پس از اتصال درگاه، اعلان‌های پیامکی هم فعال می‌شوند."

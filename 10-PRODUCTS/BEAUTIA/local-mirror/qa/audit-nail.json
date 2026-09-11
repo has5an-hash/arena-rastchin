@@ -1,0 +1,225 @@
+{
+    "folder": "nail",
+    "url": "http:\/\/localhost\/beautia\/demoes\/nail\/",
+    "active_demo": "nails",
+    "showcase": "0",
+    "colors": [],
+    "rows": [
+        {
+            "type": "beautia_service",
+            "id": 8,
+            "title": "کاشت ژل — فرم بادامی",
+            "demo": "nails",
+            "image": "svc-nail-1-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 10,
+            "title": "فرنچ و میکرو آرت",
+            "demo": "nails",
+            "image": "svc-nail-2-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 12,
+            "title": "کروم و کت‌آی",
+            "demo": "nails",
+            "image": "svc-nail-3-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 14,
+            "title": "آیین پدیکور اسپا",
+            "demo": "nails",
+            "image": "svc-nail-4-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 16,
+            "title": "مانیکور روسی",
+            "demo": "nails",
+            "image": "svc-nail-5-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 17,
+            "title": "ترمیم و برداشت",
+            "demo": "nails",
+            "image": "svc-nail-6.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 24,
+            "title": "ست بادامی نود شیری",
+            "demo": "nails",
+            "image": "glam-nails.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 26,
+            "title": "فرنچ مرواریدی",
+            "demo": "nails",
+            "image": "manicure-before-v2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 28,
+            "title": "کروم مایع",
+            "demo": "nails",
+            "image": "manicure-after-v2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 30,
+            "title": "پدیکور گل‌محمدی",
+            "demo": "nails",
+            "image": "ba-nails-before-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 32,
+            "title": "گلیزد دونات",
+            "demo": "nails",
+            "image": "collection-social.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 71,
+            "title": "ترمیم و برداشت · دفتر الهام",
+            "demo": "nails",
+            "image": "svc-makeup-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 18,
+            "title": "نیکا رحمانی",
+            "demo": "nails",
+            "image": "team-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 20,
+            "title": "سارا کیان",
+            "demo": "nails",
+            "image": "team-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 22,
+            "title": "مهسا تهرانی",
+            "demo": "nails",
+            "image": "team-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 45,
+            "title": "نود، شیری یا رز؟ راهنمای ساختن پالت شخصی ناخن",
+            "demo": "nails",
+            "image": "svc-hair-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 47,
+            "title": "فرم ناخن را با روزمره خودتان انتخاب کنید",
+            "demo": "nails",
+            "image": "svc-hair-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 74,
+            "title": "مودبورد مانیکور؛ از چند تصویر تا یک طرح منسجم",
+            "demo": "nails",
+            "image": "svc-hair-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 49,
+            "title": "نیل — استودیو ناخن",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 50,
+            "title": "درباره نیل",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 51,
+            "title": "خدمات و تعرفه‌ها",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 52,
+            "title": "دفتر الهام و نمونه‌کارها",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 53,
+            "title": "تماس و برنامه مراجعه",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 54,
+            "title": "مجله نیل",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 81,
+            "title": "رزرو نوبت نیل",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 83,
+            "title": "پنل من · نیل",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 85,
+            "title": "ورود · نیل",
+            "demo": "nails",
+            "image": "",
+            "literal_slashes": 0
+        }
+    ]
+}

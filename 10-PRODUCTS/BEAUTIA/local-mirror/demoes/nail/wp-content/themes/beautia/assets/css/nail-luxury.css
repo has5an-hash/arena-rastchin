@@ -1,0 +1,416 @@
+/**
+ * Nail studio finishing layer.
+ * Intentionally scoped to the Nail demo so the other six identities remain unchanged.
+ */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience{
+  --nail-ink:#3f2333;
+  --nail-text:#654b59;
+  --nail-muted:#806776;
+  --nail-wine:#93445f;
+  --nail-wine-deep:#713047;
+  --nail-rose:#d98aa7;
+  --nail-blush:#f8e9ef;
+  --nail-ivory:#fffdfb;
+  --nail-panel:#ffffff;
+  --nail-gold:#b88a52;
+  --nail-line:rgba(101,58,79,.15);
+  --nail-shadow:0 22px 65px rgba(100,48,72,.12);
+  --nail-shadow-hover:0 30px 75px rgba(100,48,72,.20);
+  --c-bg:var(--nail-ivory);
+  --c-soft:var(--nail-blush);
+  --c-dark:var(--nail-ink);
+  --c-body:var(--nail-text);
+  --c-accent:var(--nail-wine);
+  --c-accent-2:var(--nail-rose);
+  --c-line:var(--nail-line);
+  --grad:linear-gradient(118deg,var(--nail-wine-deep),var(--nail-wine) 55%,#b66380);
+  background:var(--nail-ivory);
+  color:var(--nail-text);
+  font-size:16px;
+}
+
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(p,li,label,small,.small-note){color:var(--nail-text)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(h1,h2,h3,h4,strong,.sec-title){color:var(--nail-ink)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience p{line-height:2.05}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .section{padding-block:clamp(72px,7.5vw,112px)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .eyebrow{
+  display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border:1px solid rgba(147,68,95,.22);
+  border-radius:999px;background:rgba(255,255,255,.72);color:var(--nail-wine);font-size:12px;font-weight:700;
+  box-shadow:0 8px 25px rgba(104,54,76,.06)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience h2.sec-title{
+  margin:.55em 0 .35em;font-size:clamp(34px,3.6vw,54px);line-height:1.55;font-weight:700
+}
+
+/* Header chrome and the now-functional appearance control. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-header{
+  background:rgba(255,253,251,.9);border-bottom:1px solid var(--nail-line);backdrop-filter:blur(18px) saturate(140%)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .theme-toggle,
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .icon-btn{
+  width:46px;height:46px;background:#fff;border:1px solid var(--nail-line);color:var(--nail-ink);
+  box-shadow:0 8px 24px rgba(91,43,65,.08)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .theme-toggle:hover,
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .icon-btn:hover{
+  background:var(--nail-blush);border-color:rgba(147,68,95,.42);color:var(--nail-wine);box-shadow:0 12px 30px rgba(147,68,95,.16)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.theme-toggle,.icon-btn,.mood-tabs button,.btn,.text-link,a):focus-visible{
+  outline:3px solid color-mix(in srgb,var(--nail-wine) 42%,transparent);outline-offset:4px
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .header-search{
+  background:rgba(255,253,251,.97);border-color:var(--nail-line)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .header-search.is-open{box-shadow:0 28px 70px rgba(73,35,53,.16)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search{padding-block:26px 30px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search-field{
+  min-height:66px;padding-inline:20px 16px;border:1px solid rgba(147,68,95,.24);border-radius:22px;
+  background:#fff;box-shadow:0 14px 38px rgba(91,43,65,.08)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search-field:focus-within{
+  border-color:var(--nail-wine);box-shadow:0 0 0 4px rgba(147,68,95,.1),0 18px 45px rgba(91,43,65,.12)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search .search-field{
+  color:var(--nail-ink);font-size:15px
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search .search-field::placeholder{color:#927986;opacity:1}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search-field kbd{
+  padding:5px 9px;background:var(--nail-blush);border-color:var(--nail-line);color:var(--nail-muted);font-weight:700
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .search-suggestions>p{margin:12px 5px 0;color:var(--nail-muted);font-size:13px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .search-suggestion{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .search-suggestion:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(91,43,65,.1)}
+
+/* Hero booking card: clear hierarchy, generous but controlled spacing. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero{
+  overflow:hidden;background:
+    radial-gradient(circle at 9% 18%,rgba(217,138,167,.24),transparent 28%),
+    radial-gradient(circle at 92% 12%,rgba(184,138,82,.12),transparent 20%),
+    linear-gradient(135deg,#fff9fb,#fffdfb 58%,#f9eaf0)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero-grid{padding-block:clamp(54px,7vw,92px);gap:clamp(50px,7vw,104px)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero-copy{
+  padding:clamp(28px,4vw,50px);border:1px solid rgba(147,68,95,.16);border-radius:32px;
+  background:rgba(255,255,255,.88);box-shadow:var(--nail-shadow);backdrop-filter:blur(14px)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero-copy h1{font-size:clamp(38px,4.2vw,62px);line-height:1.45}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero-copy>p{font-size:15px;color:var(--nail-text);max-width:54ch}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation{
+  display:grid;grid-template-columns:1fr 1fr;gap:12px 16px;margin-top:28px;padding:24px;border:1px solid var(--nail-line);
+  border-radius:24px;background:linear-gradient(145deg,#fff,var(--nail-blush));box-shadow:inset 0 1px #fff,0 16px 38px rgba(91,43,65,.08)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation h2{grid-column:1/-1;margin:0 0 4px;font-size:24px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation label{font-size:13px;font-weight:700;color:var(--nail-ink)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation select{
+  min-height:56px;padding:10px 16px;border:1px solid rgba(101,58,79,.18);border-radius:16px;background-color:#fff;color:var(--nail-ink);
+  box-shadow:0 8px 20px rgba(91,43,65,.04);cursor:pointer
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation select:focus{border-color:var(--nail-wine);box-shadow:0 0 0 4px rgba(147,68,95,.1)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation :is(.btn,.text-link){margin-top:8px;align-self:center}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .btn-primary{
+  border-color:transparent;background:var(--grad);color:#fff;box-shadow:0 14px 34px rgba(113,48,71,.24)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .btn-primary:hover{
+  color:#fff;transform:translateY(-3px);box-shadow:0 20px 42px rgba(113,48,71,.32)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .text-link{color:var(--nail-wine);font-weight:700;text-underline-offset:7px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .text-link:hover{color:var(--nail-wine-deep);text-decoration-color:var(--nail-rose)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-photo{border-radius:46% 46% 30px 30px;box-shadow:var(--nail-shadow)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .floating-note{
+  border:1px solid rgba(147,68,95,.16);background:rgba(255,255,255,.9);box-shadow:0 22px 55px rgba(91,43,65,.16);backdrop-filter:blur(12px)
+}
+
+/* Mood palette: stronger contrast and a richer interactive card. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-discovery{
+  background:
+    radial-gradient(circle at 14% 74%,rgba(184,138,82,.1),transparent 22%),
+    linear-gradient(125deg,#fffdfb 0%,#fbeef3 52%,#fff8f3 100%)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .discovery-grid{gap:clamp(44px,7vw,96px)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .discovery-grid>div:first-child{
+  padding:clamp(24px,3vw,40px);border-inline-start:3px solid var(--nail-rose);border-radius:0 24px 24px 0;background:rgba(255,255,255,.56)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .discovery-grid>div:first-child>p{font-size:15px;max-width:48ch}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-tabs{gap:10px;margin-block:26px 18px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-tabs button{
+  min-height:46px;padding:10px 18px;border-color:rgba(147,68,95,.2);background:rgba(255,255,255,.8);color:var(--nail-wine);font-size:13px;font-weight:700
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-tabs button:hover{
+  transform:translateY(-2px);background:#fff;border-color:var(--nail-rose);box-shadow:0 10px 24px rgba(147,68,95,.12)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-tabs button[aria-pressed="true"]{background:var(--grad);color:#fff;box-shadow:0 12px 28px rgba(113,48,71,.22)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .small-note{font-size:12px;color:var(--nail-muted)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result{
+  min-height:300px;grid-template-columns:46% 1fr;gap:0;border:1px solid rgba(147,68,95,.16);border-radius:30px;
+  background:#fff;box-shadow:var(--nail-shadow);transition:transform .35s ease,box-shadow .35s ease
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result:hover{transform:translateY(-6px);box-shadow:var(--nail-shadow-hover)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art{
+  min-height:300px;background:
+    radial-gradient(circle at 28% 24%,rgba(255,255,255,.46),transparent 20%),
+    radial-gradient(circle at 70% 72%,rgba(217,138,167,.45),transparent 30%),
+    linear-gradient(145deg,#3e2332,#744058 58%,#a9637c)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art:before{width:160px;border-color:rgba(255,255,255,.35)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art:after{width:90px;border-color:rgba(255,255,255,.3)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result>div{padding:34px 28px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result>div>span{color:var(--nail-wine);font-size:11px;font-weight:700}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result h3{font-size:28px;margin:10px 0 6px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result p{font-size:13px;color:var(--nail-text)}
+
+/* Comparison and specialist guide: less empty space, more depth. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-comparison{
+  background:
+    radial-gradient(circle at 84% 22%,rgba(217,138,167,.2),transparent 28%),
+    linear-gradient(135deg,#fff8fa,#f7e9ef 56%,#fffdfb)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-compare-grid{gap:clamp(48px,8vw,112px)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-compare-grid>div:first-child{
+  padding:clamp(24px,4vw,50px);border:1px solid rgba(147,68,95,.14);border-radius:30px;background:rgba(255,255,255,.7);box-shadow:0 18px 52px rgba(91,43,65,.09)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-comparison p{max-width:48ch;font-size:15px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .comparison-notes{gap:10px;margin-top:28px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .comparison-notes span{
+  min-height:46px;padding:8px 14px;border:1px solid rgba(147,68,95,.14);border-radius:14px;background:#fff;color:var(--nail-rose);font-size:12px
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .comparison-notes b{color:var(--nail-ink);font-weight:700}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-comparison small{color:var(--nail-muted);font-size:11px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-comparison .cmp{
+  border:10px solid rgba(255,255,255,.9);border-radius:46% 46% 30px 30px;box-shadow:var(--nail-shadow);overflow:hidden
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-specialty{
+  background:linear-gradient(180deg,#fff 0%,#fffaf8 100%)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-head{align-items:center;margin-bottom:44px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-head>p{font-size:15px;padding:20px 24px;border-radius:20px;background:var(--nail-blush)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid{gap:20px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid article{
+  min-height:250px;padding:30px;border:1px solid rgba(147,68,95,.15);border-radius:26px;
+  background:linear-gradient(155deg,#fff 0%,#fff7f9 100%);box-shadow:0 14px 40px rgba(91,43,65,.07);
+  transition:transform .35s ease,box-shadow .35s ease,border-color .35s ease
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid article::after{
+  content:"✦";position:absolute;inset-inline-end:22px;bottom:16px;color:rgba(184,138,82,.24);font-size:38px;transition:transform .35s ease,color .35s ease
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid article:hover{
+  transform:translateY(-8px);border-color:rgba(147,68,95,.32);box-shadow:var(--nail-shadow-hover)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid article:hover::after{transform:rotate(18deg) scale(1.12);color:rgba(184,138,82,.52)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-code{background:var(--grad);box-shadow:0 10px 24px rgba(113,48,71,.2)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid h3{font-size:23px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid p{font-size:14px;color:var(--nail-text)}
+
+/* CTA, footer and booking pages keep readable contrast in both appearances. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band{
+  padding-block:clamp(62px,7vw,96px);background:
+    radial-gradient(circle at 8% 25%,rgba(255,255,255,.13),transparent 26%),
+    linear-gradient(120deg,#55283d,#7d3853 54%,#9f526d);color:#fff
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band::before{background:radial-gradient(circle,rgba(232,167,191,.3),transparent 68%)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band :is(h2,p,.eyebrow){color:#fff}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band h2{font-size:clamp(34px,4vw,58px);line-height:1.5}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band p{font-size:15px;opacity:.86}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band .eyebrow{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.25)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band .btn-primary{background:#fff;color:var(--nail-wine-deep)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band .btn-primary:hover{background:#f9e9ef;color:var(--nail-wine-deep)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band .btn-ghost{color:#fff;border-color:rgba(255,255,255,.38);background:rgba(255,255,255,.08)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-band .btn-ghost:hover{background:#fff;color:var(--nail-wine-deep)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-footer{
+  padding-top:76px;background:#35232e;color:#e8dce2;border-top:0
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-footer::before{height:4px;background:linear-gradient(90deg,var(--nail-rose),var(--nail-gold),var(--nail-wine))}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-footer :is(p,li,small,.demo-disclosure){color:#d9c8d1;opacity:1}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-footer :is(h4,.brand-text strong,a){color:#fff}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-footer a:hover{color:#f4b5ca}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-footer .hours-list em{color:#f4b5ca}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .footer-bottom{border-color:rgba(255,255,255,.12)}
+
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.page-hero:not(.has-image),.wizard-body){background:linear-gradient(145deg,#fff,#fff6f9)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .wizard-body{border-color:var(--nail-line);box-shadow:var(--nail-shadow)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .wizard-steps li{background:#fff;border:1px solid var(--nail-line);color:var(--nail-text)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .wizard-steps li.is-active{background:var(--grad);color:#fff;border-color:transparent}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(input,select,textarea){background:#fff;color:var(--nail-ink);border-color:rgba(101,58,79,.2)}
+
+/* Night palette retains the Nail identity instead of falling back to generic grey. */
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience{
+  --nail-ink:#fff3f8;--nail-text:#e3ced8;--nail-muted:#c9aebc;--nail-wine:#df8eac;--nail-wine-deep:#bb6383;
+  --nail-rose:#eca7c0;--nail-blush:#34232d;--nail-ivory:#1d151a;--nail-panel:#2a1e25;--nail-gold:#d8b27f;
+  --nail-line:rgba(244,181,204,.18);--nail-shadow:0 24px 70px rgba(0,0,0,.28);--nail-shadow-hover:0 32px 82px rgba(0,0,0,.38);
+  background:#1d151a;color:var(--nail-text)
+}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.site-header,.header-search){background:rgba(29,21,26,.94)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.theme-toggle,.icon-btn,.smart-search-field,.studio-hero-copy,.mood-result,.comparison-notes span){background:var(--nail-panel)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.studio-hero,.studio-discovery,.nail-comparison,.studio-specialty,.page-hero:not(.has-image)){
+  background:radial-gradient(circle at 12% 18%,rgba(187,99,131,.18),transparent 30%),linear-gradient(135deg,#21171d,#2b1d25)
+}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.studio-reservation,.discovery-grid>div:first-child,.specialty-head>p,.specialty-grid article,.wizard-body){background:linear-gradient(145deg,#2e2028,#261a21)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(input,select,textarea){background:#21171d;color:var(--nail-ink);border-color:var(--nail-line)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience .site-footer{background:#140e12}
+
+@media(max-width:900px){
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation{grid-template-columns:1fr}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation h2{grid-column:auto}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-count-4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid article{min-height:220px}
+}
+@media(max-width:640px){
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience{font-size:15px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .section{padding-block:58px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero-grid{gap:18px;padding-block:26px 52px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero-copy{padding:24px 18px;border-radius:24px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-hero-copy h1{font-size:36px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .studio-reservation{padding:18px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .discovery-grid>div:first-child{padding:22px 18px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result{grid-template-columns:1fr;min-height:0}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art{min-height:190px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-compare-grid>div:first-child{padding:22px 18px}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .comparison-notes{display:grid;grid-template-columns:1fr}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-count-4{grid-template-columns:1fr}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid article{min-height:0}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-in{align-items:flex-start}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-actions{width:100%}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .cta-actions .btn{flex:1}
+}
+
+@media(prefers-reduced-motion:no-preference){
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art svg{animation:nailSparkle 3.8s ease-in-out infinite}
+  html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .specialty-grid article:nth-child(even){animation-delay:.08s}
+}
+@keyframes nailSparkle{0%,100%{transform:rotate(-5deg) scale(1);filter:drop-shadow(0 8px 16px rgba(0,0,0,.2))}50%{transform:rotate(7deg) scale(1.12);filter:drop-shadow(0 10px 22px rgba(255,220,235,.32))}}
+
+/* 4.0.2 — final Nail UI pass: rectangular language, stable archives and full night mode. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.btn,.filter,.eyebrow,.mood-tabs button,.inspiration-toolbar button,.availability-slots a,.fab-book,.specialty-code){border-radius:12px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.studio-photo,.nail-comparison .cmp,.staff-photo,.about-img-main,.folio){border-radius:22px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .floating-note{
+  min-width:230px;border-radius:14px;border-inline-start:4px solid var(--nail-gold);animation:none
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art{border-radius:22px 0 0 22px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art:before,
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art:after{border-radius:18px;transform:rotate(24deg)}
+
+/* Search is one clean field; the close action lives inside it. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search-field{gap:12px;border-radius:16px;padding-inline:18px 8px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search .search-field{
+  flex:1;min-width:0;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;outline:0
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search .search-close{
+  position:static;inset:auto;width:44px;height:44px;flex:0 0 44px;border:0;border-inline-start:1px solid var(--nail-line);
+  border-radius:10px;background:transparent;color:var(--nail-wine);box-shadow:none;transition:background .2s ease,color .2s ease,transform .2s ease
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .smart-search .search-close:hover{background:var(--nail-blush);color:var(--nail-wine-deep);transform:scale(.96)}
+
+/* Centred mega menu with hover intent controlled exclusively by JavaScript. */
+@media(min-width:1025px){
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nav-list>.beautia-mega>.sub-menu{
+   left:50%;right:auto;inset-inline:auto;width:min(1120px,calc(100vw - 72px));max-width:none;margin:0;padding:26px;
+   border-radius:18px;transform:translate(-50%,14px);transform-origin:50% 0
+ }
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nav-list>.beautia-mega.is-hovering>.sub-menu,
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nav-list>.beautia-mega:focus-within>.sub-menu{transform:translate(-50%,0)}
+}
+
+/* Archive typography and layout — explicit rules prevent inherited demo drift. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .page-hero.small{
+  padding-block:clamp(64px,7vw,96px);background:linear-gradient(135deg,#fff8fb 0%,#f8e8ef 56%,#fffdfb 100%);border-bottom:1px solid var(--nail-line)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .page-hero h1{
+  margin:12px 0 10px;font-family:var(--font-display),'Markazi Text',serif;font-size:clamp(42px,5vw,68px);line-height:1.35;color:var(--nail-ink)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .page-hero p{margin:0 auto;max-width:60ch;font-size:15px;color:var(--nail-text)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .crumbs{justify-content:center;color:var(--nail-muted)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-toolbar{
+  display:grid;grid-template-columns:minmax(280px,1fr) minmax(210px,280px);gap:16px 22px;align-items:center;
+  margin-bottom:18px;padding:22px;border:1px solid var(--nail-line);border-radius:20px;background:var(--nail-panel);box-shadow:var(--nail-shadow)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-search{
+  display:flex;align-items:center;gap:10px;min-height:54px;padding-inline:16px;border:1px solid var(--nail-line);border-radius:12px;background:var(--nail-ivory);color:var(--nail-wine)
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-search:focus-within{border-color:var(--nail-wine);box-shadow:0 0 0 4px rgba(147,68,95,.1)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-search input{min-height:50px;padding:8px 0;border:0!important;background:transparent!important;box-shadow:none!important}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-sort select{min-height:54px;border-radius:12px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-filters{grid-column:1/-1;justify-content:flex-start;margin:2px 0 0;padding-top:16px;border-top:1px solid var(--nail-line)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-count{min-height:30px;margin:14px 2px 24px;color:var(--nail-muted);font-size:13px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience #svc-grid{
+  display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:stretch
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-item{display:flex;min-width:0}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-item[hidden]{display:none}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .service-card{
+  width:100%;border:1px solid var(--nail-line);border-radius:20px;background:var(--nail-panel);box-shadow:0 14px 42px rgba(91,43,65,.08);transform:none!important
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .service-card:hover{transform:translateY(-7px)!important;box-shadow:var(--nail-shadow-hover)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .service-media{aspect-ratio:16/10}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .service-body{padding:26px 24px 24px;gap:13px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .service-body h3{min-height:0;margin:0;font-size:21px;line-height:1.65}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .service-body p{font-size:14px;line-height:1.95}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .service-actions{gap:14px;flex-wrap:wrap}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .price-table-section{margin-top:48px;padding-top:76px;border-top:1px solid var(--nail-line)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .price-table-section>.grid{gap:24px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .price-card{border-radius:20px;background:var(--nail-panel);box-shadow:0 12px 36px rgba(91,43,65,.07)}
+
+/* Portfolio uses a disciplined grid instead of fragile newspaper columns. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .masonry{
+  columns:auto!important;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px
+}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .folio{margin:0;aspect-ratio:4/3;border:1px solid var(--nail-line);box-shadow:0 14px 40px rgba(91,43,65,.08)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .folio>a,
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .folio img{display:block;width:100%;height:100%;object-fit:cover}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .folio figcaption{opacity:1;transform:none;padding:54px 22px 20px;background:linear-gradient(transparent,rgba(36,18,28,.9))}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .folio figcaption h3{font-size:20px;line-height:1.55;color:#fff}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .folio figcaption span{color:#f7e8ef;opacity:.9}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .inspiration-toolbar{padding:16px;border:1px solid var(--nail-line);border-radius:16px;background:var(--nail-panel)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .inspiration-save{border-radius:10px}
+
+/* Nail Fit — bespoke decision-aid widget. */
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-lab{background:linear-gradient(145deg,#fffdfb,#faedf2)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-head{display:grid;grid-template-columns:1.05fr .8fr;gap:56px;align-items:end;margin-bottom:42px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-head p{margin:0;font-size:14px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-shell{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(330px,.8fr);border:1px solid var(--nail-line);border-radius:24px;overflow:hidden;background:var(--nail-panel);box-shadow:var(--nail-shadow)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-questions{display:grid;gap:0;padding:12px 32px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-questions fieldset{margin:0;padding:25px 0;border:0;border-bottom:1px solid var(--nail-line)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-questions fieldset:last-child{border-bottom:0}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-questions legend{display:flex;align-items:center;gap:10px;margin-bottom:14px;color:var(--nail-ink);font-weight:700}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-questions legend b{display:grid;place-items:center;width:28px;height:28px;border-radius:8px;background:var(--nail-blush);color:var(--nail-wine);font-size:12px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-options{display:flex;flex-wrap:wrap;gap:10px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-options button{padding:10px 15px;border:1px solid var(--nail-line);border-radius:10px;background:var(--nail-ivory);color:var(--nail-text);font:inherit;font-size:13px;cursor:pointer;transition:.22s ease}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-options button:hover{border-color:var(--nail-rose);color:var(--nail-wine);transform:translateY(-2px)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-options button[aria-pressed="true"]{background:var(--grad);border-color:transparent;color:#fff;box-shadow:0 8px 20px rgba(113,48,71,.18)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result{position:relative;padding:36px;background:linear-gradient(145deg,#4c2939,#7f3b55);color:#fff;overflow:hidden}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result :is(small,h3,dt,dd){color:#fff}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result h3{margin:10px 0 26px;font-size:28px;line-height:1.55}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result dl{display:grid;gap:0;margin:0 0 28px}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result dl div{padding:13px 0;border-bottom:1px solid rgba(255,255,255,.16)}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result dt{font-size:11px;opacity:.7}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result dd{margin:4px 0 0;font-weight:700}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-mark{position:absolute;top:24px;left:24px;padding:7px 9px;border:1px solid rgba(255,255,255,.24);border-radius:8px;font:700 11px/1 sans-serif;letter-spacing:2px;color:#fff}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result .btn{background:#fff;color:var(--nail-wine-deep);box-shadow:none}
+html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .is-updated .nail-fit-result h3{animation:nailFitReveal .38s ease}
+@keyframes nailFitReveal{from{opacity:.25;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* Comprehensive Nail dark mode: every content surface and control follows the palette. */
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.services,.portfolio,.price-table-section,.studio-availability,.studio-experience-about,.team,.testimonials,.posts,.faq,.nail-fit-lab){background:#1d151a;color:var(--nail-text)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.service-card,.price-card,.post-card,.quote-card,.staff-card,.panel-card,.wizard-pane,.account-nav,.account-content,.booking-box,.drawer,.floating-note,.mood-result,.specialty-grid article,.svc-toolbar,.inspiration-toolbar,.search-suggestion,.nail-fit-shell){background:var(--nail-panel);border-color:var(--nail-line);color:var(--nail-text)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.page-hero.small,.nail-fit-lab){background:linear-gradient(135deg,#21171d,#2b1d25 58%,#20161c)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience :is(.svc-search,.nail-fit-options button,.wizard-steps li,.availability-slots a){background:#21171d;border-color:var(--nail-line);color:var(--nail-text)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result{background:linear-gradient(145deg,#5d2c42,#8e4562)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nav-list>.beautia-mega>.sub-menu{background:rgba(42,30,37,.98);border-color:var(--nail-line)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience .beautia-mega>.sub-menu>li>a{color:var(--nail-ink)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience .beautia-mega>.sub-menu>li>a:hover{background:#382631;color:var(--nail-rose)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .folio{border-color:var(--nail-line);background:var(--nail-panel)}
+html[data-theme="dark"][data-beautia-appearance="pastel"] body.demo-nails.studio-experience .pdots{border-color:rgba(255,255,255,.16)}
+
+@media(max-width:980px){
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience #svc-grid,
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .masonry{grid-template-columns:repeat(2,minmax(0,1fr))}
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-shell{grid-template-columns:1fr}
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-head{grid-template-columns:1fr;gap:18px}
+}
+@media(max-width:640px){
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-toolbar{grid-template-columns:1fr;padding:16px}
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .svc-filters{grid-column:auto}
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience #svc-grid,
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .portfolio .masonry{grid-template-columns:1fr}
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-questions{padding:8px 18px}
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .nail-fit-result{padding:30px 22px}
+ html[data-beautia-appearance="pastel"] body.demo-nails.studio-experience .mood-result-art{border-radius:20px 20px 0 0}
+}

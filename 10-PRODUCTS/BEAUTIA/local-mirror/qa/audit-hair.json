@@ -1,0 +1,225 @@
+{
+    "folder": "hair",
+    "url": "http:\/\/localhost\/beautia\/demoes\/hair\/",
+    "active_demo": "hair",
+    "showcase": "0",
+    "colors": [],
+    "rows": [
+        {
+            "type": "beautia_service",
+            "id": 140,
+            "title": "بالیاژ و گلاس",
+            "demo": "hair",
+            "image": "svc-hair-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 142,
+            "title": "کوتاهی تخصصی و استایل",
+            "demo": "hair",
+            "image": "svc-hair-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 144,
+            "title": "کراتینه صاف‌کننده",
+            "demo": "hair",
+            "image": "svc-hair-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 145,
+            "title": "شینیون عروس و جلسه پیش‌آزمون",
+            "demo": "hair",
+            "image": "svc-hair-4.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 146,
+            "title": "دتاکس پوست سر",
+            "demo": "hair",
+            "image": "svc-hair-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 147,
+            "title": "سشوار و فر موج‌دار",
+            "demo": "hair",
+            "image": "svc-hair-6.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 151,
+            "title": "بالیاژ آفتاب‌خورده",
+            "demo": "hair",
+            "image": "glam-hair.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 152,
+            "title": "باب خط‌دار",
+            "demo": "hair",
+            "image": "svc-makeup-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 153,
+            "title": "شینیون نرم عروس",
+            "demo": "hair",
+            "image": "svc-makeup-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 154,
+            "title": "شینیون عروس و جلسه پیش‌آزمون · دفتر الهام",
+            "demo": "hair",
+            "image": "svc-barber-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 155,
+            "title": "دتاکس پوست سر · دفتر الهام",
+            "demo": "hair",
+            "image": "svc-barber-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 156,
+            "title": "سشوار و فر موج‌دار · دفتر الهام",
+            "demo": "hair",
+            "image": "svc-barber-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 148,
+            "title": "دریا صدیقی",
+            "demo": "hair",
+            "image": "team-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 149,
+            "title": "کیان مرادی",
+            "demo": "hair",
+            "image": "team-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 150,
+            "title": "رؤیا امینی",
+            "demo": "hair",
+            "image": "team-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 160,
+            "title": "عکس مرجع کوتاهی مو را چطور انتخاب کنیم؟",
+            "demo": "hair",
+            "image": "svc-spa-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 161,
+            "title": "پیش از تغییر رنگ، یک گفت‌وگوی کامل داشته باشیم",
+            "demo": "hair",
+            "image": "svc-spa-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 162,
+            "title": "یک استایل خوب برای روزهای شلوغ",
+            "demo": "hair",
+            "image": "svc-spa-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 163,
+            "title": "خانه مو — خانه مو و رنگ",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 165,
+            "title": "درباره خانه مو",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 167,
+            "title": "خدمات و تعرفه‌ها",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 169,
+            "title": "دفتر الهام و نمونه‌کارها",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 171,
+            "title": "مجله خانه مو",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 173,
+            "title": "تماس و برنامه مراجعه",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 175,
+            "title": "رزرو نوبت خانه مو",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 177,
+            "title": "پنل من · خانه مو",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 179,
+            "title": "ورود · خانه مو",
+            "demo": "hair",
+            "image": "",
+            "literal_slashes": 0
+        }
+    ]
+}

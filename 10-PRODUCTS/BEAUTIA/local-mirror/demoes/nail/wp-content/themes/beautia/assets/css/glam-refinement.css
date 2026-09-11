@@ -1,0 +1,51 @@
+/* Full-width editorial layout and explicit contrast for each surface. */
+html[data-beautia-appearance="pastel"] body.beautia-collection{padding:0}
+html[data-beautia-appearance="pastel"] body.beautia-collection :is(#page,.pastel-shell){width:100%;max-width:none;margin:0;border-radius:0;box-shadow:none}
+html[data-beautia-appearance="pastel"] body.beautia-collection :is(.container,.hub-container){width:calc(100% - 80px);max-width:1320px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .studio-hero-grid{width:100%;max-width:none}
+html[data-beautia-appearance="pastel"] body.beautia-collection .cta-band{background:linear-gradient(115deg,#f6e1ec,#eee1f5);color:#514056}
+html[data-beautia-appearance="pastel"] body.beautia-collection .cta-band :is(h2,p,.eyebrow){color:#514056;opacity:1}
+html[data-beautia-appearance="pastel"] body.beautia-collection .cta-band .btn-primary{background:#77517b;color:#fff;border-color:#77517b}
+html[data-beautia-appearance="pastel"] body.beautia-collection .cta-band .btn-primary :is(span,svg){color:inherit}
+html[data-beautia-appearance="pastel"] body.beautia-collection .page-hero.has-image{background:#362a37;isolation:isolate}
+html[data-beautia-appearance="pastel"] body.beautia-collection .page-hero.has-image::after{content:'';position:absolute;inset:0;background:#2417289e;z-index:-1}
+html[data-beautia-appearance="pastel"] body.beautia-collection .page-hero.has-image .page-hero-bg{z-index:-2}
+html[data-beautia-appearance="pastel"] body.beautia-collection .page-hero.has-image :is(h1,p,a,span,.post-meta){color:#fff;text-shadow:0 2px 12px #160e21aa;opacity:1}
+html[data-beautia-appearance="pastel"] body.beautia-collection :is(.preview-word,.preview-caption,.preview-open,.collage-card>span,.collage-card b,.collage-card small){color:#fff;opacity:1;text-shadow:0 2px 12px #25172ca6}
+html[data-beautia-appearance="pastel"] body.beautia-collection .preview-visual::after{background:linear-gradient(0deg,#261929b8,transparent 80%)}
+html[data-beautia-appearance="pastel"] body.beautia-collection :is(.icon-btn,.demo-arrow,.inspiration-save,.to-top){display:inline-flex;align-items:center;justify-content:center;padding:0;line-height:1;flex-shrink:0}
+html[data-beautia-appearance="pastel"] body.beautia-collection :is(.icon-btn,.demo-arrow) svg{display:block;margin:0;position:static;flex-shrink:0}
+html[data-beautia-appearance="pastel"] body.beautia-collection .bi{vertical-align:middle;flex-shrink:0}
+html[data-beautia-appearance="pastel"] body.beautia-collection .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;line-height:1.6;min-height:46px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .wizard-body{padding:clamp(20px,3vw,40px)}
+html[data-beautia-appearance="pastel"] body.beautia-collection .wizard-pane{border:0;border-radius:0;box-shadow:none;background:transparent;padding:0}
+html[data-beautia-appearance="pastel"] body.beautia-collection .verify-grid{gap:32px;align-items:start}
+html[data-beautia-appearance="pastel"] body.beautia-collection .verify-form{min-width:0;padding:4px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .verify-form h3{font-size:24px;line-height:1.7;margin-bottom:22px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .verify-form label{display:block;margin-bottom:18px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .verify-form label>span{display:block;margin-bottom:8px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .verify-form :is(input,textarea){width:100%;padding:14px 16px;font:inherit;font-size:14px;line-height:1.8;border-radius:12px;box-sizing:border-box}
+html[data-beautia-appearance="pastel"] body.beautia-collection .wizard-actions{padding-top:22px;margin-top:24px;border-top:1px solid #eadfeb}
+html[data-beautia-appearance="pastel"] body.beautia-collection .verify-summary{padding:26px;border-radius:18px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .otp-hint bdi{display:inline-block;white-space:nowrap;letter-spacing:1px;color:#54375d}
+html[data-beautia-appearance="pastel"] body.beautia-collection .widget :is(h2,h3,.wp-block-heading){font-family:Sahel,sans-serif;font-size:21px;line-height:1.7;margin:0 0 18px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .widget{padding:25px;overflow-wrap:anywhere}
+html[data-beautia-appearance="pastel"] body.beautia-collection .widget li{padding-block:12px;line-height:1.9}
+html[data-beautia-appearance="pastel"] body.beautia-collection .widget p{text-align:justify;font-size:13px;line-height:2}
+html[data-beautia-appearance="pastel"] body.beautia-collection .hub-demo-grid{align-items:stretch;padding-bottom:0}
+html[data-beautia-appearance="pastel"] body.beautia-collection :is(.hub-demo-card,.hub-choose-card){transform:none;margin-top:0}
+html[data-beautia-appearance="pastel"] body.beautia-collection .hub-demo-card{display:flex;flex-direction:column}
+html[data-beautia-appearance="pastel"] body.beautia-collection .demo-card-tags{margin-top:auto;padding-top:12px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .hub-collage{height:560px;margin:0;isolation:isolate}
+html[data-beautia-appearance="pastel"] body.beautia-collection .collage-orbit{display:none}
+html[data-beautia-appearance="pastel"] body.beautia-collection .collage-main{width:74%;height:475px;right:0;top:20px;border-radius:24px;transform:rotate(3deg);animation:glam-sway 8s ease-in-out infinite;transform-origin:50% -30px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .collage-small{width:43%;height:255px;left:0;bottom:5px;border-radius:20px;transform:rotate(-6deg);animation:glam-float 7s ease-in-out infinite}
+html[data-beautia-appearance="pastel"] body.beautia-collection .collage-main img{object-position:center 35%}
+html[data-beautia-appearance="pastel"] body.beautia-collection .collage-sticker{top:42px;left:0;width:105px;height:105px;border-radius:16px;animation:glam-sway 6s ease-in-out infinite;transform-origin:50% -55px;box-shadow:0 14px 30px #b790b729}
+html[data-beautia-appearance="pastel"] body.beautia-collection .collage-sticker::before{content:'';position:absolute;bottom:100%;left:50%;height:55px;width:1px;background:#bf9fc0}
+html[data-beautia-appearance="pastel"] body.beautia-collection .collage-tag{right:12px;bottom:0;font-size:15px}
+html[data-beautia-appearance="pastel"] body.beautia-collection .hub-hero{overflow:visible}
+@keyframes glam-sway{0%,100%{transform:rotate(3deg)}50%{transform:rotate(-2deg)}}
+@keyframes glam-float{0%,100%{transform:translateY(0) rotate(-6deg)}50%{transform:translateY(-12px) rotate(-3deg)}}
+@media(max-width:760px){html[data-beautia-appearance="pastel"] body.beautia-collection :is(.container,.hub-container){width:calc(100% - 36px)}html[data-beautia-appearance="pastel"] body.beautia-collection .studio-hero-grid{width:100%}html[data-beautia-appearance="pastel"] body.beautia-collection .hub-collage{height:420px}html[data-beautia-appearance="pastel"] body.beautia-collection .collage-main{height:340px;width:76%}html[data-beautia-appearance="pastel"] body.beautia-collection .collage-small{height:185px;width:44%}html[data-beautia-appearance="pastel"] body.beautia-collection .collage-sticker{width:83px;height:83px;font-size:9px;top:45px}html[data-beautia-appearance="pastel"] body.beautia-collection .verify-summary{padding:20px}html[data-beautia-appearance="pastel"] body.beautia-collection .wizard-actions .btn{flex:1;padding-inline:12px}}
+@media(prefers-reduced-motion:reduce){html[data-beautia-appearance="pastel"] body.beautia-collection :is(.collage-main,.collage-small,.collage-sticker){animation:none}}

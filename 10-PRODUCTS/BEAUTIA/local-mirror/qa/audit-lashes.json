@@ -1,0 +1,225 @@
+{
+    "folder": "lashes",
+    "url": "http:\/\/localhost\/beautia\/demoes\/lashes\/",
+    "active_demo": "lashes",
+    "showcase": "0",
+    "colors": [],
+    "rows": [
+        {
+            "type": "beautia_service",
+            "id": 234,
+            "title": "ست مژه ولوم",
+            "demo": "lashes",
+            "image": "svc-lash-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 236,
+            "title": "اکستنشن مژه کلاسیک",
+            "demo": "lashes",
+            "image": "svc-lash-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 238,
+            "title": "لیفت و رنگ مژه",
+            "demo": "lashes",
+            "image": "svc-lash-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 239,
+            "title": "لمینت ابرو",
+            "demo": "lashes",
+            "image": "svc-lash-4-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 240,
+            "title": "میکروبلیدینگ",
+            "demo": "lashes",
+            "image": "svc-lash-5-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 241,
+            "title": "فرم و رنگ ابرو",
+            "demo": "lashes",
+            "image": "svc-lash-6-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 245,
+            "title": "ست ولوم ویسپی",
+            "demo": "lashes",
+            "image": "svc-clinic-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 246,
+            "title": "ابروی لمینت‌شده",
+            "demo": "lashes",
+            "image": "svc-clinic-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 247,
+            "title": "لیفت و رنگ مژه · دفتر الهام",
+            "demo": "lashes",
+            "image": "svc-clinic-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 248,
+            "title": "لمینت ابرو · دفتر الهام",
+            "demo": "lashes",
+            "image": "svc-clinic-4.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 249,
+            "title": "میکروبلیدینگ · دفتر الهام",
+            "demo": "lashes",
+            "image": "svc-clinic-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 250,
+            "title": "فرم و رنگ ابرو · دفتر الهام",
+            "demo": "lashes",
+            "image": "svc-clinic-6.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 242,
+            "title": "تارا جلالی",
+            "demo": "lashes",
+            "image": "team-1-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 243,
+            "title": "ستاره وثوقی",
+            "demo": "lashes",
+            "image": "team-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 244,
+            "title": "مهسا تهرانی",
+            "demo": "lashes",
+            "image": "team-3-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 253,
+            "title": "طبیعی یا برجسته؟ انتخاب حال‌وهوای مژه",
+            "demo": "lashes",
+            "image": "svc-hair-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 254,
+            "title": "عکس مرجع ابرو؛ چه چیزی را به متخصص نشان دهیم؟",
+            "demo": "lashes",
+            "image": "svc-hair-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 255,
+            "title": "یک قرار مرتب برای ترمیم و نگهداری",
+            "demo": "lashes",
+            "image": "svc-hair-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 256,
+            "title": "آتلیه نگاه — آتلیه مژه و ابرو",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 258,
+            "title": "درباره آتلیه نگاه",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 260,
+            "title": "خدمات و تعرفه‌ها",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 262,
+            "title": "دفتر الهام و نمونه‌کارها",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 264,
+            "title": "مجله آتلیه نگاه",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 266,
+            "title": "تماس و برنامه مراجعه",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 268,
+            "title": "رزرو نوبت آتلیه نگاه",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 270,
+            "title": "پنل من · آتلیه نگاه",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 272,
+            "title": "ورود · آتلیه نگاه",
+            "demo": "lashes",
+            "image": "",
+            "literal_slashes": 0
+        }
+    ]
+}

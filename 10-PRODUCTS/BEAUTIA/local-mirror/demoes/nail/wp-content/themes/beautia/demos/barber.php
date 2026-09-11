@@ -1,0 +1,165 @@
+<?php
+/**
+ * Demo content: Barbershop (آرایشگاه مردانه).
+ *
+ * @package Beautia
+ */
+
+defined( 'ABSPATH' ) || exit;
+
+return array(
+	'services'     => array(
+		array(
+			'title'      => 'اصلاح مو کلاسیک',
+			'content'    => 'کوتاهی کامل مو با قیچی و ماشین، شست‌وشو با شامپوی تخصصی، حالت‌دهی با پوماد و در پایان اصلاح خط رویش با تیغ.',
+			'price'      => 350000,
+			'duration'   => 45,
+			'buffer'     => 10,
+			'icon'       => 'scissors',
+			'category'   => 'مو',
+			'image'      => 'svc-barber-1.jpg',
+			'highlights' => array( 'مشاوره فرم صورت', 'شست‌وشو و ماساژ سر', 'حالت‌دهی با پوماد', 'اصلاح خط رویش با تیغ' ),
+		),
+		array(
+			'title'      => 'فید و سایه‌زنی حرفه‌ای',
+			'content'    => 'اسکین فید، لو فید یا مید فید با محو کردن کاملاً یکدست، اجرا شده با ماشین و شانه به‌صورت آزاد.',
+			'price'      => 420000,
+			'duration'   => 50,
+			'icon'       => 'razor',
+			'category'   => 'مو',
+			'image'      => 'svc-barber-2.jpg',
+			'aftercare'  => array( 'تا ۱۲ ساعت اول از شامپو استفاده نکنید تا خط اصلاح تثبیت شود.', 'برای حالت‌دهی از پوماد پایه آب استفاده کنید، نه واکس چرب.', 'هر دو تا سه هفته برای حفظ فرم فید مراجعه کنید.', 'پوست گردن را بعد از اصلاح با بالم بدون الکل مرطوب کنید.' ),
+			'highlights' => array( 'محو بدون خط‌افتادگی', 'طراحی خط گیجگاه', 'ترمیم رایگان تا ۷ روز' ),
+		),
+		array(
+			'title'      => 'اصلاح صورت با حوله داغ',
+			'content'    => 'آیین سنتی سلمانی: حوله داغ، صابون ریش‌تراشی، تیغ راست، بالم بعد از اصلاح و حوله سرد برای بستن منافذ.',
+			'price'      => 300000,
+			'duration'   => 40,
+			'icon'       => 'towel',
+			'category'   => 'ریش',
+			'image'      => 'hero-barber.jpg',
+			'highlights' => array( 'تیغ یک‌بارمصرف', 'حوله داغ و آیین سنتی', 'بالم آرام‌بخش پس از اصلاح' ),
+		),
+		array(
+			'title'      => 'فرم‌دهی و تراش ریش',
+			'content'    => 'خط‌دهی، فرم‌دهی و کوتاهی ریش متناسب با فرم فک، همراه با روغن و بالم ریش.',
+			'price'      => 260000,
+			'duration'   => 30,
+			'icon'       => 'beard',
+			'category'   => 'ریش',
+			'image'      => '',
+			'highlights' => array( 'خط‌دهی دقیق فک و گونه', 'روغن ریش هدیه' ),
+		),
+		array(
+			'title'      => 'پکیج مو و ریش',
+			'content'    => 'اصلاح کامل مو به‌همراه فرم‌دهی ریش و اصلاح گردن، با ۱۵٪ تخفیف نسبت به رزرو جداگانه.',
+			'price'      => 540000,
+			'duration'   => 75,
+			'icon'       => 'award',
+			'category'   => 'پکیج',
+			'image'      => '',
+			'highlights' => array( 'صرفه‌جویی ۱۵٪', 'کامل‌ترین سرویس ما' ),
+		),
+		array(
+			'title'      => 'رنگ و پوشش موی سفید',
+			'content'    => 'پوشش طبیعی تارهای سفید مو و ریش با رنگ بدون آمونیاک، مخصوص آقایان.',
+			'price'      => 620000,
+			'duration'   => 60,
+			'icon'       => 'brush',
+			'category'   => 'رنگ',
+			'image'      => '',
+			'highlights' => array( 'بدون آمونیاک', 'نتیجه کاملاً طبیعی', 'تست حساسیت رایگان' ),
+		),
+		array(
+			'title'      => 'کوتاهی موی پسرانه',
+			'content'    => 'اصلاح موی کودکان زیر ۱۲ سال، با صندلی مخصوص و صبر و حوصله کافی.',
+			'price'      => 220000,
+			'duration'   => 30,
+			'icon'       => 'scissors',
+			'category'   => 'مو',
+			'image'      => '',
+			'highlights' => array( 'صندلی مخصوص کودک', 'محیط آرام و دوستانه' ),
+		),
+		array(
+			'title'      => 'پاک‌سازی صورت آقایان',
+			'content'    => 'بخور، لایه‌برداری، تخلیه منافذ و ماسک زغال — مخصوص پوست‌های چرب و ریش‌دار.',
+			'price'      => 480000,
+			'duration'   => 45,
+			'icon'       => 'droplet',
+			'category'   => 'پوست',
+			'image'      => '',
+			'highlights' => array( 'مناسب پوست چرب', 'ماسک زغال فعال' ),
+		),
+	),
+	'staff'        => array(
+		array(
+			'name'       => 'استاد رضا کاویانی',
+			'role'       => 'باربر ارشد و مؤسس',
+			'bio'        => 'بیست سال پشت صندلی سلمانی. متخصص اصلاح کلاسیک با تیغ راست و فرم‌دهی ریش.',
+			'experience' => '20',
+			'image'      => 'team-barber.jpg',
+		),
+		array(
+			'name'       => 'امیر شایسته',
+			'role'       => 'متخصص فید',
+			'bio'        => 'دوره‌دیده لندن، عاشق اسکین فید تمیز و طراحی خط با تیغ.',
+			'experience' => '8',
+			'image'      => '',
+		),
+		array(
+			'name'       => 'سامان درویش',
+			'role'       => 'باربر و رنگ‌کار',
+			'bio'        => 'پوشش موی سفید و رنگ‌های طبیعی آقایان، به‌همراه پاک‌سازی پوست.',
+			'experience' => '6',
+			'image'      => '',
+		),
+	),
+	'portfolio'    => array(
+		array( 'title' => 'اسکین فید و پومپادور', 'category' => 'فید', 'image' => 'svc-barber-2.jpg', 'content' => 'محو کامل از صفر تا بالا با حالت‌دهی پومپادور.' ),
+		array( 'title' => 'کراپ بافت‌دار', 'category' => 'مو', 'image' => 'svc-barber-1.jpg', 'content' => 'فرنچ کراپ با چتری بافت‌دار.' ),
+		array( 'title' => 'ریش فول با خط تیغ', 'category' => 'ریش', 'image' => 'hero-barber.jpg', 'content' => 'فرم‌دهی ریش بلند با خط گونه تیغ‌خورده.' ),
+		array( 'title' => 'اصلاح کلاسیک با تیغ راست', 'category' => 'ریش', 'image' => 'team-barber.jpg', 'content' => 'آیین حوله داغ و تیغ راست.' ),
+	),
+	'gallery'      => array(
+		array( 'title' => 'اصلاح و تراش ریش', 'before' => 'svc-barber-3.jpg', 'after' => 'svc-barber-1.jpg' ),
+	),
+	'testimonials' => array(
+		array( 'name' => 'محمد ط.', 'role' => 'فید و ریش', 'rating' => 5, 'text' => 'اولین جایی است که فید را دقیقاً همان‌طور که می‌خواستم زدند. سر وقت، تمیز و بدون معطلی.' ),
+		array( 'name' => 'بهنام ک.', 'role' => 'اصلاح با حوله داغ', 'rating' => 5, 'text' => 'حس کردم رفته‌ام سفر. تیغ راست، حوله داغ و یک فنجان چای. دیگر جای دیگری نمی‌روم.' ),
+		array( 'name' => 'آرش م.', 'role' => 'پکیج مو و ریش', 'rating' => 5, 'text' => 'نوبت را شب قبل با موبایل گرفتم، پیامک تأیید و یادآوری آمد. هیچ صفی در کار نبود.' ),
+	),
+	'posts'        => array(
+		array( 'title' => 'فید، تیپر یا آندرکات؟ راهنمای انتخاب', 'content' => 'سه اصطلاحی که همه اشتباه به کار می‌برند. تفاوتشان را با تصویر توضیح می‌دهیم تا دفعه بعد دقیقاً بدانید از باربرتان چه بخواهید…', 'image' => 'svc-barber-2.jpg' ),
+		array( 'title' => 'مراقبت روزانه از ریش در پنج قدم', 'content' => 'شست‌وشو با شامپوی ریش، شانه چوبی، روغن، بالم و تراش ماهانه. ترتیب و مقدار درست را اینجا بخوانید…', 'image' => 'svc-barber-1.jpg' ),
+		array( 'title' => 'چند وقت یک‌بار باید موی خود را کوتاه کنیم؟', 'content' => 'برای فید هر دو تا سه هفته، برای موی بلندتر هر شش هفته. دلیلش به سرعت رشد و خط رویش برمی‌گردد…', 'image' => 'hero-barber.jpg' ),
+	),
+	'pages'        => array(
+		'home'      => array(
+			'title'   => 'صفحه اصلی آرایشگاه مردانه',
+			'content' => "[beautia_hero]\n[beautia_about]\n[beautia_services count=\"8\"]\n[beautia_before_after]\n[beautia_features]\n[beautia_portfolio count=\"9\"]\n[beautia_stats]\n[beautia_team count=\"3\"]\n[beautia_pricing]\n[beautia_steps]\n[beautia_testimonials]\n[beautia_faq]\n[beautia_blog count=\"3\"]",
+		),
+		'about'     => array( 'title' => 'درباره ما', 'content' => '<p>از سال ۱۳۹۲ پشت صندلی ایستاده‌ایم. یک آرایشگاه مردانه به سبک کلاسیک با ابزار استریل، تیغ یک‌بارمصرف و یک فنجان چای که همیشه مهمان ما هستید.</p>[beautia_stats][beautia_team count="3"]' ),
+		'services'  => array( 'title' => 'خدمات و تعرفه‌ها', 'content' => '[beautia_services count="12"][beautia_pricing]' ),
+		'portfolio' => array( 'title' => 'گالری کارها', 'content' => '[beautia_portfolio count="24"]' ),
+		'contact'   => array( 'title' => 'آدرس و تماس', 'content' => '<p>هر روز هفته از ۱۰:۰۰ تا ۲۲:۰۰ باز هستیم؛ جمعه‌ها تا ۱۸:۰۰.</p>[beautia_hours][beautia_track]' ),
+		'blog'      => array( 'title' => 'مجله آقایان', 'content' => '' ),
+	),
+	'menu'         => array(
+		array( 'title' => 'خانه', 'page' => 'home' ),
+		array( 'title' => 'درباره ما', 'page' => 'about' ),
+		array( 'title' => 'خدمات', 'page' => 'services' ),
+		array( 'title' => 'گالری', 'page' => 'portfolio' ),
+		array( 'title' => 'مجله', 'page' => 'blog' ),
+		array( 'title' => 'تماس', 'page' => 'contact' ),
+		array( 'title' => 'رزرو نوبت', 'page' => '', 'option_page' => 'booking' ),
+	),
+	'options'      => array(
+		'currency_symbol' => 'تومان',
+		'slot_step'       => 15,
+		'cancel_hours'    => 3,
+		'auto_confirm'    => 1,
+		'address'         => 'تهران، خیابان شریعتی، نبش کوچه یازدهم، پلاک ۴۸',
+		'phone'           => '۰۲۱-۷۷۵۵۳۳۱۱',
+	),
+);

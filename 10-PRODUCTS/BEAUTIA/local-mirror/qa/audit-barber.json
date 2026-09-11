@@ -1,0 +1,241 @@
+{
+    "folder": "barber",
+    "url": "http:\/\/localhost\/beautia\/demoes\/barber\/",
+    "active_demo": "barber",
+    "showcase": "0",
+    "colors": [],
+    "rows": [
+        {
+            "type": "beautia_service",
+            "id": 327,
+            "title": "اصلاح مو کلاسیک",
+            "demo": "barber",
+            "image": "svc-barber-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 329,
+            "title": "فید و سایه‌زنی حرفه‌ای",
+            "demo": "barber",
+            "image": "svc-barber-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 331,
+            "title": "اصلاح صورت با حوله داغ",
+            "demo": "barber",
+            "image": "svc-barber-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 333,
+            "title": "فرم‌دهی و تراش ریش",
+            "demo": "barber",
+            "image": "svc-barber-4-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 334,
+            "title": "پکیج مو و ریش",
+            "demo": "barber",
+            "image": "svc-barber-5-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 335,
+            "title": "رنگ و پوشش موی سفید",
+            "demo": "barber",
+            "image": "svc-barber-6-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 336,
+            "title": "کوتاهی موی پسرانه",
+            "demo": "barber",
+            "image": "svc-barber-7-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_service",
+            "id": 337,
+            "title": "پاک‌سازی صورت آقایان",
+            "demo": "barber",
+            "image": "hero-barber.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 342,
+            "title": "اسکین فید و پومپادور",
+            "demo": "barber",
+            "image": "svc-hair-4.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 343,
+            "title": "کراپ بافت‌دار",
+            "demo": "barber",
+            "image": "svc-hair-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 344,
+            "title": "ریش فول با خط تیغ",
+            "demo": "barber",
+            "image": "svc-hair-6.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 345,
+            "title": "اصلاح کلاسیک با تیغ راست",
+            "demo": "barber",
+            "image": "glam-hair.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 346,
+            "title": "پکیج مو و ریش · دفتر الهام",
+            "demo": "barber",
+            "image": "hero-nails-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_portfolio",
+            "id": 347,
+            "title": "رنگ و پوشش موی سفید · دفتر الهام",
+            "demo": "barber",
+            "image": "hero-makeup.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 338,
+            "title": "استاد رضا کاویانی",
+            "demo": "barber",
+            "image": "team-barber.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 340,
+            "title": "امیر شایسته",
+            "demo": "barber",
+            "image": "team-5.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "beautia_staff",
+            "id": 341,
+            "title": "سامان درویش",
+            "demo": "barber",
+            "image": "team-2-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 351,
+            "title": "برای انتخاب فید، فقط اسم مدل کافی نیست",
+            "demo": "barber",
+            "image": "svc-spa-1.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 352,
+            "title": "فرم ریش و مو را کنار هم ببینیم",
+            "demo": "barber",
+            "image": "svc-spa-2.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "post",
+            "id": 353,
+            "title": "استایل صبحگاهی در چند قدم ساده",
+            "demo": "barber",
+            "image": "svc-spa-3.jpg",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 354,
+            "title": "پیرایش اُک — باربرشاپ و پیرایش",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 356,
+            "title": "درباره پیرایش اُک",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 358,
+            "title": "خدمات و تعرفه‌ها",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 360,
+            "title": "دفتر الهام و نمونه‌کارها",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 362,
+            "title": "مجله پیرایش اُک",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 364,
+            "title": "تماس و برنامه مراجعه",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 366,
+            "title": "رزرو نوبت پیرایش اُک",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 368,
+            "title": "پنل من · پیرایش اُک",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        },
+        {
+            "type": "page",
+            "id": 370,
+            "title": "ورود · پیرایش اُک",
+            "demo": "barber",
+            "image": "",
+            "literal_slashes": 0
+        }
+    ]
+}
