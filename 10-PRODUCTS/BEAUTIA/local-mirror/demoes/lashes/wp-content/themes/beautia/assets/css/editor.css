@@ -1,0 +1,40 @@
+/* =========================================================================
+   Beautia — Gutenberg editor styles (RTL + Persian first)
+   ========================================================================= */
+@import url("fonts.css");
+
+.editor-styles-wrapper{
+  font-family:"Vazirmatn","Segoe UI",system-ui,sans-serif;
+  font-size:16.5px;line-height:2;color:#4A4453;direction:rtl;
+}
+.editor-styles-wrapper .wp-block{max-width:820px}
+.editor-styles-wrapper h1,.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,.editor-styles-wrapper h4{
+  font-family:"Markazi Text","Vazirmatn",serif;color:#1B1420;line-height:1.35;font-weight:700;letter-spacing:0;
+}
+.editor-styles-wrapper h1{font-size:2.6rem}
+.editor-styles-wrapper h2{font-size:2rem}
+.editor-styles-wrapper h3{font-size:1.5rem}
+.editor-styles-wrapper p{text-wrap:pretty}
+.editor-styles-wrapper a{color:#B57EDC}
+.editor-styles-wrapper blockquote{
+  border-inline-start:4px solid #E8A0BF;padding-inline-start:20px;margin-inline-start:0;
+  font-size:1.1rem;color:#1B1420;
+}
+.editor-styles-wrapper code,.editor-styles-wrapper pre{
+  direction:ltr;text-align:left;background:#FBF3F6;border-radius:8px;padding:2px 8px;
+}
+.editor-styles-wrapper ul,.editor-styles-wrapper ol{padding-inline-start:22px}
+.editor-styles-wrapper img{border-radius:14px}
+.editor-styles-wrapper .is-style-beautia-arch img{border-radius:200px 200px 14px 14px}
+.editor-styles-wrapper .is-style-beautia-pill .wp-block-button__link{border-radius:100px;padding:14px 30px}
+.editor-styles-wrapper .is-style-beautia-soft{background:#FBF3F6;border-radius:24px;padding:28px}
+.editor-styles-wrapper .is-style-beautia-quote{
+  background:#fff;border:1px solid rgba(27,20,32,.1);border-radius:24px;padding:28px;box-shadow:0 18px 40px -24px rgba(27,20,32,.3);
+}
+/* Shortcode blocks should look like something, not an empty box. */
+.editor-styles-wrapper .wp-block-shortcode{
+  background:linear-gradient(120deg,rgba(232,160,191,.14),rgba(181,126,220,.12));
+  border:1px dashed rgba(181,126,220,.5);border-radius:14px;padding:16px 18px;
+  font-family:monospace;direction:ltr;text-align:left;font-size:13px;
+}

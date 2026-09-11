@@ -1,0 +1,25 @@
+/* ---- Demo: Spa & Wellness — organic, calm, sage & sand ---- */
+.demo-spa{
+  --c-accent:#7C9070;
+  --c-accent-2:#B9C4A5;
+  --c-dark:#2C3327;
+  --c-body:#6E7367;
+  --c-bg:#FDFCF8;
+  --c-soft:#F2F1E6;
+  --c-line:rgba(44,51,39,.12);
+  --grad:linear-gradient(120deg,#7C9070,#A8B892);
+  --grad-soft:linear-gradient(180deg,#F6F5EC,#FDFCF8);
+  --r-lg:26px;--r-xl:120px;
+}
+.demo-spa .service-media,.demo-spa .folio,.demo-spa .post-media{border-radius:140px 140px 26px 26px}
+.demo-spa .staff-photo{border-radius:180px 180px 26px 26px}
+.demo-spa .sec-head{max-width:640px}
+.demo-spa .sec-title{font-style:italic}
+.demo-spa .btn{letter-spacing:.06em}
+.demo-spa .hero-veil{background:linear-gradient(100deg,rgba(253,252,248,.95) 10%,rgba(242,241,230,.8) 45%,transparent 80%)}
+.demo-spa .marquee{background:#2C3327}
+.demo-spa .service-card,.demo-spa .quote-card,.demo-spa .feature{box-shadow:0 20px 50px -34px rgba(44,51,39,.5)}
+.demo-spa .feature-ico{border-radius:50%}
+.demo-spa .stats{background:#2C3327}
+.demo-spa [data-anim].is-in{transition-duration:1.2s}
+.demo-spa .site-footer{background:#2C3327}

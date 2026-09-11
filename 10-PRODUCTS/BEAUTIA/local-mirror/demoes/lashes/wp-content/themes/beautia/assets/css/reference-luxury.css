@@ -1,0 +1,159 @@
+/* Visual direction from the user's reference. Fonts are self-hosted. */
+@font-face{font-family:Sahel;src:url('../fonts/Sahel.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Sahel;src:url('../fonts/Sahel-SemiBold.woff2') format('woff2');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:Sahel;src:url('../fonts/Sahel-Bold.woff2') format('woff2');font-weight:700;font-style:normal;font-display:swap}
+@font-face{font-family:Gandom;src:url('../fonts/Gandom.woff2') format('woff2');font-weight:400;font-style:normal;font-display:swap}
+body.beautia-collection,body.beautia-collection.studio-experience{
+ --font-body:Sahel,Tahoma,sans-serif;--font-display:Sahel,Tahoma,sans-serif;--font-num:Sahel,Tahoma,sans-serif;--font-accent:Gandom,Sahel,sans-serif;
+ --c-bg:#fffcfd;--c-soft:#f8eef5;--c-dark:#372b36;--c-body:#655760;--c-accent:#a875a5;--c-accent-2:#c599be;--c-line:#eadce6;
+ --grad:linear-gradient(115deg,#a875a5,#bf8cb7);--grad-soft:linear-gradient(140deg,#fff0ef,#f3e8f5);
+ --r-sm:10px;--r-md:16px;--r-lg:22px;--r-xl:30px;--r-pill:12px;
+ font-family:Sahel,Tahoma,sans-serif;font-size:15px;background:var(--c-bg);color:var(--c-body);font-synthesis:none;
+}
+body.beautia-collection.studio-experience.demo-clinic{--c-soft:#f4edf6;--c-accent:#9774a3;--c-accent-2:#bea0c7;--grad:linear-gradient(115deg,#9774a3,#b58dbe)}
+body.beautia-collection.studio-experience.demo-hair{--c-soft:#f7eee8;--c-accent:#a37b64;--c-accent-2:#c4a18a;--grad:linear-gradient(115deg,#96715c,#b98f74)}
+body.beautia-collection.studio-experience.demo-spa{--c-soft:#f0f2e9;--c-accent:#7b8c70;--c-accent-2:#acb99c;--grad:linear-gradient(115deg,#718367,#99aa86)}
+body.beautia-collection.studio-experience.demo-lashes{--c-soft:#faeeef;--c-accent:#ac7e8b;--c-accent-2:#cfabb5;--grad:linear-gradient(115deg,#a77785,#c89daa)}
+body.beautia-collection.studio-experience.demo-makeup{--c-soft:#fbedf0;--c-accent:#b17691;--c-accent-2:#d4a5b8;--grad:linear-gradient(115deg,#ad708a,#cb99b0)}
+body.beautia-collection.studio-experience.demo-barber{--c-soft:#f3eee6;--c-accent:#9a7d58;--c-accent-2:#c2aa88;--grad:linear-gradient(115deg,#8c704f,#b29a77)}
+body.beautia-collection :is(h1,h2,h3,h4,h5,h6,.sec-title,.brand-text strong,.studio-signature,.dp-title,.hub-brand strong,.preview-word,.hub-ticker span){font-family:Sahel,Tahoma,sans-serif;letter-spacing:0;word-spacing:normal;font-style:normal;color:var(--c-dark)}
+body.beautia-collection :is(button,input,select,textarea){font-family:Sahel,Tahoma,sans-serif}
+body.beautia-collection p{line-height:2.05;word-spacing:normal}
+body.beautia-collection :is(.site-header,.site-header.is-scrolled){background:#fffffff5;border-color:var(--c-line);box-shadow:0 9px 28px #7a4e6e08}
+body.beautia-collection .header-in{min-height:82px}
+body.beautia-collection .brand-text strong{font-size:23px;line-height:1.6;font-weight:700}
+body.beautia-collection .brand-text em{font-size:11px;color:var(--c-accent)}
+body.beautia-collection .nav-list>li>a{font-family:Sahel,sans-serif;font-size:15px;font-weight:600;color:var(--c-dark)}
+body.beautia-collection .collection-bar{background:var(--c-soft);color:var(--c-body);border-bottom:1px solid var(--c-line)}
+body.beautia-collection .collection-bar>.container{font-size:11px}
+body.beautia-collection .btn{font-weight:600;font-size:14px;border-radius:11px;letter-spacing:0;box-shadow:none}
+body.beautia-collection .btn-primary{color:#fff;background:var(--grad);box-shadow:0 8px 20px color-mix(in srgb,var(--c-accent) 18%,transparent)}
+body.beautia-collection .btn-ghost{color:var(--c-dark);border-color:var(--c-line)}
+body.beautia-collection .studio-hero{padding-top:26px;background:linear-gradient(130deg,#fff7f5,var(--c-soft),#fff)}
+body.beautia-collection .studio-hero-grid{grid-template-columns:1.16fr 1fr;gap:44px;padding:34px 0 42px;align-items:center}
+body.beautia-collection .studio-visual{order:-1;align-self:stretch;min-width:0}
+body.beautia-collection .studio-photo{height:100%;min-height:580px;border-radius:26px;transform:none;filter:none;box-shadow:0 18px 50px #75516712}
+body.beautia-collection .studio-photo img{object-position:center;height:100%;min-height:580px}
+body.beautia-collection.demo-hair .studio-photo img,body.beautia-collection.demo-barber .studio-photo img{object-position:68% center}
+body.beautia-collection .studio-hero-copy{background:#fff;border:1px solid #fff;padding:30px 34px;border-radius:22px;box-shadow:0 18px 48px #75516723;max-width:490px;justify-self:center;width:100%}
+body.beautia-collection .studio-hero-copy h1{font-family:Sahel,sans-serif;font-size:clamp(27px,2.4vw,35px);font-weight:700;line-height:1.7;margin:12px 0;color:var(--c-dark)}
+body.beautia-collection .studio-hero-copy>p{font-size:13px;color:var(--c-body);line-height:2;margin:0 0 20px;max-width:none}
+body.beautia-collection .studio-kicker{font-size:11px;color:var(--c-accent)}
+body.beautia-collection .studio-hero .studio-mini-facts,body.beautia-collection .studio-hero .studio-signature,body.beautia-collection .floating-note,body.beautia-collection .photo-caption{display:none}
+.studio-reservation{display:grid;gap:9px;border-top:1px solid var(--c-line);padding-top:18px}
+body.beautia-collection .studio-reservation h2{font-size:22px;font-weight:700;line-height:1.65;margin:0 0 3px}
+.studio-reservation label{font-size:13px;color:var(--c-dark);font-weight:600}
+body.beautia-collection .studio-reservation select{width:100%;background:#fbf9fb;border:1px solid #e5dce4;border-radius:9px;color:#51454e;min-height:44px;font-size:13px;padding:8px 12px;direction:rtl}
+.studio-reservation .btn{width:100%;margin-top:9px;justify-content:center}
+.studio-reservation .text-link{justify-self:center;font-size:12px;margin-top:6px;color:var(--c-body)}
+body.beautia-collection .studio-ribbon{font-size:12px;border-color:var(--c-line);padding-block:21px;color:var(--c-body)}
+body.beautia-collection h2.sec-title{font-family:Gandom,Sahel,sans-serif;font-size:clamp(27px,2.7vw,36px);font-weight:400;line-height:1.8}
+body.beautia-collection .sec-head .sec-title{display:flex;align-items:center;justify-content:center;gap:26px}
+body.beautia-collection .sec-head .sec-title::before,body.beautia-collection .sec-head .sec-title::after{content:'';height:1px;width:90px;background:linear-gradient(90deg,transparent,var(--c-accent));opacity:.45}
+body.beautia-collection .sec-head .sec-title::after{transform:rotate(180deg)}
+body.beautia-collection :is(.services,.testimonials,.page-hero){background:var(--c-bg)}
+body.beautia-collection :is(.service-card,.post-card,.quote-card,.price-card,.feature,.floating-note,.wizard-body,.wizard-pane,.auth-card,.account-content,.account-nav,.booking-box,.panel-card,.mood-result){background:#fff;color:var(--c-body);border:1px solid var(--c-line);border-radius:22px;box-shadow:0 5px 10px #63445b0a,0 15px 36px #63445b0b}
+body.beautia-collection :is(.service-card,.post-card):hover{transform:translateY(-5px);box-shadow:0 16px 34px #63445b18}
+body.beautia-collection :is(.service-card h3,.post-card h3,.staff-card h3,.mood-result h3){font-size:21px;font-weight:700;line-height:1.75;color:var(--c-dark)}
+body.beautia-collection :is(.service-body p,.post-body p,.staff-card p){font-size:14px;color:var(--c-body)}
+body.beautia-collection .service-media{aspect-ratio:1.65}
+body.beautia-collection :is(.service-media,.post-media){border-radius:20px 20px 0 0}
+body.beautia-collection .service-body{padding:23px}
+body.beautia-collection .service-meta .price{font-size:18px;font-family:Sahel,sans-serif;font-weight:600}
+body.beautia-collection :is(.staff-photo,.folio,.about-img-main,.nail-comparison .cmp){border-radius:22px}
+body.beautia-collection .nail-comparison{background:var(--c-soft)}
+body.beautia-collection .mood-tabs button{border-radius:10px;font-size:13px;color:var(--c-body)}
+body.beautia-collection .mood-tabs button[aria-pressed=true]{background:var(--c-accent);color:white}
+body.beautia-collection :is(.eyebrow,.small-note){letter-spacing:0;color:var(--c-accent)}
+body.beautia-collection .site-footer{background:var(--c-soft);color:var(--c-body);border-top:1px solid var(--c-line)}
+body.beautia-collection .site-footer :is(h4,a){color:var(--c-dark)}
+body.beautia-collection .site-footer p{color:var(--c-body)}
+body.beautia-collection :is(input,select,textarea){background:#fff;color:var(--c-dark);border-color:var(--c-line)}
+body.beautia-collection .page-hero h1{font-size:clamp(28px,3.6vw,42px);line-height:1.7}
+body.beautia-collection.beautia-hub{background:radial-gradient(ellipse at 0 0,#ffdedf,transparent 45%),radial-gradient(ellipse at 100% 0,#eed8f0,transparent 48%),#fffafc}
+body.beautia-hub .hub-header{background:#fff;border-color:#f0e3ec;box-shadow:0 8px 35px #7b506918}
+body.beautia-hub .hub-announcement{background:#f3e5f0;color:#705971}
+body.beautia-hub .hub-brand strong{font-size:29px;font-weight:700}
+body.beautia-hub .hub-brand small{font-family:Sahel,sans-serif;font-size:10px;letter-spacing:0}
+body.beautia-hub .hub-header nav a{font-size:15px;color:#534453}
+body.beautia-hub .hub-hero{padding-block:68px;gap:65px}
+body.beautia-hub .hub-hero h1{font-size:clamp(34px,4.1vw,56px);line-height:1.65;font-weight:700}
+body.beautia-hub .hub-hero h1 em{font-family:Gandom,Sahel,sans-serif;font-style:normal;font-weight:400;color:#ad80b0}
+body.beautia-hub :is(.hub-section-head h2,.hub-guide h2,.hub-choose-card h3){font-family:Gandom,Sahel,sans-serif;font-size:clamp(28px,3vw,39px);font-weight:400;line-height:1.8}
+body.beautia-hub :is(.hub-section-head h2 em,.hub-guide h2 em){font-style:normal}
+body.beautia-hub :is(.hub-hero-copy>p,.hub-section-head>p,.hub-guide>div>p,.hub-feature-grid p){font-size:15px;color:#6d5a6c;line-height:2.15}
+body.beautia-hub :is(.hub-primary,.hub-outline){border-radius:11px;font-size:14px;font-family:Sahel,sans-serif}
+body.beautia-hub .hub-primary{background:linear-gradient(115deg,#ac7ead,#c398bf);box-shadow:0 10px 24px #b986ad25}
+body.beautia-hub :is(.hub-demo-card,.hub-feature-grid article){background:#fff;border:1px solid #eedeea;border-radius:22px;box-shadow:0 7px 12px #7551670a,0 18px 35px #7551670a}
+body.beautia-hub .hub-demo-card{padding:12px 12px 22px}
+body.beautia-hub .demo-preview{border-radius:15px}
+body.beautia-hub .demo-card-info{padding:20px 10px 12px}
+body.beautia-hub .demo-card-info h3{font-size:21px;font-weight:700}
+body.beautia-hub .demo-card-info p,body.beautia-hub .demo-card-tags span{font-size:12px;color:#796479}
+body.beautia-hub .hub-feature-grid h3{font-size:23px;font-weight:600}
+body.beautia-hub .hub-detail{background:#f8edf5}
+body.beautia-hub .hub-end{background:#b48bb4}
+body.beautia-hub .hub-end h2{font-size:30px;color:#fff}
+body.beautia-hub .guide-list summary{font-size:15px}
+body.beautia-hub .guide-list details p{font-size:14px;color:#705c70}
+@media(max-width:1000px){body.beautia-collection .studio-hero-grid{gap:25px;grid-template-columns:1fr 1fr}body.beautia-collection .studio-hero-copy{padding:24px}body.beautia-collection .studio-photo,body.beautia-collection .studio-photo img{min-height:550px}}
+@media(max-width:760px){body.beautia-collection .studio-hero-grid{grid-template-columns:1fr;padding-top:0;gap:0}body.beautia-collection .studio-visual{order:-1;height:310px}body.beautia-collection .studio-photo,body.beautia-collection .studio-photo img{min-height:0;height:310px;border-radius:20px}body.beautia-collection .studio-hero-copy{position:relative;margin-top:-36px;width:calc(100% - 24px);max-width:490px;padding:24px;z-index:2}body.beautia-collection .studio-hero-copy h1{font-size:28px}body.beautia-collection .studio-hero-copy>p{font-size:14px}body.beautia-collection .studio-ribbon{gap:13px;font-size:10px}body.beautia-collection .sec-head .sec-title{gap:13px}body.beautia-collection .sec-head .sec-title::before,body.beautia-collection .sec-head .sec-title::after{width:35px}body.beautia-hub .hub-hero{padding-top:40px;gap:30px}body.beautia-hub .hub-hero h1{font-size:38px}body.beautia-hub .hub-hero-copy>p{font-size:14px}body.beautia-hub .hub-end h2{font-size:24px}}
+@media(prefers-reduced-motion:reduce){body.beautia-collection *{scroll-behavior:auto;transition:none!important}}
+/* The optional night mode keeps the same typography and soft geometry. */
+html[data-theme="dark"] body.beautia-collection{--c-bg:#251f29;--c-soft:#302735;--c-dark:#f6eaf3;--c-body:#d1bece;--c-line:#55425a;background:#251f29;color:var(--c-body)}
+html[data-theme="dark"] body.beautia-collection :is(.site-header,.site-header.is-scrolled,.studio-hero-copy,.service-card,.post-card,.quote-card,.price-card,.feature,.wizard-body,.wizard-pane,.auth-card,.account-content,.account-nav,.booking-box,.panel-card,.mood-result,.hub-header,.hub-demo-card,.hub-feature-grid article){background:#302735;border-color:#55425a;color:var(--c-body)}
+html[data-theme="dark"] body.beautia-collection .studio-hero{background:linear-gradient(130deg,#312733,#251f29)}
+html[data-theme="dark"] body.beautia-collection :is(input,select,textarea){background:#251f29;color:#f6eaf3;border-color:#66506b}
+html[data-theme="dark"] body.beautia-hub :is(.hub-detail,.hub-choose-card,.hub-announcement){background:#302735}
+html[data-theme="dark"] body.beautia-hub :is(.hub-header nav a,.hub-hero-copy>p,.hub-section-head>p,.hub-guide>div>p,.hub-feature-grid p,.guide-list details p){color:#d1bece}
+
+/* One complete palette per mode: surfaces and text always change together. */
+body.beautia-collection{--lux-surface:#fffafd;--lux-panel:#fff;--lux-ink:#39263e;--lux-text:#614b64;--lux-muted:#765c78;--lux-tint:#f3e3f0;--lux-line:#dfc6df;--lux-glow:#edd1e8;--lux-rose:#ffe8e6;--lux-gold:#966a36;--lux-action:#815189;--lux-action-end:#95609a;--c-dark:var(--lux-ink);--c-body:var(--lux-text)}
+html[data-theme="dark"] body.beautia-collection{--lux-surface:#211b28;--lux-panel:#302638;--lux-ink:#fff0fa;--lux-text:#dfccdf;--lux-muted:#cbb2cf;--lux-tint:#382a42;--lux-line:#644d70;--lux-glow:#493052;--lux-rose:#382532;--lux-gold:#e2bd85;--lux-action:#85538e;--lux-action-end:#995ba0}
+html body.beautia-collection,html body.beautia-collection.studio-experience{--c-bg:var(--lux-surface);--c-dark:var(--lux-ink);--c-body:var(--lux-text);--c-soft:var(--lux-tint);--c-line:var(--lux-line);background-color:var(--lux-surface);color:var(--lux-text)}
+html body.beautia-collection.beautia-hub{background:radial-gradient(ellipse at 5% 10%,var(--lux-glow),transparent 36%),radial-gradient(ellipse at 95% 3%,var(--lux-rose),transparent 40%),var(--lux-surface);color:var(--lux-text)}
+html body.beautia-collection :is(.hub-header,.site-header,.site-header.is-scrolled,.studio-hero-copy,.hub-demo-card,.hub-feature-grid article,.service-card,.post-card,.quote-card,.price-card,.wizard-body,.wizard-pane,.auth-card,.account-content,.account-nav,.panel-card,.mood-result){background:var(--lux-panel);color:var(--lux-text);border-color:var(--lux-line)}
+html[data-theme="dark"] body.beautia-collection :is(.hub-header,.site-header,.site-header.is-scrolled,.studio-hero-copy,.hub-demo-card,.hub-feature-grid article,.service-card,.post-card,.quote-card,.price-card,.wizard-body,.wizard-pane,.auth-card,.account-content,.account-nav,.panel-card,.mood-result){background:var(--lux-panel);color:var(--lux-text)}
+html body.beautia-collection :is(.studio-hero,.hub-detail,.studio-discovery,.studio-availability,.nail-comparison){background:radial-gradient(ellipse at 10% 10%,var(--lux-glow),transparent 65%),linear-gradient(135deg,var(--lux-rose),var(--lux-surface) 75%)}
+html[data-theme="dark"] body.beautia-collection :is(.studio-hero,.hub-detail,.hub-choose-card,.hub-announcement){background:var(--lux-tint)}
+html body.beautia-collection :is(.hub-announcement,.collection-bar,.site-footer,.hub-choose-card,.hub-ticker){background:var(--lux-tint);color:var(--lux-text);border-color:var(--lux-line)}
+html body.beautia-collection :is(h1,h2,h3,h4,.hub-brand,.hub-stats strong,.studio-reservation label,.guide-list summary,.demo-card-info h3,.hub-header nav a,.nav-list>li>a){color:var(--lux-ink)}
+html body.beautia-collection :is(.hub-hero-copy>p,.hub-section-head>p,.hub-guide>div>p,.hub-feature-grid p,.guide-list details p,.service-body p,.post-body p,.staff-card p,.studio-hero-copy>p,.nail-comparison p){color:var(--lux-text)}
+html[data-theme="dark"] body.beautia-hub :is(.hub-header nav a,.hub-hero-copy>p,.hub-section-head>p,.hub-guide>div>p,.hub-feature-grid p,.guide-list details p){color:var(--lux-text)}
+html body.beautia-collection :is(.hub-eyebrow,.hub-handnote,.hub-stats span,.collage-tag,.demo-card-info p,.demo-card-tags span,.hub-filter-status,.hub-feature-grid article>span,.hub-footer p,.hub-footer>small,.hub-footer .hub-brand small,.studio-kicker,.eyebrow,.small-note,.text-link,.studio-ribbon,.availability-slots span){color:var(--lux-muted);opacity:1}
+html body.beautia-collection :is(.hub-outline,.hub-filter button,.inspiration-toolbar button,.filter,.mood-tabs button){color:var(--lux-text);border-color:var(--lux-line)}
+html body.beautia-collection :is(.btn-primary,.hub-primary,.hub-end){background:linear-gradient(115deg,var(--lux-action),var(--lux-action-end));color:#fff}
+html body.beautia-collection .hub-end :is(h2,a){color:#fff}
+html body.beautia-collection :is(.hub-filter button.active,.mood-tabs button[aria-pressed=true],.inspiration-toolbar button[aria-pressed=true]){background:var(--lux-action);color:#fff;border-color:var(--lux-action)}
+html body.beautia-collection .collage-sticker{background:var(--lux-tint);color:var(--lux-ink);border:1px solid var(--lux-line)}
+html body.beautia-collection :is(.hub-ticker span,.demo-number,.guide-list summary span){color:var(--lux-muted)}
+html body.beautia-collection .hub-hero h1{font-weight:600;line-height:1.7;font-size:clamp(35px,4.15vw,58px);color:var(--lux-ink)}
+html body.beautia-collection .hub-hero h1 em{color:var(--lux-action);display:inline-block;position:relative}
+html[data-theme="dark"] body.beautia-collection .hub-hero h1 em{color:#e2a6d9}
+html body.beautia-collection .hub-hero h1 em::after{content:'';position:absolute;inset-inline:0;bottom:2px;height:8px;border-radius:50%;background:var(--lux-glow);z-index:-1;transform:rotate(-3deg)}
+html body.beautia-collection .studio-hero-copy h1{font-weight:600;font-size:clamp(28px,2.35vw,34px);line-height:1.85;color:var(--lux-ink)}
+html body.beautia-collection h2.sec-title{font-size:clamp(28px,2.8vw,38px);line-height:1.85;color:var(--lux-ink)}
+html body.beautia-collection :is(.hub-hero-copy>p,.studio-hero-copy>p){font-size:15px;line-height:2.2}
+html body.beautia-collection .hub-hero{position:relative;isolation:isolate}
+html body.beautia-collection .hub-hero::before{content:'✦';position:absolute;right:49%;top:12%;font-size:33px;color:var(--lux-gold);opacity:.7;pointer-events:none;animation:beautia-twinkle 5s ease-in-out infinite}
+html body.beautia-collection .hub-hero::after{content:'✧';position:absolute;right:7%;bottom:10%;font-size:45px;color:var(--lux-gold);pointer-events:none;animation:beautia-drift 7s ease-in-out infinite}
+html body.beautia-collection .collage-orbit{border-color:var(--lux-line);box-shadow:0 0 75px var(--lux-glow);opacity:.8}
+html body.beautia-collection .collage-sticker{animation:beautia-drift 7s ease-in-out infinite}
+html body.beautia-collection .studio-hero-copy{border:1px solid var(--lux-line);box-shadow:0 22px 60px #66374d20;position:relative}
+html body.beautia-collection .studio-hero-copy::before{content:'✦';position:absolute;top:-19px;left:25px;border:1px solid var(--lux-line);width:39px;height:39px;border-radius:50%;display:grid;place-items:center;background:var(--lux-panel);color:var(--lux-gold);font-size:23px;animation:beautia-twinkle 6s ease-in-out infinite}
+html body.beautia-collection :is(.hub-demo-card,.service-card,.post-card){transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+html body.beautia-collection :is(.hub-demo-card,.service-card,.post-card):hover{box-shadow:0 16px 42px #86558129;border-color:var(--c-accent)}
+html body.beautia-collection .studio-photo{border:5px solid var(--lux-panel);box-shadow:0 18px 50px #644a6820}
+html body.beautia-collection .studio-photo img{transition:transform 1.2s ease}
+@media(hover:hover){html body.beautia-collection .studio-photo:hover img{transform:scale(1.035)}}
+html body.beautia-collection .hub-theme-toggle{flex-shrink:0;background:var(--lux-tint);color:var(--lux-ink);border:1px solid var(--lux-line);width:40px;height:40px}
+@keyframes beautia-drift{0%,100%{translate:0 0}50%{translate:0 -9px}}
+@keyframes beautia-twinkle{0%,100%{opacity:.65;scale:1}50%{opacity:1;scale:1.09}}
+@media(max-width:760px){html body.beautia-collection .hub-header>.hub-container{gap:12px}html body.beautia-collection .hub-header nav{gap:12px}html body.beautia-collection .hub-header nav a{font-size:12px}html body.beautia-collection .hub-hero::before{right:5%;top:3%;font-size:22px}html body.beautia-collection .hub-hero::after{display:none}html body.beautia-collection .hub-hero h1{font-size:36px}html body.beautia-collection .hub-hero-copy>p{font-size:14px}}
+@media(prefers-reduced-motion:reduce){html body.beautia-collection *,html body.beautia-collection *::before,html body.beautia-collection *::after{animation:none!important;transition:none!important}}
+html:not([data-theme="dark"]) body.beautia-collection.demo-hair{--lux-glow:#ead8c8;--lux-rose:#fff0e4;--lux-tint:#f4e9df;--lux-action:#79533f;--lux-action-end:#8b644e}
+html:not([data-theme="dark"]) body.beautia-collection.demo-spa{--lux-glow:#dae5cd;--lux-rose:#f5efe1;--lux-tint:#edf1e5;--lux-action:#506947;--lux-action-end:#637b51}
+html:not([data-theme="dark"]) body.beautia-collection.demo-lashes{--lux-glow:#eed3dd;--lux-rose:#ffede8;--lux-action:#895269;--lux-action-end:#985d76}
+html:not([data-theme="dark"]) body.beautia-collection.demo-makeup{--lux-glow:#f0cade;--lux-rose:#ffe6df;--lux-action:#934567;--lux-action-end:#a14e72}
+html:not([data-theme="dark"]) body.beautia-collection.demo-barber{--lux-glow:#e3d7c2;--lux-rose:#f7efdf;--lux-tint:#f0e8da;--lux-action:#755839;--lux-action-end:#856647}
+html body.beautia-collection :is(.hub-choose-card p,.hub-choose-card a,.guide-list details>a,.demo-arrow,.feature-times b,.studio-reservation .text-link){color:var(--lux-text)}
